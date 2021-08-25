@@ -12,7 +12,7 @@ module.exports = function	mhw_search(msg, name)
 		{
 			if (data[i].name == "Odogaron")
 			{
-				const test = JSON.stringify(data[i], null, 4);
+				test = JSON.stringify(data[i], null, 4);
 				console.log("HERE IT IS : " + test);
 				break;
 			}
