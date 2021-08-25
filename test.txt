@@ -1,0 +1,1132 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="content-language" content="en-us">
+		<meta name="Description" content="Monster Hunter World Wiki Guide: Monsters, Weapons, Walkthrough, Armor, Skills, Palicoes, Items and more." />
+		<meta name="msvalidate.01" content="663178F9F25C3ED57D64CFF2E5B7FFAA" />
+		<meta name="google-site-verification" content="bQqyY4AeKKKWxUQrr34-kgQNWyCx7DtDJ3nbKkYZrag" />		
+		<meta name="google-site-verification" content="BkHcHuN8mXWUPZ0QBrK4fTUij37eEjGHixZPyEbkZdg" />
+		<link rel="canonical" href="https://monsterhunterworld.wiki.fextralife.com/Monster+Hunter+World+Wiki" />
+		<title>Monster Hunter World Wiki</title>
+		
+		<link type="logos/x-icon" href="/file/Monster-Hunter-World/mhw-wiki-iceborne-master-rank-32px.png" rel="shortcut icon">
+		
+		<link rel="stylesheet" href="https://swcdn.fextralife.com/css/glyphiconfallback6-min.css?v=ZBa1">
+		<link rel="stylesheet" href="https://swcdn.fextralife.com/css/styles-global-min.css?js=0002c">
+		<link rel="stylesheet" href="/xcss/theme-general.css?js=0003r">
+		<link rel="stylesheet" href="/xcss/styles.css?js=0002c">
+		
+			<meta property="og:type" content="article" />
+			<meta property="og:site_name" content="Monster Hunter World Wiki" />
+			<meta property="og:title" content="Monster Hunter World Wiki" />
+			<meta property="og:description" content="Monster Hunter World Wiki Guide: Monsters, Weapons, Walkthrough, Armor, Skills, Palicoes, Items and more." />
+			<meta property="og:url" content="https://monsterhunterworld.wiki.fextralife.com/Monster+Hunter+World+Wiki" />
+			<meta property="og:image" content="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/monster-hunter-wiki-guide-logo-large.png">
+		
+		<script data-cfasync="false">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-43196770-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3QYVHQWZC"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-Y3QYVHQWZC');
+		</script>
+		<script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/js/utils-min.js?v=ZBa1"></script>
+		<!--script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/wiki/js/page-general-modif.js?js=0001c"></script-->
+		<script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/wiki/js/page-general-min.js?js=0002f"></script>
+		<script data-cfasync="false" type="text/javascript">
+			// Picture element HTML5 shiv
+			document.createElement( "picture" );
+
+			var pagex = new Object();
+			pagex['wikiId'] = 'e5440d3e-c5f4-4708-981a-7ab3f22a37ea';
+			pagex['wikiName'] = 'Monster+Hunter+World'; 
+			pagex['wikiTitle'] = 'Monster Hunter World';
+			pagex['pageId'] = '8781bbe7-2c49-475f-ab91-0a96f990e0db';
+			pagex['pageName'] = '';
+			pagex['title'] = '';
+			pagex['pageContent'] = null;
+			pagex['pageContentFlag'] = null;
+
+			var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+			var plud = new Date(1610089482000);
+			var dindex = plud.toString().indexOf(' (');
+			var fd = dindex == -1 ? plud.toString() : plud.toString().substring(0, dindex);
+			fd = plud.getFullYear() + '-' + ((plud.getMonth()+1).toString().length == 1 ? '0' + (plud.getMonth()+1) : (plud.getMonth()+1)) + '-' + (plud.getDate().toString().length == 1 ? '0' + plud.getDate() : plud.getDate()) + 'T' + (fd.substr(fd.length - 17));
+			fd = fd.replace(' GMT', '');
+			pagex['ipDateModified'] = fd;
+			var pglmd = ("0" + plud.getDate()).slice(-2) + ' ' + monthNames[plud.getMonth()] + ' ' + plud.getFullYear() + ' ' + ("0" + plud.getHours()).slice(-2) + ':' + ("0" + plud.getMinutes()).slice(-2);
+			pagex['dateModified'] = pglmd;
+
+
+//			var hasOnlineUsers = true;
+			var grc = '6LfEOzAUAAAAAHIKLVq9RBS3Cmac9JGXucnD-KuE';
+			var cx = '013588101548136424510:a2-w2upenzu';
+
+function getCookie(name) {var nameEQ = name + "=";var ca = document.cookie.split(';');for (var i = 0; i < ca.length; i++) {var c = ca[i];while (c.charAt(0) == ' ') c = c.substring(1, c.length);if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);}return null;}
+function setCookie(name,value,days) {var expires = "";if (days) {var date = new Date();date.setTime(date.getTime() + (days*24*60*60*1000));expires = "; expires=" + date.toUTCString();}document.cookie = name + "=" + (value || "")  + expires + ";domain=.fextralife.com;path=/";}
+function loadMyCookie(callback){var xobj = new XMLHttpRequest();xobj.overrideMimeType('application/json');xobj.open('GET', 'https://monsterhunterworld.wiki.fextralife.com/ws/wiki/ex?d=' + new Date().getTime(), true);xobj.onreadystatechange = function () {if (xobj.readyState == 4 && xobj.status == '200') {callback(xobj.responseText);}};xobj.send(null);}
+var ua = '001';
+var c = getCookie('gxnwc');
+if (c == null){var woc = getCookie('wlbfo');if (woc != null) {loadMyCookie(function(response){c = getCookie('gxnwc');if (c != null){window.location.href = location;}});}}
+if (c != null) {
+        var u = c.split(':');
+        ua = u[3];
+}
+var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');
+		</script>
+		<script async>!function(e){var s=new XMLHttpRequest;s.open("GET","https://api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/eg-aps-bootstrap-v2.0.0.bundle.js?site=fextralife.com",!0),s.onreadystatechange=function(){var t;4==s.readyState&&(200<=s.status&&s.status<300||304==s.status)&&((t=e.createElement("script")).type="text/javascript",t.text=s.responseText,e.head.appendChild(t))},s.send(null)}(document);</script>
+	</head>
+	<body style="background-color: #111;font-size: 14px;color:#fff;">
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW2R3PT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<div id="div-gpt-ad-1551140609289-0"></div>
+		<picture>
+			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 1000px)">
+			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 600px)">
+			<img class="bg" srcset="" alt="">
+		</picture>
+		<picture>
+			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 1000px)">
+			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 600px)">
+			<img class="bg" srcset="" alt="">
+		</picture>
+
+		<div class="ios-fix">
+			<div id="fex-menu-fixed">
+				<a class="toggle" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
+				<div class="fex-search-menu-wrapper">
+					<input id="spf" type="text" class="fex-search-menu" placeholder="Search" style="width: 100% !important;">
+				</div>
+			</div>
+			<div class="container-fluid fex-bg-image">
+				
+
+
+
+
+<form id="form-header" method="post" action="/ws/authentication/logout">
+	<div class="clearfix">
+		<div style="margin-left:35px;" itemtype="https://schema.org/Brand" itemscope="">
+			<a class="WikiLogo WikiElement" href="/Monster+Hunter+World+Wiki" itemprop="url">
+				<picture>
+					<source srcset="/file/Monster-Hunter-World/monster-hunter-wiki-guide-logo.png" media="(min-width: 1100px)">
+					<img srcset="" alt="Monster Hunter World Wiki">
+				</picture>
+			</a>
+		</div>
+		<div class="ad-banner hidden-xs">
+			<div id="header-add-a">
+				<div id="div-gpt-ad-1551140609289-3"></div>
+			</div>
+<div id="video-header">
+			</div>
+		</div>
+		<div id="fex-account">
+			<div class="responsive" role="group">
+				<div id="user-menu" class="sub btn-group btn-group-sm">
+					<button id="umname" type="button" class="usrSignIn buser-options btn btn-default" style="width:initial;">Sign In</button>
+					<ul class="user-options muser-options dropdown-menu" style="display:none;"></ul>
+					<button type="button" class="bhelp-options btn btn-default" style="width:initial;">Help</button>
+					<ul class="help-options mhelp-options dropdown-menu" style="display:none;"></ul>
+					<button id="usrSignOut" type="button" class="btn btn-default" style="display:none;">Sign Out</button>
+				</div>
+				<div id="userMenuBtn" class="fex-name"></div>
+			</div>
+		</div>
+	</div>
+</form>
+
+				<div class="fex-main">
+					<div id="wrapper">
+						<nav class="visible-lg navbar navbar-inverse navbar-fixed-top">
+							<div class="container-fluid">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fextra-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<div class="fextraswordsmenu">
+										<a href="https://fextralife.com/" itemprop="url">
+											<picture>
+												<source media="(min-width: 1100px)" srcset="/file/Demo/fextra-swords-white-42px.png">
+												<img srcset="" alt="Fextralife" style="width: 42px;padding-top: 10px;">
+											</picture>
+										</a>
+									</div>
+								</div>
+								<div class="collapse navbar-collapse" id="fextra-navbar-collapse-1">
+									<ul id="navMenux" class="nav navbar-nav" itemscope itemtype="https://schema.org/SiteNavigationElement">
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite home"></span><span class="hidden-lg">Wiki </span>Home<span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/Monster+Hunter+World+Wiki" itemprop="url"><span class="navsprite miniring"></span>Wiki Home</a></li> 
+   <li> <a href="https://fextralife.com/forums/f183/monster-hunter-world/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Forums</a> </li> 
+   <li> <a href="/todo" itemprop="url"><span class="navsprite miniring"></span>Wiki To-Do</a> </li> 
+   <li> <a href="https://fextralife.com/shop/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Shop</a> </li> 
+   <li> <a href="https://fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Blog</a> </li> 
+   <li> <a href="https://www.wiki.fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Wiki Hub</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite a"></span>General<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/General+Information" itemprop="url"><span class="navsprite miniring"></span>General Information</a></li> 
+   <li> <a href="/Iceborne+Expansion" itemprop="url"><span class="navsprite miniring"></span>Iceborne Expansion</a> </li> 
+   <li> <a href="/Monster+Hunter+World" itemprop="url"> <span class="navsprite miniring"></span>About Monster Hunter World</a> </li> 
+   <li> <a href="/Patch+Notes" itemprop="url"><span class="navsprite miniring"></span>Patch Notes</a> </li> 
+   <li> <a href="/Controls" itemprop="url"><span class="navsprite miniring"></span>Controls</a> </li> 
+   <li> <a href="/Combat" itemprop="url"><span class="navsprite miniring"></span>Combat</a> </li> 
+   <li> <a href="/Multiplayer" itemprop="url"><span class="navsprite miniring"></span>Multiplayer</a> </li> 
+   <li> <a href="/DLC" itemprop="url"><span class="navsprite miniring"></span>DLC</a> </li> 
+   <li> <a href="/Beta" itemprop="url"><span class="navsprite miniring"></span>Beta</a> </li> 
+   <li> <a href="/FAQ" itemprop="url"><span class="navsprite miniring"></span>Everything We Know</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite b"></span>Character<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/Character+Information" itemprop="url"><span class="navsprite miniring"></span>Character Information</a></li> 
+   <li> <a href="/Skills" itemprop="url"><span class="navsprite miniring"></span>Skills</a> </li> 
+   <li> <a href="/Status+Effects" itemprop="url"><span class="navsprite miniring"></span>Status Effects</a> </li> 
+   <li> <a href="/Weapon+Mechanics" itemprop="url"><span class="navsprite miniring"></span>Weapon Mechanics</a> </li> 
+   <li> <a href="/Attack+Power" itemprop="url"> <span class="navsprite miniring"></span>Attack Power</a> </li> 
+   <li> <a href="/Affinity" itemprop="url"> <span class="navsprite miniring"></span>Affinity</a> </li> 
+   <li> <a href="/Defense" itemprop="url"><span class="navsprite miniring"></span>Defense</a> </li> 
+   <li> <a href="/Elemental+Resistances" itemprop="url"><span class="navsprite miniring"></span>Elemental Resistances</a> </li> 
+   <li> <a href="/Palicoes" itemprop="url"><span class="navsprite miniring"></span>Palicoes</a> </li> 
+   <li> <a href="/Builds" itemprop="url"><span class="navsprite miniring"></span>Builds</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite c"></span>Equipment<span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/Equipment" itemprop="url"><span class="navsprite miniring"></span>Equipment</a></li> 
+   <li> <a href="/Weapons" itemprop="url"><span class="navsprite miniring"></span>Weapons</a> </li> 
+   <li> <a href="/Master+Rank+Weapons" itemprop="url"><span class="navsprite miniring"></span>Master Rank Weapons</a> </li> 
+   <li> <a href="/Armor" itemprop="url"><span class="navsprite miniring"></span>Armor</a> </li> 
+   <li> <a href="/Master+Rank+Armor" itemprop="url"><span class="navsprite miniring"></span>Master Rank Armor</a> </li> 
+   <li> <a href="/Layered+Armor" itemprop="url"> <span class="navsprite miniring"></span>Layered Armor</a> </li> 
+   <li> <a href="/Decorations" itemprop="url"><span class="navsprite miniring"></span>Decorations</a> </li> 
+   <li> <a href="/Charms" itemprop="url"><span class="navsprite miniring"></span>Charms</a> </li> 
+   <li> <a href="/Mantles" itemprop="url"><span class="navsprite miniring"></span>Mantles</a> </li> 
+   <li> <a href="/Palico+Equipment" itemprop="url"><span class="navsprite miniring"></span>Palico Gear</a> </li> 
+   <li> <a href="/Crafting" itemprop="url"><span class="navsprite miniring"></span>Crafting</a> </li> 
+   <li> <a href="/Items" itemprop="url"><span class="navsprite miniring"></span>Items</a> </li> 
+   <li> <a href="/Slinger" itemprop="url"><span class="navsprite miniring"></span>Slinger</a> </li> 
+   <li> <a href="/Scoutflies" itemprop="url"><span class="navsprite miniring"></span>Scoutflies</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite d"></span>World<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/World+Information" itemprop="url"><span class="navsprite miniring"></span>World Information</a></li> 
+   <li> <a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a> </li> 
+   <li> <a href="/Endemic+Life" itemprop="url"> <span class="navsprite miniring"></span>Endemic Life (Pets)</a> </li> 
+   <li> <a href="/Quests" itemprop="url"><span class="navsprite miniring"></span>Quests</a> </li> 
+   <li> <a href="/Optional+Quests" itemprop="url"> <span class="navsprite miniring"></span>Optional Quests</a> </li> 
+   <li> <a href="/Locations" itemprop="url"><span class="navsprite miniring"></span>Locations</a> </li> 
+   <li> <a href="/NPCs" itemprop="url"><span class="navsprite miniring"></span>NPCs</a> </li> 
+   <li> <a href="/Merchants" itemprop="url"><span class="navsprite miniring"></span>Merchants</a> </li> 
+   <li> <a href="/Lore" itemprop="url"><span class="navsprite miniring"></span>Lore</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite e"></span>Guides<span class="hidden-lg"> &amp; Walkthroughs</span><span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/Guides+&amp;+Walkthroughs" itemprop="url"><span class="navsprite miniring"></span>Guides &amp; Walkthroughs</a></li> 
+   <li> <a href="/Event+Quests" itemprop="url"> <span class="navsprite miniring"></span>Event Quests</a> </li> 
+   <li> <a href="/New+Player+Help" itemprop="url"><span class="navsprite miniring"></span>New Player Help</a> </li> 
+   <li> <a href="/Walkthrough" itemprop="url"><span class="navsprite miniring"></span>Walkthrough</a> </li> 
+   <li> <a href="/Canteen" itemprop="url"> <span class="navsprite miniring"></span>Canteen</a> </li> 
+   <li> <a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a> </li> 
+   <li> <a href="/Trophy+&amp;+Achievement+Guide" itemprop="url"><span class="navsprite miniring"></span>Trophy &amp; Achievement Guide</a> </li>
+  </ul></li> 
+ <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite f"></span>Media<span class="hidden-lg"> &amp; Community</span><span class="caret"></span></a> 
+  <ul class="dropdown-menu">
+   <li><a href="/Media+&amp;+Community" itemprop="url"><span class="navsprite miniring"></span>Media &amp; Community</a></li> 
+   <li> <a href="/Gallery" itemprop="url"><span class="navsprite miniring"></span>Gallery</a> </li> 
+   <li> <a href="/Videos" itemprop="url"><span class="navsprite miniring"></span>Videos</a> </li> 
+   <li> <a href="https://fextralife.com/forums/" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Forums</a> </li> 
+   <li> <a href="/Chatroom" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Chatroom</a> </li> 
+   <li> <a href="/Player+IDs" itemprop="url"><span class="navsprite miniring"></span>Player IDs</a> </li> 
+   <li> <a href="/Community+Events" itemprop="url"><span class="navsprite miniring"></span>Community Events</a> </li> 
+   <li> <a href="/YouTube+Partners" itemprop="url"><span class="navsprite miniring"></span>YouTube Partners</a> </li>
+  </ul></li>
+</ul>
+									<div class="navbar-form navbar-right" style="padding-top:10px;">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Search" id="spf">
+										</div>
+									</div>
+									<ul class="nav navbar-nav navbar-right" style="margin-top:5px;">
+										<li><a href="https://fextralife.com/be-a-vip" target="_blank"><i class="glyphicon glyphicon-star" style="color: gold;"></i> VIP</a></li>
+										<li id="menu-user-slot">
+											<a id="user-slot" href="#" class="sign-in" itemprop="url"><span id="user-avatar" class="glyphicon glyphicon-user"></span> <span class="user">Guest</span></a>
+											<ul class="user-options dropdown-menu"></ul>
+										</li>
+										<li class="dropdown">
+											<a href="#" itemprop="url" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-question-sign"></span> Help<span class="caret"></span></a>
+											<ul class="help-options dropdown-menu"></ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</nav>
+						<div id="sidebar-wrapper">
+							<div class="row">
+								<div class="col-sm-4" style="text-align:center; "><div class="addthis_inline_follow_toolbox" style="margin-left:auto;margin-right:auto;margin-top:-12px"></div></div>
+								<div class="col-sm-8"><p style="font-size: 13px;margin: 0px;" align="center"><a class="wiki-link" href="https://fextralife.com/be-a-vip/" style="color: #ab966f;">Join VIP to remove all ads and videos</a></p></div>
+							</div>
+							<div class="sidebar-nav">
+								
+
+
+
+
+<div class="hidden-lg">
+	<nav id="sidebar">
+		<div class="form-inline fex-search-wrapper hidden-sm hidden-xs">
+			<div class="input-group input-group-sm" style="width: 100%;">
+				<input id="spf" type="text" class="form-control fex-search" placeholder="Search it up... (hit enter)" style="width: 100% !important;">
+				<div id="search-trigger" data="not-loaded" style="display:none;"><gcse:searchbox></gcse:searchbox></div>
+				<br>
+				<span class="input-group-btn"></span>
+			</div>
+		</div>
+		<ul id="navMenu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+			<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/Monster+Hunter+World+Wiki" itemprop="url"><span class="navsprite home"></span>Wiki Home</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="https://fextralife.com/forums/f183/monster-hunter-world/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Forums</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/todo" itemprop="url"><span class="navsprite miniring"></span>Wiki To-Do</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="https://fextralife.com/shop/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Shop</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="https://fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Blog</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="https://www.wiki.fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Wiki Hub</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/General+Information" itemprop="url"><span class="navsprite a"></span>General Information</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Iceborne+Expansion" itemprop="url"><span class="navsprite miniring"></span>Iceborne Expansion</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Monster+Hunter+World" itemprop="url">
+<span class="navsprite miniring"></span>About Monster Hunter World</a><hr>
+</li>
+<li itemprop="name">
+<a href="/Patch+Notes" itemprop="url"><span class="navsprite miniring"></span>Patch Notes</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Controls" itemprop="url"><span class="navsprite miniring"></span>Controls</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Combat" itemprop="url"><span class="navsprite miniring"></span>Combat</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Multiplayer" itemprop="url"><span class="navsprite miniring"></span>Multiplayer</a>
+<hr>
+</li><li itemprop="name">
+<a href="/DLC" itemprop="url"><span class="navsprite miniring"></span>DLC</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Beta" itemprop="url"><span class="navsprite miniring"></span>Beta</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/FAQ" itemprop="url"><span class="navsprite miniring"></span>Everything We Know</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/Character+Information" itemprop="url"><span class="navsprite b"></span>Character Information</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Skills" itemprop="url"><span class="navsprite miniring"></span>Skills</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Status+Effects" itemprop="url"><span class="navsprite miniring"></span>Status Effects</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Weapon+Mechanics" itemprop="url"><span class="navsprite miniring"></span>Weapon Mechanics</a><hr>
+</li><li itemprop="name">
+
+<a href="/Attack+Power" itemprop="url">
+<span class="navsprite miniring"></span>Attack Power</a><hr>
+</li><li itemprop="name">
+<a href="/Affinity" itemprop="url">
+<span class="navsprite miniring"></span>Affinity</a><hr>
+</li><li itemprop="name">
+<a href="/Defense" itemprop="url"><span class="navsprite miniring"></span>Defense</a>
+<hr>
+</li><li itemprop="name">
+
+<a href="/Elemental+Resistances" itemprop="url"><span class="navsprite miniring"></span>Elemental Resistances</a><hr>
+</li><li itemprop="name">
+<a href="/Palicoes" itemprop="url"><span class="navsprite miniring"></span>Palicoes</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Builds" itemprop="url"><span class="navsprite miniring"></span>Builds</a>
+</li>
+</ul>
+</li><li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/Equipment" itemprop="url"><span class="navsprite c"></span>Equipment</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Weapons" itemprop="url"><span class="navsprite miniring"></span>Weapons</a>
+<hr>
+</li><li itemprop="name">
+
+<a href="/Master+Rank+Weapons" itemprop="url"><span class="navsprite miniring"></span>Master Rank Weapons</a><hr>
+</li>
+<li itemprop="name">
+<a href="/Armor" itemprop="url"><span class="navsprite miniring"></span>Armor</a>
+<hr>
+</li><li itemprop="name">
+
+<a href="/Master+Rank+Armor" itemprop="url"><span class="navsprite miniring"></span>Master Rank Armor</a><hr>
+</li><li itemprop="name">
+
+<a href="/Layered+Armor" itemprop="url">
+<span class="navsprite miniring"></span>Layered Armor</a><hr>
+</li><li itemprop="name">
+<a href="/Decorations" itemprop="url"><span class="navsprite miniring"></span>Decorations</a><hr>
+</li>
+<li itemprop="name">
+<a href="/Charms" itemprop="url"><span class="navsprite miniring"></span>Charms</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Mantles" itemprop="url"><span class="navsprite miniring"></span>Mantles</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Palico+Equipment" itemprop="url"><span class="navsprite miniring"></span>Palico Gear</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Crafting" itemprop="url"><span class="navsprite miniring"></span>Crafting</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Items" itemprop="url"><span class="navsprite miniring"></span>Items</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Slinger" itemprop="url"><span class="navsprite miniring"></span>Slinger</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Scoutflies" itemprop="url"><span class="navsprite miniring"></span>Scoutflies</a>
+</li>
+</ul>
+</li><li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/World+Information" itemprop="url"><span class="navsprite d"></span>World Information</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Endemic+Life" itemprop="url">
+<span class="navsprite miniring"></span>Endemic Life (Pets)</a><hr>
+</li><li itemprop="name">
+<a href="/Quests" itemprop="url"><span class="navsprite miniring"></span>Quests</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Optional+Quests" itemprop="url">
+<span class="navsprite miniring"></span>Optional Quests</a><hr>
+</li><li itemprop="name">
+<a href="/Locations" itemprop="url"><span class="navsprite miniring"></span>Locations</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/NPCs" itemprop="url"><span class="navsprite miniring"></span>NPCs</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Merchants" itemprop="url"><span class="navsprite miniring"></span>Merchants</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Lore" itemprop="url"><span class="navsprite miniring"></span>Lore</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/Guides+&amp;+Walkthroughs" itemprop="url"><span class="navsprite e"></span>Guides &amp; Walkthroughs</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Event+Quests" itemprop="url">
+<span class="navsprite miniring"></span>Event Quests</a><hr>
+</li><li itemprop="name">
+<a href="/New+Player+Help" itemprop="url"><span class="navsprite miniring"></span>New Player Help</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Walkthrough" itemprop="url"><span class="navsprite miniring"></span>Walkthrough</a>
+<hr>
+</li><li itemprop="name">
+<a href="/Canteen" itemprop="url">
+<span class="navsprite miniring"></span>Canteen</a><hr>
+</li>
+<li itemprop="name">
+<a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Trophy+&amp;+Achievement+Guide" itemprop="url"><span class="navsprite miniring"></span>Trophy &amp; Achievement Guide</a>
+</li>
+</ul>
+</li>
+<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
+<a href="/Media+&amp;+Community" itemprop="url"><span class="navsprite f"></span>Media &amp; Community</a>
+<ul class="navSubMenu">
+<li itemprop="name">
+<a href="/Gallery" itemprop="url"><span class="navsprite miniring"></span>Gallery</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Videos" itemprop="url"><span class="navsprite miniring"></span>Videos</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="https://fextralife.com/forums/" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Forums</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Chatroom" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Chatroom</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Player+IDs" itemprop="url"><span class="navsprite miniring"></span>Player IDs</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/Community+Events" itemprop="url"><span class="navsprite miniring"></span>Community Events</a>
+<hr>
+</li>
+<li itemprop="name">
+<a href="/YouTube+Partners" itemprop="url"><span class="navsprite miniring"></span>YouTube Partners</a>
+</li>
+</ul>
+</li>
+
+		</ul>
+	</nav>
+</div>
+
+<div class="clearfix"></div>
+
+<div class="fixme hidden-sm" style="width:400px !important;">
+	<div class="ad-sidebar section-heading section-heading-light simulation-hero-heading" style="margin-top:-7px;padding:0px!important; width:400px;max-width:400px!important;max-height:498px!important">
+		<div id="video-stream-container" data-vid="gEphXVnRsFw" data-vplid="" class="yt-container lg-desktop-only" style="max-width:340px;">
+                        <div id= "fextravideo" class="yt-player" data-video="gEphXVnRsFw" data-playlist="" style="display:none;height:191.25px;max-width:340px;"><div><picture><source srcset="//img.youtube.com/vi/gEphXVnRsFw/mqdefault.jpg" media="(min-width: 1100px)"><img class="yt-thumb" srcset="" alt="fallout-wiki-videos" style="max-width:340px;"></picture><div class="play-button lazyload"></div></div></div>
+<script type="text/javascript">var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');if (ppp && window.innerWidth >= 1100) {document.write('<script type="text/javascript" src="https://player.twitch.tv/js/embed/v1.js"><\/script><div id="fextrastream" class="skinstream"></div>');} else {var fv = document.getElementById('fextravideo');fv.setAttribute('style', 'height:191.25px;max-width:340px;');}</script><script type="text/javascript">var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');if (ppp && window.matchMedia("(min-width: 1100px)").matches) {if (ppp && window.matchMedia("(min-width: 1920px)").matches) {var options = {width:340,height:398,channel:"fextralife",muted:true,theme:"dark",layout:"video-with-chat"};var player = new Twitch.Embed("fextrastream", options);} else {var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};var player = new Twitch.Embed("fextrastream", options);}}</script>
+                </div>
+	</div>
+	<div id="menu-add-a" class="ad-sidebar">
+		<div id="div-gpt-ad-1551140609289-1" style="height:250px; width:300px;">
+		</div>
+	</div>
+	<div id="wcomp-articles" class="sidebar-top-border" style="height:406.8px;"></div>
+</div>
+
+<div class="clearfix"></div>
+<div class="space10"></div>
+
+							</div>
+						</div>
+						<div id="page-content-wrapper">
+							<div class="page-content">
+								<div class="container-fluid">
+									<div class="page-chunk">
+										<div id="search-content" style="display: none;">
+<style>
+.gsc-tabHeader.gsc-tabhActive {color:inherit;}
+.cse .gsc-control-cse, .gsc-control-cse {background-color: inherit; border: inherit;}
+.gsc-refinementsArea {display:none;}
+.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {color: inherit;}
+.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {color:inherit;}
+.gs-result .gs-title, .gs-result .gs-title * {color: #FFF;}
+.gs-result .gs-title, .gs-result .gs-title * {color: #FFF;}
+.gsc-preview-reviews, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em {color: inherit;}
+.gsc-table-result {border:none;}
+.gsc-table-result th,td{border:none;}
+.gsc-resultsHeader {display:none;}
+.gsc-adBlock {display:none;}
+.gs-richsnippet-box {display:none !important;}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {color: inherit;}
+
+.gsc-webResult .gsc-result{background-color:inherit;}
+.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {color: inherit;}
+.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {color: inherit;}
+.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {color: inherit;}
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {background-color: inherit !important;}
+.gsc-results .gsc-cursor-box .gsc-cursor-current-page {border-color: inherit;background-color: inherit;color: inherit;}
+.gsc-results .gsc-cursor-box .gsc-cursor-page {border-color: inherit;background-color: inherit;color: inherit;}
+
+.gsc-webResult.gsc-result{padding:.25em;border:none!important;margin-bottom:0}.gsc-above-wrapper-area{border-bottom:none!important;padding:5px 0}.cse .gsc-webResult.gsc-result:hover,.gsc-webResult.gsc-result:hover,.gsc-webResult.gsc-result.gsc-promotion:hover,.gsc-results .gsc-imageResult-classic:hover,.gsc-results .gsc-imageResult-column:hover{border:none!important}.gsc-tabsArea{margin-top:12px;margin-bottom:0;height:29px;border-bottom:none!important}.gsc-result-info-container{text-align:left;display:none!important}
+</style>
+											<h4 class="search-title">Search Results</h4>
+											<ul id="search-result" class="list-unstyled list-results"></ul>
+											<div id="search-result-paging"></div>
+											<gcse:searchresults></gcse:searchresults>
+										</div>
+										<div id="main-content" data-wid="e5440d3e-c5f4-4708-981a-7ab3f22a37ea" data-pid="8781bbe7-2c49-475f-ab91-0a96f990e0db" data="010|010|010" data-ga="u|o|a|o|o|o|o|u">
+											<div itemscope itemtype="https://schema.org/Article">
+											
+												
+
+
+
+
+
+<div id="page-content-header-container" >
+	<div class="clearfix">
+		<div class="page-segment">
+			<h1 itemprop="headline">
+
+
+	<a id="page-title" href="//monsterhunterworld.wiki.fextralife.com/Monster+Hunter+World+Wiki">Monster Hunter World Wiki</a>
+
+
+			</h1>
+
+			<div class="page-segment-btns">
+			
+				<div class="btn-group btn-group-sm" role="group">
+					<button id="btnPE" style="display: none;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><span class="hidden-xs"> Edit</span></button>
+					<button id="btnComments" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="view discussions"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><span id="amcom"> 560</span></button>
+					<button id="btnPageHistory" class="btn btn-default hidden-xs hidden-sm" data-toggle="tooltip" data-placement="bottom" title="view 83 revisions"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 83</button>
+					<button type="button" class="btn btn-default" data-toggle="dropdown" aria-expanded="false" title="more options">&hellip;</button>
+					<ul class="dropdown-menu dropdown-menu-right" role="menu">
+						<li><a id="btnTrddmA" href="" style="display: none;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Create new page</a></li>
+						<li><a id="btnTrddmB" href="" style="display: none;"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit</a></li>
+						<li><a id="btnTrddmHistory" href=""><span class="glyphicon glyphicon-time" aria-hidden="true"></span> History</a></li>
+						<li><a id="btnTrddmChanges" href=""><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Recent Changes</a></li>
+						<li><a id="btnTrddmE" href="" style="display: none;"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Rename</a></li>
+						<li><a id="btnTrddmF" href="" style="display: none;"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Redirect</a></li>
+						<li><a id="btnTrddmG" href="" style="display: none;"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Lock</a></li>
+						<li><a id="btnTrddmH" href="" style="display: none;"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Unlock</a></li>
+
+						<li><a id="btnTrddmI" href="" style="display: none;"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Flag this page</a></li>
+
+						<li id="divider-trddm-a" class="divider" style="display: none;"></li>
+						<li><a id="btnTrddmJ" href="" style="display: none;"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Permissions</a></li>
+						<li><a id="btnTrddmK" href="" style="display: none;"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Javascript</a></li>
+						<li><a id="btnTrddmL" href="" style="display: none;"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Tags</a></li>						
+						<li><a id="btnTrddmM" href="" style="display: none;"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Edit Open Graph</a></li>
+						<li id="divider-trddm-b" class="divider" style="display: none;"></li>
+						<li><a id="btnTrddmN" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear page cache</a></li>
+						<li><a id="btnTrddmO" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear comments cache</a></li>
+						<li id="divider-trddm-c" class="divider" style="display: none;"></li>
+						<li><a id="btnTrddmP" href="" style="display: none;"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> File Manager</a></li>
+						<li><a id="btnTrddmQ" href="" style="display: none;"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span> Page Manager</a></li>
+						<li><a id="btnTrddmR" href="" style="display: none;"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Wiki Templates</a></li>
+						<li><a id="btnTrddmS" href="" style="display: none;"><span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> Comments Approval</a></li>
+						<li><a id="btnTrddmT" href="" style="display: none;"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Wiki Settings</a></li>
+						<li><a id="btnTrddmU" href="" style="display: none;"><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Wiki Manager</a></li>
+						<li id="divider-trddm-d" class="divider" style="display: none;"></li>
+						<li><a id="btnTrddmV" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete</a></li>
+					</ul>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	<div class="breadcrumb-wrapper">
+	
+		
+			
+		<div class="breadcrumbs pull-left" ><div id="breadcrumbs-container"><div id="breadcrumbs-bcontainer" style="display:none;">&nbsp;&nbsp;<a id="btnCreateBreadcrumb" title="Add Breadcrumb" href="#">+</a></div></div></div>
+			
+		<div class="revisiondate pull-right"><time itemprop="dateModified" id= "dateModified" datetime=""></time></div>
+		
+	
+	</div>
+</div>
+<div id="palerts" class="clearfix"></div>
+
+
+<br>
+
+<div id="edition" style="display:none; margin-top: 0px;"></div>
+
+<div id="sub-main" >
+	<div id="wiki-content-block">
+
+	
+		
+
+
+<div align="center"> 
+ <h2><img class="lazyload" style="width: 350px; height: 164px;" title="monster-hunter-world-wiki-guide-walkthrough" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="monster-hunter-world-wiki-guide-walkthrough" width="350" height="164" data-src="/file/Monster-Hunter-World/monster-hunter-wiki-guide-logo-large.png"></h2> 
+ <p>&nbsp;</p> 
+ <h4>Monster Hunter World Wiki will guide you through the game with all information on monsters, weapons, armor, co op, abilities, builds and more!</h4> 
+</div> 
+<p>&nbsp;</p> 
+<div class="row"> 
+ <div class="col-sm-6"> 
+  <h3 class="titlearea">DLC: <a class="wiki_link" title="" href="/Fatalis" target="">Fatalis</a>, <a class="wiki_link" title="" href="/Alatreon" target="">Alatreon</a>, <a class="wiki_link" title="" href="/Frostfang+Barioth" target="">Frostfang Barioth</a></h3> 
+ </div> 
+ <div class="col-sm-6"> 
+  <h3 class="titlearea">Endgame: AT <a class="wiki_link" title="" href="/Velkhana" target="">Velkhana</a>, <a class="wiki_link" title="" href="/Namielle" target="">Namielle</a>, <a class="wiki_link" title="" href="/Safi'Jiiva" target="">Safi'Jiiva</a>, MR <a class="wiki_link" title="" href="/Kulve+Taroth" target="">Kulve Taroth</a>!</h3> 
+ </div> 
+</div> 
+<div class="row"> 
+ <div class="col-sm-6"> 
+  <h3 class="titlearea">Popular: <a class="wiki_link" title="" href="/Master+Rank+Event+Quests" target="">MR Event Quests</a>, <a class="wiki_link" title="" href="/Patch+Notes" target="">Patch Notes (14.00)</a>, <a class="wiki_link" title="" href="/Monsters" target="">Monsters</a></h3> 
+ </div> 
+ <div class="col-sm-6"> 
+  <h3 class="titlearea"><a class="wiki_link" title="" href="/Iceborne+Expansion" target="">Iceborne </a>: <a class="wiki_link" title="" href="/Master+Rank+Weapons" target="">MR Weapons</a> &amp; <a class="wiki_link" title="" href="/Master+Rank+Armor" target="">MR Armor</a></h3> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<h2 class="titlearea"><a class="wiki_link" title="New Monster Hunter Rise Wiki Live!" href="https://monsterhunterrise.wiki.fextralife.com/Monster+Hunter+Rise+Wiki">New Monster Hunter Rise Wiki Live!</a></h2> 
+<p>&nbsp;</p> 
+<div class="row" align="center"> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/General+Information"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-general-info-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-general-info-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-general-info-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/Patch+Notes" target="">Patch Notes</a> ♦ <a class="wiki_link" title="" href="/Controls" target="">Controls</a> ♦&nbsp;<a class="wiki_link" title="" href="/Combat" target="">Combat</a> ♦ <a class="wiki_link" title="" href="/Multiplayer" target="">Multiplayer</a> ♦ <a class="wiki_link" title="" href="/Iceborne+Expansion" target="">Iceborne Expansion</a> ♦ <a class="wiki_link" title="" href="/DLC" target="">DLC</a></p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/Character+Information"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-character-info-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-character-info-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-character-info-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/Status+Effects" target="">Status Effects</a> ♦ <a class="wiki_link" title="" href="/Weapon+Mechanics" target="">Weapon Mechanics</a> ♦ <a class="wiki_link" title="" href="/Defense" target="">Defense</a> ♦ <a class="wiki_link" title="" href="/Elemental+Resistances" target="">Elemental Resistances</a> ♦ <a class="wiki_link" title="" href="/Attack+Power" target="">Attack Power</a> ♦ <a class="wiki_link" title="" href="/Affinity" target="">Affinity</a> ♦ <a class="wiki_link" title="" href="/Skills" target="">Skills</a> ♦ <a class="wiki_link" title="" href="/Palicoes" target="">Palicoes</a></p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/Equipment"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-crafting-items-equipment-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-crafting-items-equipment-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-crafting-items-equipment-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/Weapons" target="">Weapons</a> ♦ <a class="wiki_link" title="" href="/Armor" target="">Armor</a> ♦ <a class="wiki_link" title="" href="/Charms" target="">Charms</a> ♦ <a class="wiki_link" title="" href="/Decorations" target="">Decorations</a> ♦&nbsp;<a class="wiki_link" title="" href="/Mantles" target="">Mantles</a> ♦ <a class="wiki_link" title="" href="/Loadouts" target="">Loadouts</a></p> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<div class="row" align="center"> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/World+Information"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-world-maps-locations-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-world-maps-locations-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-world-maps-locations-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/Monsters" target="">Monsters</a> ♦ <a class="wiki_link" title="" href="/Materials" target="">Materials</a> ♦ <a class="wiki_link" title="" href="/Event+Quests" target="">Event Quests</a> ♦ <a class="wiki_link" title="" href="/Quests" target="">Quests</a> ♦ <a class="wiki_link" title="" href="/Locations" target="">Locations</a></p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/Guides+&amp;+Walkthroughs"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-walkthrough-trophies-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-walkthrough-trophies-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-walkthrough-trophies-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/New+Player+Help" target="">New Player Help</a> ♦ <a class="wiki_link" title="" href="/Walkthrough" target="">Walkthrough</a> ♦ <a class="wiki_link" title="" href="/Canteen" target="">Canteen</a> ♦ <a class="wiki_link" title="" href="/Trophy+&amp;+Achievement+Guide" target="">Trophy &amp; Achievement Guide</a></p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <a class="wiki_link" href="/Media+&amp;+Community"><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 270px; height: 90px;" title="mhw-player-guide-forums-discord-community-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-player-guide-forums-discord-community-wiki" width="270" height="90" data-src="/file/Monster-Hunter-World/mhw-player-guide-forums-discord-community-wiki.jpg"></a> 
+  <p><a class="wiki_link" title="" href="/Gallery" target="">Gallery</a> ♦ <a class="wiki_link" title="" href="/Videos" target="">Videos</a>&nbsp; ♦ <a class="wiki_link" href="https://fextralife.com/forums/f183/monster-hunter-world/" target="_blank" rel="noopener noreferrer">Forum</a>&nbsp; ♦ <a class="wiki_link" title="" href="https://discord.gg/pXedtYz" target="">MHW Discord</a></p> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<div class="row"> 
+ <div class="col-sm-6"> 
+  <div style="margin-left: auto; margin-right: auto; max-width: 560px; max-height: 316px;"> 
+   <div class="embed-responsive embed-responsive-16by9"> 
+    <div style="display: flex; justify-content: center;" id="https://www.youtube.com/embed/1XYpQF64qY4" width="300" height="150" frameborder="0" allowfullscreen class="embed-responsive-item youtube-item"> 
+     <div class="sk-cube-grid" style="display: block; margin: auto;"> 
+      <div class="sk-cube sk-cube1">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube2">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube3">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube4">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube5">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube6">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube7">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube8">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube9">
+        &nbsp; 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+ <div class="col-sm-6"> 
+  <div style="margin-left: auto; margin-right: auto; max-width: 560px; max-height: 316px;"> 
+   <div class="embed-responsive embed-responsive-16by9"> 
+    <div style="display: flex; justify-content: center;" id="https://www.youtube.com/embed/kDr-jJrdixo" width="300" height="150" frameborder="0" allowfullscreen class="embed-responsive-item youtube-item"> 
+     <div class="sk-cube-grid" style="display: block; margin: auto;"> 
+      <div class="sk-cube sk-cube1">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube2">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube3">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube4">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube5">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube6">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube7">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube8">
+        &nbsp; 
+      </div> 
+      <div class="sk-cube sk-cube9">
+        &nbsp; 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<p>The latest entry in the critically acclaimed 40 million unit selling action RPG series, Monster Hunter: World introduces a living, breathing ecosystem in which players take on the role of a hunter that seeks and slays ferocious beasts in heart-pounding battles. Venture on quests alone or with up to three other hunters in a newly designed online drop-in multiplayer system which allows cross-region cooperative play between Japan and the West, uniting the global player base for the first time ever. Monster Hunter: World will also be the first game in the series with a worldwide simultaneous launch window and is planned for release on PlayStation® 4 computer entertainment system and Xbox One on January 26, 2018. A PC release will follow at a later date.</p> 
+<p>&nbsp;</p> 
+<div class="row"> 
+ <div class="col-sm-4"> 
+  <h3 class="bonfire">Team up &amp; Hunt</h3> 
+  <p><strong>Monster Hunter</strong>: World sees players gear up to venture on quests to battle against fearsome monsters, progressively improving their hunting abilities as they play. Loot collected from fallen foes can be used to create new equipment and armor upgrades as players seamlessly move across map areas that comprise the living ecosystems. The landscape and its diverse inhabitants play a critical role as players strategically use the surrounding environment to their advantage. Hunters must use their cunning and abilities to survive the intense and evolving fights as they battle to become the ultimate hunter!.</p> 
+  <p>&nbsp;</p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <h3 class="bonfire">MH World Features</h3> 
+  <ul> 
+   <li>Welcome to the new World: Taking on the role of a hunter, players are tasked with going on a research expedition to a newly discovered continent known only as “new world” as they venture on quests to discover more about this mysterious land.</li> 
+   <li>Living and breathing ecosystem: Utilize the surrounding environment and wildlife to your advantage. For example, pit <a class="wiki_link" title="" href="/Monsters" target="">Monsters</a> against one another to lure the main target creature to the right place, but be careful not to become hindered by the hazards they present.</li> 
+   <li>Global simultaneous release: For the first time in the Monster Hunter series the latest title will release within the same launch window and unite hunters across the world with cross-region cooperative play options.</li> 
+   <li>Online drop-in <a class="wiki_link" title="" href="/Multiplayer" target="">Multiplayer</a>: When the battle is too daunting to take on single-handedly, hail up to three other hunters to assist during quests by sending up a SOS flare to a worldwide server full of potential teammates.</li> 
+   <li>Hunt to craft new gear: Defeat monsters and collect loot from fallen foes to craft <a class="wiki_link" title="" href="/Armor" target="">Armor</a> and <a class="wiki_link" title="" href="/Weapons" target="">Weapons</a> styled after the monsters that have been slain. Selecting the right loadout can help exploit enemy weaknesses to gain an advantage in battle.</li> 
+   <li>Master the beasts: A variety of ferocious creatures inhabit the new world landscape including the series mainstay <a class="wiki_link" title="" href="/Rathalos" target="">Rathalos</a> and the all new <a class="wiki_link" title="" href="/Anjanath" target="">Anjanath</a>. Players can mount the monsters with the dynamic riding mechanic, allowing them to travel along the monster’s body and deliver locational damage.</li> 
+   <li>Seamless gameplay: Players and monsters can move from one map <a class="wiki_link" title="" href="/Locations" target="">Location</a> to another freely and without loading screens whilst gameplay also dynamically transitions between night and day.</li> 
+  </ul> 
+  <p>&nbsp;</p> 
+ </div> 
+ <div class="col-sm-4"> 
+  <h3 class="bonfire">MH World Packaging</h3> 
+  <p><img class="lazyload" style="width: nullpx; height: nullpx;" title="mhworld-wiki-guide-ps4" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhworld-wiki-guide-ps4" width="300" height="372" data-src="/file/Monster-Hunter-World/mhworld-wiki-guide-ps4.png"><img class="lazyload" style="width: nullpx; height: nullpx;" title="mhworld-wiki-guide-xbox" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhworld-wiki-guide-xbox" width="300" height="372" data-src="/file/Monster-Hunter-World/mhworld-wiki-guide-xbox.png"></p> 
+  <p>&nbsp;</p> 
+ </div> 
+</div> 
+<p>&nbsp;</p> 
+<div style="display: block; text-align: center;"> 
+ <h3>Check out our other Wikis:</h3> 
+ <a class="wiki_link" href="https://www.wiki.fextralife.com/">Complete List of Wikis</a> 
+ <div class="sliderload">
+   &nbsp; 
+ </div> 
+</div>
+		
+	
+
+	</div>
+	<br><br><br>
+
+	<div class="clearfix"></div>
+	<div class="discussion-wrapper" id="discussions-section">
+		<div class="wrap">
+			<h3 class="section-heading section-heading-light simulation-hero-heading">
+				<a>Join the page discussion</a>
+				<small style="font-size: 86%;float:right;"><a class="textClass" href="https://fextralife.com/forums/ucp.php?mode=register">Tired of anon posting? Register!</a></small>
+			</h3>
+<script type="text/javascript">
+        if (ppp) {
+                document.write('<div id="content-add-a" style="height:300px;"><div id="div-gpt-ad-1551140609289-4"></div></div>');
+        }
+        if (ppp && window.innerWidth < 1000) {
+                document.write('\x3Cscript type="text/javascript" src="https://player.twitch.tv/js/embed/v1.js">\x3C/script>');
+                document.write('<div id="fextrastream" style="width:100%;height:198px;text-align:center;"></div>');
+        }
+</script>
+
+			<div class="collapse-com transparent">
+				<div class="col-trigger collapse in" id="discussions-new">
+					<div class="ng-scope">
+						<textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea>
+						<button id="btnPostComment" class="btn btn-default"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
+						<img id="newCommentAvatar" src="/images/avatar.png"/>
+					</div>
+				</div>
+			</div>
+			<div id="myModal" class="modal fade" role="dialog" style="top:25%;">
+				<div class="modal-dialog">
+					<div class="modal-content" style="background-color: rgba(89, 89, 89, 0.4);">
+						<div class="modal-body ng-scope" style="margin-top: 0; padding: 20px 20px 20px;">
+							<div class="g-recaptcha" data-sitekey=""></div>
+						</div>
+						<div class="modal-footer" style="background: rgba(89, 89, 89, 0.4); text-align: center">
+							<button id="btnPostComment" class="btn btn-default" data-dismiss="modal" style="display: none;"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
+							<button id="btnPostReplyRecaptcha" class="btn btn-default" data-dismiss="modal" style="display: none;"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-comments">
+			<ul id="discussions" class="comments" data="1">
+			
+				<li id="16364940" class="cmnt-root" data="0" data-d="1629159648000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><a class="comment-username" href="https://fextralife.com/forums/memberlist.php?mode=viewprofile&u=109172" target="_blank" style="color: #;">KauKomori</a></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">17 Aug 2021 02:20</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16364940" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I bought the master edition, do I need to buy anything else?</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16364940" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16364940" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16364940"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16364940" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16364940"></ul></li></ul></li>
+			
+				<li id="16361065" class="cmnt-root" data="1" data-d="1627844495000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">01 Aug 2021 21:01</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16361065" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">adoro este jogo recomendo muito porque tem vários monstros para você enfrentar como o primeiro monstro grande  para você matar o Grande Jagras. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16361065" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16361065" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16361065"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16361065" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16361065"></ul></li></ul></li>
+			
+				<li id="16355973" class="cmnt-root" data="1" data-d="1626205169000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">13 Jul 2021 21:39</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16355973" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">That moment when you realize that the title for the game doesn&apos;t even include the palico&apos;s...</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16355973" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16355973" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16355973"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16355973" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16355973"></ul></li></ul></li>
+			
+				<li id="16354511" class="cmnt-root" data="1" data-d="1625688909000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">07 Jul 2021 22:15</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16354511" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">don&apos;t you think nergigante should win all elder turfs if he is the eater/predator of elders</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16354511" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16354511" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16354511"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16354511" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16354511"></ul></li></ul></li>
+			
+				<li id="16343958" class="cmnt-root" data="0" data-d="1622052838000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">26 May 2021 20:13</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16343958" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">What weapons are affordable and better than the defender ones</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16343958" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16343958" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16343958"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16343958" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16343958"></ul></li></ul></li>
+			
+				<li id="16339868" class="cmnt-root" data="2" data-d="1620775805000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">12 May 2021 01:30</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16339868" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Solo vs multiplayer which one you play the most and why?</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16339868" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16339868" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">4</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16339868"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16339868" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16339868"></ul></li></ul></li>
+			
+				<li id="16338211" class="cmnt-root" data="-1" data-d="1620308197000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">06 May 2021 15:36</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16338211" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Why Do Elder Dragons Have To Be So Hard</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16338211" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16338211" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>4</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16338211"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16338211" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16338211"></ul></li></ul></li>
+			
+				<li id="16322568" class="cmnt-root" data="1" data-d="1616635438000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">25 Mar 2021 02:23</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16322568" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">It&apos;s weird. If I reuse a single jewel in two sets I get a warning that it is already used. Okay.  But whenever I load one of them the jewels are still all there. Even the unique jewel is displayed in both sets. BUT not always. And that&apos;s what I don&apos;t understand. I started to detect &quot;holes&quot; in my sets. Jewels are vanishing, jewels I use in multiple sets. So why does it work ALMOST always? And not always? What&apos;s the criterium here? What jewel is &quot;virtual&quot; and what jewel cannot be devided between sets? </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16322568" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16322568" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16322568"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16322568" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16322568"></ul></li></ul></li>
+			
+				<li id="16322308" class="cmnt-root" data="0" data-d="1616573498000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">24 Mar 2021 09:11</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16322308" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">It says there is a arch-tempered safi-jiva and to the extent of my knowledge there isn&apos;t and the idea was scrapped.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16322308" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16322308" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16322308"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16322308" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16322308"></ul></li></ul></li>
+			
+				<li id="16319244" class="cmnt-root" data="2" data-d="1615857056000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">16 Mar 2021 02:10</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16319244" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">so why are some weapons left handed for no real reason(IGs, lances and charge blade).</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16319244" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16319244" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16319244"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16319244" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16319244"></ul></li></ul></li>
+			
+				<li id="16318447" class="cmnt-root" data="1" data-d="1615673547000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">13 Mar 2021 23:12</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16318447" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">idea!<br/>could you become a falconer with a rathalos or rathian? like a rathaloner? <br/>cause dat would be amazing. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16318447" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16318447" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16318447"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16318447" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16318447"></ul></li></ul></li>
+			
+				<li id="16318269" class="cmnt-root" data="3" data-d="1615624366000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">13 Mar 2021 09:32</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16318269" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">What&apos;s your favourite monster? my fave might be ruiner nergigante but i&apos;ve only just unlocked TGL but haven&apos;t fought all monsters</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16318269" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16318269" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">5</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>4</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16318269"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16318269" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16318269"></ul></li></ul></li>
+			
+				<li id="16317276" class="cmnt-root" data="3" data-d="1615385417000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">10 Mar 2021 15:10</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16317276" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">tem um evento bom para iniciante que e pra lutar contra 12 kestodontes e na arena então sem anjanath</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16317276" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16317276" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16317276"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16317276" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16317276"></ul></li></ul></li>
+			
+				<li id="16317055" class="cmnt-root" data="4" data-d="1615325450000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">09 Mar 2021 22:30</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16317055" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Glavenus uses for tail: <br/>1. A nice fillet<br/>2. A cooking pan<br/>3. Butter cutter<br/>4. A plug to an outlet. <br/>5. Flaming backscratcher<br/>6. Knife kebob. <br/><br/>put the number in the chat for the one you liked. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16317055" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16317055" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">4</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>4</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16317055"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16317055" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16317055"></ul></li></ul></li>
+			
+				<li id="16315822" class="cmnt-root" data="0" data-d="1614991806000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">06 Mar 2021 01:50</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16315822" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Why am I constantly getting ganked between two monsters tf am I supposed to farm</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16315822" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16315822" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16315822"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16315822" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16315822"></ul></li></ul></li>
+			
+				<li id="16314785" class="cmnt-root" data="5" data-d="1614764311000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">03 Mar 2021 10:38</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16314785" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">i hope that some people stay in world, and its not a complete migration, cuz im staying untill im 999</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16314785" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16314785" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">6</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>5</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16314785"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16314785" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16314785"></ul></li></ul></li>
+			
+				<li id="16304833" class="cmnt-root" data="1" data-d="1612232627000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">02 Feb 2021 03:23</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16304833" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Does any body know how to get gunpowder 2</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16304833" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16304833" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16304833"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16304833" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16304833"></ul></li></ul></li>
+			
+				<li id="16302306" class="cmnt-root" data="0" data-d="1611546825000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">25 Jan 2021 04:53</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16302306" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Do you think the geralt gear is better or master rank gear?<br/></p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16302306" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16302306" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16302306"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16302306" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16302306"></ul></li></ul></li>
+			
+				<li id="16301140" class="cmnt-root" data="18" data-d="1611247670000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">21 Jan 2021 17:47</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16301140" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I wanna know:<br/><br/>I saw a beautiful turf war I wish I recorded:<br/>Savage Deviljho vs. Black Diablos vs. Brute Tigrex<br/><br/>Description: Savage Deviljho charged Black Diablos. Black Diablos made a hip check to dodge it but accidentally hit a brute tigrex. Savage deviljho is flailing its fat head attempting to bite black diablos. Brute tigrex tries to make a jump on black diablos but instead hits savage deviljho. Black diablos is circling the savage deviljho, who is smacking the brute tigrex into the ground. It makes a huge charge into the savage deviljho&apos;s belly and knocks it head over heels. Savage deviljho now spraying dragon energy like a madman, gets up and makes an ear splitting roar. Black diablos is roaring back, but gets interrupted by the brute tigrex, and flips the brute tigrex at the charging savage deviljho, and both the brute tigrex AND savage deviljho lose the turf war. <br/><br/>Not making this up. <br/>And that tells you not to mess with a black diablos. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16301140" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16301140" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">4</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>18</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16301140"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16301140" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16301140"></ul></li></ul></li>
+			
+				<li id="16298526" class="cmnt-root" data="4" data-d="1610570167000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">13 Jan 2021 21:36</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16298526" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Banbaro needs more turf wars if he&apos;s an invader.<br/> </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16298526" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16298526" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>4</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16298526"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16298526" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16298526"></ul></li></ul></li>
+			
+				<li id="16295048" class="cmnt-root" data="5" data-d="1609799666000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">04 Jan 2021 23:34</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16295048" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">someone from a post on kelbi said that as of iceborne you can ride herbivores.<br/><br/>I don&apos;t want to be literal, but that would also include diablos. <br/>,&apos;:|<br/>Which would be pretty cool if you could. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16295048" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16295048" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">5</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>5</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16295048"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16295048" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16295048"></ul></li></ul></li>
+			
+				<li id="16294546" class="cmnt-root" data="1" data-d="1609693768000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">03 Jan 2021 18:09</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16294546" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I somehow just got a ton of nova crystals, and well, I am just saving them up. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16294546" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16294546" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16294546"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16294546" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16294546"></ul></li></ul></li>
+			
+				<li id="16284382" class="cmnt-root" data="1" data-d="1607444678000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">08 Dec 2020 17:24</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16284382" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I feel like not a lot of people use Insect Glaives, but for various reasons everyone uses bows or switch axes. I use Insect Glaives because they are fast and also kinsects can help me to extract from monsters but the vaulting is the best part because I can easily mount monsters. But I still use a bow because the defender glaive and defender powerbow are strong if you know how to use them and when you kill anjanath you can upgrade them, but op is oK. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16284382" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16284382" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>5</p><i class="add">+1</i></section><section class="t-down"><span></span><p>4</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16284382"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16284382" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16284382"></ul></li></ul></li>
+			
+				<li id="16283683" class="cmnt-root" data="-46" data-d="1607266049000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">06 Dec 2020 15:47</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16283683" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">for anyone who didn&apos;t know world and iceborne  updates are officially done in march rise is coming out. world is pretty much old news but it had a good run after march this wiki is going to be pretty irrelevant soon enough monster hunter world will just be a memory and a dusty old game disc too </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16283683" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16283683" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>49</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16283683"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16283683" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16283683"></ul></li></ul></li>
+			
+				<li id="16283267" class="cmnt-root" data="1" data-d="1607150325000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t544244/Monster-Hunter-World-Wiki" target="_blank">05 Dec 2020 07:38</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16283267" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I&apos;m starting to worry that there wont be an AT BV Vaal, Ruiner or SJ. Iceborne wont be complete without them.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16283267" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16283267" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16283267"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16283267" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16283267"></ul></li></ul></li>
+			
+			</ul>
+			<div id="btnMoreComents" style="width: 130px; letter-spacing: 1px; text-transform: uppercase; border: 2px solid; font-size: 10px;" class="btn btn-default">Load more</div>
+			<div id="footer-add-a" style="padding-top:20px;" class="ad-flex"></div>
+		</div>
+	</div>
+
+</div>
+
+<div id="sub-content-a" style="display: none;"></div>
+
+<div id="sub-content-b" style="display: none;"></div>
+<div id="preview-container" style="display:none;">
+	<div style="text-align: right;">
+		<button type="button" class="teb-save btn btn-default"><i class="mce-ico mce-i-xsave" style="background: #BDBDBD;"></i> Accept Terms and Save</button>
+		<button id="btnPreviewClose" type="button" class="btn btn-default"><i class="mce-ico mce-i-xclosepreview" style="background: #BDBDBD;"></i> Close Preview</button>
+		<button type="button" class="teb-close btn btn-default"><i class="mce-ico mce-i-xclose" style="background: #BDBDBD;"></i> Close Editor</button>
+	</div>
+	<div id="preview"></div>
+</div>
+<form id="form-buttons" method="post"></form>
+
+
+											
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="vault-loder top-right-vault"></div>
+					<div class="glow-corners top-corners"></div>
+					<div class="glow-corners bottom-corners"></div>
+				</div>
+				
+<footer>
+	<div class="wiki-footer-nav">
+		<br />
+		<div class="light-wrapper">
+			<div class="text-center">Contributions to Fextralife Wikis are licensed under a <a class="wiki_link" href="https://fextralife.com/wiki-license/" target="_blank">Custom License</a>.</div>
+			<ul class="list-inline text-center footer-links">
+				<li><a class="wiki_link" href="/Monster+Hunter+World+Wiki"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Wiki</span></span> Home</a></li>
+				<li><a class="wiki_link" href="https://www.wiki.fextralife.com/" target="_blank">Gaming Wikis</a></li>
+				<li><a class="wiki_link" href="/Chatroom" target="_blank">Chatrooms</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/forums/index.php" target="_blank">Gaming Forum</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/" target="_blank">Gaming News</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/privacy-policy/" rel="nofollow" target="_blank">Privacy Policy</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/terms-of-use/" rel="nofollow" target="_blank"> Terms of Use</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/copyright-policy/" rel="nofollow" target="_blank"> Copyright Policy</a></li>
+				<li><a class="wiki_link" href="https://fextralife.com/contact-us/"> Advertise on <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">Fextralife</span></span></a></li>
+			</ul>
+		</div>
+		<br>
+		<div id="adsense" style="visibility:hidden;height:0px;overflow:hidden">advertisement</div>
+	</div>
+</footer>
+
+			</div>
+			<div class="hidden-xs" height="30px" style="background-color: #03BCDB;z-index: 2147483647; position: fixed; bottom: 0px; left: 0px; right: auto; top: auto;font-color:#ffffff !important;/*! margin-top: 0.5em; *//*! margin-left: 0.5em; */" width="75px" height="70px"><a target="_blank" href="https://discord.gg/J39HrPn" style="margin: 0.5em;"><span style="color: rgb(255, 255, 255); line-height: 16px; display: inline-block;vertical-align: middle; margin-top: 0.5em;margin-left:0.5em;margin-right:0.5em;margin-bottom: 0.5em;">Chat <span class="glyphicon glyphicon-comment" style="margin-left: 0.36em;"></span></span></a></div>
+			<div class="visible-xs" height="70px" style="background-color: #03BCDB;z-index: 2147483647; position: fixed; bottom: 0px; left: 0px; right: auto; top: auto;font-color:#ffffff !important;/*! margin-top: 0.5em; *//*! margin-left: 0.5em; */" width="75px" height="70px"><a target="_blank" href="https://discord.gg/J39HrPn" style="margin: 0.5em;"><span style="color: rgb(255, 255, 255); line-height: 55px; display: inline-block;vertical-align: middle; margin-top: 0.5em;margin-left:0.5em;margin-right:0.5em;margin-bottom: 0.5em;"><span class="glyphicon glyphicon-comment"></span></span></a></div>
+			<div class="visible-xs" style="right:10px; max-width: 50px;position: fixed;bottom: 75px;"><a href="#" class="scroll-top">&#8648; &#8648;</a></div>
+			<div class="footer-sticky">
+				<div id="mobile-ad" style="width: 320px;height: 50px;padding-left:45px" class="mobile-ad visible-xs" style="padding-left:51px;"><div id="div-gpt-ad-1551140609289-5" style="height:50px; width:320px;"></div></div>
+				<div class="container-fluid hidden-xs">
+					<ul class="WikiActions WikiElement WikiControls list-inline pull-left hidden-xs hidden-sm position-wiki-actions">
+						<li style="display: none;"><span class="glyphicon glyphicon-user" style="margin-right: 0.36em;"></span><strong><span class="onlineusers"></span></strong> Hunters Online</li>
+						<li id="wwc" style="cursor: pointer; display: none;">Recent Changes +</li>
+						<li id="wpc" style="cursor: pointer; display: none;">New page +</li>
+						<li id="wfm" style="cursor: pointer; display: none;">File Manager +</li>
+						<li style="cursor: pointer; display: none;">Members +</li>
+						<li id="wbpm" style="cursor: pointer; display: none;">Page Manager +</li>
+						<li id="wbs" style="cursor: pointer; display: none;">Settings +</li>
+						<li id="wbcw" style="cursor: pointer; display: none;">Create Wiki +</li>
+					</ul>
+					<ul class="WikiActions list-inline pull-right hidden-xs">
+						<li>
+							<ul class="btn-group" id="btn-switch" style="padding-right: 10px;">
+								<li class="btn btn-default btn-xs"><a href="#" rel="/xcss/inverse.css"><i class="glyphicon glyphicon-adjust" style="padding: 0px 10px;"></i></a></li>
+								<li class="btn btn-default btn-xs"><a href="#" rel="/xcss/theme-light.css"><i class="glyphicon glyphicon-certificate" style="padding: 0px 10px;"></i></a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="scroll-top pull-right">&#8648; <span class="hidden-xs">Back to top</span> &#8648;</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script data-cfasync="false" type="text/javascript">
+			if (ua == '211' || ua == '111' || ua == '210' || ua == '110' || ua == '100') {
+				var articlesContainer = document.getElementById('wcomp-articles');
+				if (articlesContainer != null) {
+					articlesContainer.setAttribute('class', 'wcomp-articles');
+				}
+			}
+function loadStream() {
+        if (ppp && window.innerWidth < 1000) {
+                var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};
+                var player = new Twitch.Embed("fextrastream", options);
+//        } else if (ppp && window.matchMedia("(min-width: 1100px)").matches) {
+//                if (ppp && window.matchMedia("(min-width: 1920px)").matches) {
+//                        var options = {width:340,height:398,channel:"fextralife",muted:true,theme:"dark",layout:"video-with-chat"};
+//                        var player = new Twitch.Embed("fextrastream", options);
+//                } else {
+//                        var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};
+//                        var player = new Twitch.Embed("fextrastream", options);
+//                }
+        }
+	return false;
+}
+function loadAds() {
+    if (ua!='100'&&ua!='110'&&ua!='210'&&ua!='111'&&ua!='211') {
+        if (window.innerWidth >= 860) {
+            var element = document.createElement("script");
+            element.src = "https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382e7e20b0e47b1";
+            document.body.appendChild(element);
+        } else {
+            var menuAddA = document.getElementById('menu-add-a');
+            if (menuAddA != null) {
+                menuAddA.remove();
+            }
+            var menuAddB = document.getElementById('menu-add-b');
+            if (menuAddB != null) {
+                menuAddB.remove();
+            }
+	}
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KW2R3PT');
+    }
+    return false;
+}
+function youtube() {
+    var oiframes = document.getElementsByClassName('youtube-item');
+    for (var i=0, n=oiframes.length|0; i < n; i=i+1|0) {
+        var div = oiframes[i];
+        if (div.tagName == 'DIV') {
+            var div = oiframes[i];
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute('class', div.getAttribute('class'));
+            iframe.setAttribute('src', div.getAttribute('id'));
+            div.parentNode.replaceChild(iframe, div);
+        }
+    }
+    return false;
+}
+function timerex() {
+    try {
+	youtube();
+    } catch(err) {
+    }
+
+    try {
+	loadStream();
+    } catch(err) {
+    }
+
+    try {
+	loadAds();
+    } catch(err) {
+    }
+
+    return false;
+}
+document.addEventListener('DOMContentLoaded', (event) => {
+    setTimeout(timerex, 3000);
+    try {
+        if (window.innerWidth >= 680) {
+            $('.sliderload').load('//swcdn.fextralife.com/file/slider.html?v='+new Date().getTime(), function() {
+                $('img.lazyload').lazyload({failure_limit : 999999});
+            });
+        }
+    } catch(err) {
+    }
+});
+		</script>
+		<script data-cfasync="false" type="text/javascript">
+			function loadJSON(callback) { var xobj = new XMLHttpRequest();xobj.overrideMimeType("application/json");xobj.open('GET', '/ws/user/unread-msgs', true);xobj.onreadystatechange = function () {if (xobj.readyState == 4 && xobj.status == "200") {callback(xobj.responseText);}};xobj.send(null);  }if (c != null) {loadJSON(function(response) {if (parseInt(response) > 0) {var nmsgs = response;var finbox = $('.finbox');finbox.text('Inbox (' + nmsgs + ')');var fuavtr = $('#user-avatar');fuavtr.replaceWith('<span id="priv-msgs" style="display: inline-block;width: 24px;height: 24px;line-height: 24px;background-color: #a00;color: #fff;font-weight: 700;text-align: center;vertical-align: middle;border-radius: 50%;margin-right: 3px;">' + nmsgs + '</span><img id="avatar" src="' + fuavtr.attr('src') + '" alt="" style="border-left-width:0px;width:30px;height:30px;"/>');}});}
+		</script>
+	<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"68389fd65fdcd15b","token":"cc09ed1686d84f6bac4e02a118808d45","version":"2021.8.1","si":10}'></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"684195c2cc82e92c","token":"cc09ed1686d84f6bac4e02a118808d45","version":"2021.8.1","si":10}'></script>
+</body>
+	<link href="https://swcdn.fextralife.com/css/gallery-image.css?v=aa0" rel="stylesheet">
+	<link href="" rel="stylesheet" class="stylechanger">
+</html>
