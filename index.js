@@ -48,7 +48,7 @@ client.on("message", (msg) => {
 	else if (msg.content[0] == '!')
 	{
 		args = msg.content.slice(prefix.length).trim().split(/ +/);
-		console.log(args);
+		console.log("args : " + args);
 		if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
 			if (msg.content.startsWith(prefix)) command_handler(msg, args);
 		}

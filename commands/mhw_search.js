@@ -2,14 +2,15 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const { formatWithOptions } = require("util");
 
-module.exports = function	mhw_search(msg)
+module.exports = function	mhw_search(msg, name)
 {
-	fetch("https://monsterhunterworld.wiki.fextralife.com/Monster+Hunter+World+Wiki")
+	msg.channel.send(name[1]);
+	fetch("https://monsterhunterworld.wiki.fextralife.com/" + name[1])
 	.then(function (response) {
 		return (response.text());
 	}).then(function (html) {
 		fs.writeFile("./test.txt", html, function(ferr) {
-			if (err)
+			if (ferr)
 				return (console.log("oopsi : " + err));
 		});
 		console.log(html);
