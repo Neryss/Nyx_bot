@@ -9,6 +9,7 @@ const	toggle = require("./commands/toggle");
 const	Discord = require("discord.js");
 const	join = require("./commands/join");
 const	togglejoin = require("./commands/togglejoin");
+const	search = require("./commands/mhw_search");
 const	e_what = new Discord.MessageEmbed()
 	.setColor("#ff0080")
 	.setTitle("Possibilites")
@@ -20,7 +21,7 @@ const	e_what = new Discord.MessageEmbed()
 	.setTimestamp()
 	.addField("Made by :", "[Neryss](https://github.com/Neryss)")
 
-const	commands = { issue, status, ip, modpack, hello, toggle, join, togglejoin };
+const	commands = { issue, status, ip, modpack, hello, toggle, join, togglejoin, search };
 module.exports = function	command_handler(msg, args) {
 	try {
 		commands[args[0]](msg, args);
