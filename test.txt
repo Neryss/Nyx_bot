@@ -1,1369 +1,383 @@
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta http-equiv="content-language" content="en-us">
-		<meta name="Description" content="Bazelgeuse is a Large Monster in Monster Hunter World. MHW Bazelgeuse weakness, rewards, carves, armor, weapons & more." />
-		<meta name="msvalidate.01" content="663178F9F25C3ED57D64CFF2E5B7FFAA" />
-		<meta name="google-site-verification" content="bQqyY4AeKKKWxUQrr34-kgQNWyCx7DtDJ3nbKkYZrag" />		
-		<meta name="google-site-verification" content="BkHcHuN8mXWUPZ0QBrK4fTUij37eEjGHixZPyEbkZdg" />
-		<link rel="canonical" href="https://monsterhunterworld.wiki.fextralife.com/Bazelgeuse" />
-		<title>Bazelgeuse | Monster Hunter World Wiki</title>
-		
-		<link type="logos/x-icon" href="/file/Monster-Hunter-World/mhw-wiki-iceborne-master-rank-32px.png" rel="shortcut icon">
-		
-		<link rel="stylesheet" href="https://swcdn.fextralife.com/css/glyphiconfallback6-min.css?v=ZBa1">
-		<link rel="stylesheet" href="https://swcdn.fextralife.com/css/styles-global-min.css?js=0002c">
-		<link rel="stylesheet" href="/xcss/theme-general.css?js=0003r">
-		<link rel="stylesheet" href="/xcss/styles.css?js=0002c">
-		
-			<meta property="og:type" content="article" />
-			<meta property="og:site_name" content="Monster Hunter World Wiki" />
-			<meta property="og:title" content="Bazelgeuse | Monster Hunter World Wiki" />
-			<meta property="og:description" content="Bazelgeuse is a Large Monster in Monster Hunter World. MHW Bazelgeuse weakness, rewards, carves, armor, weapons & more." />
-			<meta property="og:url" content="https://monsterhunterworld.wiki.fextralife.com/Bazelgeuse" />
-			<meta property="og:image" content="https://monsterhunterworld.wiki.fextralife.com/file/Monster-Hunter-World/Bazelgeuse-large-monster-hunter-world-mhw.jpg">
-		
-		<script data-cfasync="false">
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-			ga('create', 'UA-43196770-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3QYVHQWZC"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-Y3QYVHQWZC');
-		</script>
-		<script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/js/utils-min.js?v=ZBa1"></script>
-		<!--script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/wiki/js/page-general-modif.js?js=0001c"></script-->
-		<script data-cfasync="false" defer type="text/javascript" src="https://swcdn.fextralife.com/wiki/js/page-general-min.js?js=0002f"></script>
-		<script data-cfasync="false" type="text/javascript">
-			// Picture element HTML5 shiv
-			document.createElement( "picture" );
-
-			var pagex = new Object();
-			pagex['wikiId'] = 'e5440d3e-c5f4-4708-981a-7ab3f22a37ea';
-			pagex['wikiName'] = 'Monster+Hunter+World'; 
-			pagex['wikiTitle'] = 'Monster Hunter World';
-			pagex['pageId'] = '9990d7f3-f6c0-4b94-a8a3-f16f7389f301';
-			pagex['pageName'] = '';
-			pagex['title'] = '';
-			pagex['pageContent'] = null;
-			pagex['pageContentFlag'] = null;
-
-			var monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-			var plud = new Date(1629315746000);
-			var dindex = plud.toString().indexOf(' (');
-			var fd = dindex == -1 ? plud.toString() : plud.toString().substring(0, dindex);
-			fd = plud.getFullYear() + '-' + ((plud.getMonth()+1).toString().length == 1 ? '0' + (plud.getMonth()+1) : (plud.getMonth()+1)) + '-' + (plud.getDate().toString().length == 1 ? '0' + plud.getDate() : plud.getDate()) + 'T' + (fd.substr(fd.length - 17));
-			fd = fd.replace(' GMT', '');
-			pagex['ipDateModified'] = fd;
-			var pglmd = ("0" + plud.getDate()).slice(-2) + ' ' + monthNames[plud.getMonth()] + ' ' + plud.getFullYear() + ' ' + ("0" + plud.getHours()).slice(-2) + ':' + ("0" + plud.getMinutes()).slice(-2);
-			pagex['dateModified'] = pglmd;
-
-
-//			var hasOnlineUsers = true;
-			var grc = '6LfEOzAUAAAAAHIKLVq9RBS3Cmac9JGXucnD-KuE';
-			var cx = '013588101548136424510:a2-w2upenzu';
-
-function getCookie(name) {var nameEQ = name + "=";var ca = document.cookie.split(';');for (var i = 0; i < ca.length; i++) {var c = ca[i];while (c.charAt(0) == ' ') c = c.substring(1, c.length);if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);}return null;}
-function setCookie(name,value,days) {var expires = "";if (days) {var date = new Date();date.setTime(date.getTime() + (days*24*60*60*1000));expires = "; expires=" + date.toUTCString();}document.cookie = name + "=" + (value || "")  + expires + ";domain=.fextralife.com;path=/";}
-function loadMyCookie(callback){var xobj = new XMLHttpRequest();xobj.overrideMimeType('application/json');xobj.open('GET', 'https://monsterhunterworld.wiki.fextralife.com/ws/wiki/ex?d=' + new Date().getTime(), true);xobj.onreadystatechange = function () {if (xobj.readyState == 4 && xobj.status == '200') {callback(xobj.responseText);}};xobj.send(null);}
-var ua = '001';
-var c = getCookie('gxnwc');
-if (c == null){var woc = getCookie('wlbfo');if (woc != null) {loadMyCookie(function(response){c = getCookie('gxnwc');if (c != null){window.location.href = location;}});}}
-if (c != null) {
-        var u = c.split(':');
-        ua = u[3];
-}
-var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');
-		</script>
-		<script async>!function(e){var s=new XMLHttpRequest;s.open("GET","https://api.enthusiastgaming.net/scripts/cdn.enthusiast.gg/script/eg-aps/release/eg-aps-bootstrap-v2.0.0.bundle.js?site=fextralife.com",!0),s.onreadystatechange=function(){var t;4==s.readyState&&(200<=s.status&&s.status<300||304==s.status)&&((t=e.createElement("script")).type="text/javascript",t.text=s.responseText,e.head.appendChild(t))},s.send(null)}(document);</script>
-	</head>
-	<body style="background-color: #111;font-size: 14px;color:#fff;">
-		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KW2R3PT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-		<div id="div-gpt-ad-1551140609289-0"></div>
-		<picture>
-			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 1000px)">
-			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 600px)">
-			<img class="bg" srcset="" alt="">
-		</picture>
-		<picture>
-			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 1000px)">
-			<source srcset="/file/Monster-Hunter-World/mhw-iceborne-wiki-master-rank-monster-hunter-world-guide-bg-min.jpg" media="(min-width: 600px)">
-			<img class="bg" srcset="" alt="">
-		</picture>
-
-		<div class="ios-fix">
-			<div id="fex-menu-fixed">
-				<a class="toggle" href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a>
-				<div class="fex-search-menu-wrapper">
-					<input id="spf" type="text" class="fex-search-menu" placeholder="Search" style="width: 100% !important;">
-				</div>
-			</div>
-			<div class="container-fluid fex-bg-image">
-				
-
-
-
-
-<form id="form-header" method="post" action="/ws/authentication/logout">
-	<div class="clearfix">
-		<div style="margin-left:35px;" itemtype="https://schema.org/Brand" itemscope="">
-			<a class="WikiLogo WikiElement" href="/Monster+Hunter+World+Wiki" itemprop="url">
-				<picture>
-					<source srcset="/file/Monster-Hunter-World/monster-hunter-wiki-guide-logo.png" media="(min-width: 1100px)">
-					<img srcset="" alt="Monster Hunter World Wiki">
-				</picture>
-			</a>
-		</div>
-		<div class="ad-banner hidden-xs">
-			<div id="header-add-a">
-				<div id="div-gpt-ad-1551140609289-3"></div>
-			</div>
-<div id="video-header">
-			</div>
-		</div>
-		<div id="fex-account">
-			<div class="responsive" role="group">
-				<div id="user-menu" class="sub btn-group btn-group-sm">
-					<button id="umname" type="button" class="usrSignIn buser-options btn btn-default" style="width:initial;">Sign In</button>
-					<ul class="user-options muser-options dropdown-menu" style="display:none;"></ul>
-					<button type="button" class="bhelp-options btn btn-default" style="width:initial;">Help</button>
-					<ul class="help-options mhelp-options dropdown-menu" style="display:none;"></ul>
-					<button id="usrSignOut" type="button" class="btn btn-default" style="display:none;">Sign Out</button>
-				</div>
-				<div id="userMenuBtn" class="fex-name"></div>
-			</div>
-		</div>
-	</div>
-</form>
-
-				<div class="fex-main">
-					<div id="wrapper">
-						<nav class="visible-lg navbar navbar-inverse navbar-fixed-top">
-							<div class="container-fluid">
-								<div class="navbar-header">
-									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fextra-navbar-collapse-1" aria-expanded="false">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<div class="fextraswordsmenu">
-										<a href="https://fextralife.com/" itemprop="url">
-											<picture>
-												<source media="(min-width: 1100px)" srcset="/file/Demo/fextra-swords-white-42px.png">
-												<img srcset="" alt="Fextralife" style="width: 42px;padding-top: 10px;">
-											</picture>
-										</a>
-									</div>
-								</div>
-								<div class="collapse navbar-collapse" id="fextra-navbar-collapse-1">
-									<ul id="navMenux" class="nav navbar-nav" itemscope itemtype="https://schema.org/SiteNavigationElement">
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite home"></span><span class="hidden-lg">Wiki </span>Home<span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/Monster+Hunter+World+Wiki" itemprop="url"><span class="navsprite miniring"></span>Wiki Home</a></li> 
-   <li> <a href="https://fextralife.com/forums/f183/monster-hunter-world/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Forums</a> </li> 
-   <li> <a href="/todo" itemprop="url"><span class="navsprite miniring"></span>Wiki To-Do</a> </li> 
-   <li> <a href="https://fextralife.com/shop/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Shop</a> </li> 
-   <li> <a href="https://fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Blog</a> </li> 
-   <li> <a href="https://www.wiki.fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Wiki Hub</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite a"></span>General<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/General+Information" itemprop="url"><span class="navsprite miniring"></span>General Information</a></li> 
-   <li> <a href="/Iceborne+Expansion" itemprop="url"><span class="navsprite miniring"></span>Iceborne Expansion</a> </li> 
-   <li> <a href="/Monster+Hunter+World" itemprop="url"> <span class="navsprite miniring"></span>About Monster Hunter World</a> </li> 
-   <li> <a href="/Patch+Notes" itemprop="url"><span class="navsprite miniring"></span>Patch Notes</a> </li> 
-   <li> <a href="/Controls" itemprop="url"><span class="navsprite miniring"></span>Controls</a> </li> 
-   <li> <a href="/Combat" itemprop="url"><span class="navsprite miniring"></span>Combat</a> </li> 
-   <li> <a href="/Multiplayer" itemprop="url"><span class="navsprite miniring"></span>Multiplayer</a> </li> 
-   <li> <a href="/DLC" itemprop="url"><span class="navsprite miniring"></span>DLC</a> </li> 
-   <li> <a href="/Beta" itemprop="url"><span class="navsprite miniring"></span>Beta</a> </li> 
-   <li> <a href="/FAQ" itemprop="url"><span class="navsprite miniring"></span>Everything We Know</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite b"></span>Character<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/Character+Information" itemprop="url"><span class="navsprite miniring"></span>Character Information</a></li> 
-   <li> <a href="/Skills" itemprop="url"><span class="navsprite miniring"></span>Skills</a> </li> 
-   <li> <a href="/Status+Effects" itemprop="url"><span class="navsprite miniring"></span>Status Effects</a> </li> 
-   <li> <a href="/Weapon+Mechanics" itemprop="url"><span class="navsprite miniring"></span>Weapon Mechanics</a> </li> 
-   <li> <a href="/Attack+Power" itemprop="url"> <span class="navsprite miniring"></span>Attack Power</a> </li> 
-   <li> <a href="/Affinity" itemprop="url"> <span class="navsprite miniring"></span>Affinity</a> </li> 
-   <li> <a href="/Defense" itemprop="url"><span class="navsprite miniring"></span>Defense</a> </li> 
-   <li> <a href="/Elemental+Resistances" itemprop="url"><span class="navsprite miniring"></span>Elemental Resistances</a> </li> 
-   <li> <a href="/Palicoes" itemprop="url"><span class="navsprite miniring"></span>Palicoes</a> </li> 
-   <li> <a href="/Builds" itemprop="url"><span class="navsprite miniring"></span>Builds</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite c"></span>Equipment<span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/Equipment" itemprop="url"><span class="navsprite miniring"></span>Equipment</a></li> 
-   <li> <a href="/Weapons" itemprop="url"><span class="navsprite miniring"></span>Weapons</a> </li> 
-   <li> <a href="/Master+Rank+Weapons" itemprop="url"><span class="navsprite miniring"></span>Master Rank Weapons</a> </li> 
-   <li> <a href="/Armor" itemprop="url"><span class="navsprite miniring"></span>Armor</a> </li> 
-   <li> <a href="/Master+Rank+Armor" itemprop="url"><span class="navsprite miniring"></span>Master Rank Armor</a> </li> 
-   <li> <a href="/Layered+Armor" itemprop="url"> <span class="navsprite miniring"></span>Layered Armor</a> </li> 
-   <li> <a href="/Decorations" itemprop="url"><span class="navsprite miniring"></span>Decorations</a> </li> 
-   <li> <a href="/Charms" itemprop="url"><span class="navsprite miniring"></span>Charms</a> </li> 
-   <li> <a href="/Mantles" itemprop="url"><span class="navsprite miniring"></span>Mantles</a> </li> 
-   <li> <a href="/Palico+Equipment" itemprop="url"><span class="navsprite miniring"></span>Palico Gear</a> </li> 
-   <li> <a href="/Crafting" itemprop="url"><span class="navsprite miniring"></span>Crafting</a> </li> 
-   <li> <a href="/Items" itemprop="url"><span class="navsprite miniring"></span>Items</a> </li> 
-   <li> <a href="/Slinger" itemprop="url"><span class="navsprite miniring"></span>Slinger</a> </li> 
-   <li> <a href="/Scoutflies" itemprop="url"><span class="navsprite miniring"></span>Scoutflies</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite d"></span>World<span class="hidden-lg"> Information</span><span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/World+Information" itemprop="url"><span class="navsprite miniring"></span>World Information</a></li> 
-   <li> <a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a> </li> 
-   <li> <a href="/Endemic+Life" itemprop="url"> <span class="navsprite miniring"></span>Endemic Life (Pets)</a> </li> 
-   <li> <a href="/Quests" itemprop="url"><span class="navsprite miniring"></span>Quests</a> </li> 
-   <li> <a href="/Optional+Quests" itemprop="url"> <span class="navsprite miniring"></span>Optional Quests</a> </li> 
-   <li> <a href="/Locations" itemprop="url"><span class="navsprite miniring"></span>Locations</a> </li> 
-   <li> <a href="/NPCs" itemprop="url"><span class="navsprite miniring"></span>NPCs</a> </li> 
-   <li> <a href="/Merchants" itemprop="url"><span class="navsprite miniring"></span>Merchants</a> </li> 
-   <li> <a href="/Lore" itemprop="url"><span class="navsprite miniring"></span>Lore</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite e"></span>Guides<span class="hidden-lg"> &amp; Walkthroughs</span><span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/Guides+&amp;+Walkthroughs" itemprop="url"><span class="navsprite miniring"></span>Guides &amp; Walkthroughs</a></li> 
-   <li> <a href="/Event+Quests" itemprop="url"> <span class="navsprite miniring"></span>Event Quests</a> </li> 
-   <li> <a href="/New+Player+Help" itemprop="url"><span class="navsprite miniring"></span>New Player Help</a> </li> 
-   <li> <a href="/Walkthrough" itemprop="url"><span class="navsprite miniring"></span>Walkthrough</a> </li> 
-   <li> <a href="/Canteen" itemprop="url"> <span class="navsprite miniring"></span>Canteen</a> </li> 
-   <li> <a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a> </li> 
-   <li> <a href="/Trophy+&amp;+Achievement+Guide" itemprop="url"><span class="navsprite miniring"></span>Trophy &amp; Achievement Guide</a> </li>
-  </ul></li> 
- <li class="dropdown" itemprop="name"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navsprite f"></span>Media<span class="hidden-lg"> &amp; Community</span><span class="caret"></span></a> 
-  <ul class="dropdown-menu">
-   <li><a href="/Media+&amp;+Community" itemprop="url"><span class="navsprite miniring"></span>Media &amp; Community</a></li> 
-   <li> <a href="/Gallery" itemprop="url"><span class="navsprite miniring"></span>Gallery</a> </li> 
-   <li> <a href="/Videos" itemprop="url"><span class="navsprite miniring"></span>Videos</a> </li> 
-   <li> <a href="https://fextralife.com/forums/" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Forums</a> </li> 
-   <li> <a href="/Chatroom" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Chatroom</a> </li> 
-   <li> <a href="/Player+IDs" itemprop="url"><span class="navsprite miniring"></span>Player IDs</a> </li> 
-   <li> <a href="/Community+Events" itemprop="url"><span class="navsprite miniring"></span>Community Events</a> </li> 
-   <li> <a href="/YouTube+Partners" itemprop="url"><span class="navsprite miniring"></span>YouTube Partners</a> </li>
-  </ul></li>
-</ul>
-									<div class="navbar-form navbar-right" style="padding-top:10px;">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Search" id="spf">
-										</div>
-									</div>
-									<ul class="nav navbar-nav navbar-right" style="margin-top:5px;">
-										<li><a href="https://fextralife.com/be-a-vip" target="_blank"><i class="glyphicon glyphicon-star" style="color: gold;"></i> VIP</a></li>
-										<li id="menu-user-slot">
-											<a id="user-slot" href="#" class="sign-in" itemprop="url"><span id="user-avatar" class="glyphicon glyphicon-user"></span> <span class="user">Guest</span></a>
-											<ul class="user-options dropdown-menu"></ul>
-										</li>
-										<li class="dropdown">
-											<a href="#" itemprop="url" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-question-sign"></span> Help<span class="caret"></span></a>
-											<ul class="help-options dropdown-menu"></ul>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</nav>
-						<div id="sidebar-wrapper">
-							<div class="row">
-								<div class="col-sm-4" style="text-align:center; "><div class="addthis_inline_follow_toolbox" style="margin-left:auto;margin-right:auto;margin-top:-12px"></div></div>
-								<div class="col-sm-8"><p style="font-size: 13px;margin: 0px;" align="center"><a class="wiki-link" href="https://fextralife.com/be-a-vip/" style="color: #ab966f;">Join VIP to remove all ads and videos</a></p></div>
-							</div>
-							<div class="sidebar-nav">
-								
-
-
-
-
-<div class="hidden-lg">
-	<nav id="sidebar">
-		<div class="form-inline fex-search-wrapper hidden-sm hidden-xs">
-			<div class="input-group input-group-sm" style="width: 100%;">
-				<input id="spf" type="text" class="form-control fex-search" placeholder="Search it up... (hit enter)" style="width: 100% !important;">
-				<div id="search-trigger" data="not-loaded" style="display:none;"><gcse:searchbox></gcse:searchbox></div>
-				<br>
-				<span class="input-group-btn"></span>
-			</div>
-		</div>
-		<ul id="navMenu" itemscope itemtype="https://schema.org/SiteNavigationElement">
-			<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/Monster+Hunter+World+Wiki" itemprop="url"><span class="navsprite home"></span>Wiki Home</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="https://fextralife.com/forums/f183/monster-hunter-world/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Forums</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/todo" itemprop="url"><span class="navsprite miniring"></span>Wiki To-Do</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="https://fextralife.com/shop/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Wiki Shop</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="https://fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Blog</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="https://www.wiki.fextralife.com/" target="_blank" itemprop="url"><span class="navsprite miniring"></span>Fextralife Wiki Hub</a>
-</li>
-</ul>
-</li>
-<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/General+Information" itemprop="url"><span class="navsprite a"></span>General Information</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Iceborne+Expansion" itemprop="url"><span class="navsprite miniring"></span>Iceborne Expansion</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Monster+Hunter+World" itemprop="url">
-<span class="navsprite miniring"></span>About Monster Hunter World</a><hr>
-</li>
-<li itemprop="name">
-<a href="/Patch+Notes" itemprop="url"><span class="navsprite miniring"></span>Patch Notes</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Controls" itemprop="url"><span class="navsprite miniring"></span>Controls</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Combat" itemprop="url"><span class="navsprite miniring"></span>Combat</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Multiplayer" itemprop="url"><span class="navsprite miniring"></span>Multiplayer</a>
-<hr>
-</li><li itemprop="name">
-<a href="/DLC" itemprop="url"><span class="navsprite miniring"></span>DLC</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Beta" itemprop="url"><span class="navsprite miniring"></span>Beta</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/FAQ" itemprop="url"><span class="navsprite miniring"></span>Everything We Know</a>
-</li>
-</ul>
-</li>
-<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/Character+Information" itemprop="url"><span class="navsprite b"></span>Character Information</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Skills" itemprop="url"><span class="navsprite miniring"></span>Skills</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Status+Effects" itemprop="url"><span class="navsprite miniring"></span>Status Effects</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Weapon+Mechanics" itemprop="url"><span class="navsprite miniring"></span>Weapon Mechanics</a><hr>
-</li><li itemprop="name">
-
-<a href="/Attack+Power" itemprop="url">
-<span class="navsprite miniring"></span>Attack Power</a><hr>
-</li><li itemprop="name">
-<a href="/Affinity" itemprop="url">
-<span class="navsprite miniring"></span>Affinity</a><hr>
-</li><li itemprop="name">
-<a href="/Defense" itemprop="url"><span class="navsprite miniring"></span>Defense</a>
-<hr>
-</li><li itemprop="name">
-
-<a href="/Elemental+Resistances" itemprop="url"><span class="navsprite miniring"></span>Elemental Resistances</a><hr>
-</li><li itemprop="name">
-<a href="/Palicoes" itemprop="url"><span class="navsprite miniring"></span>Palicoes</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Builds" itemprop="url"><span class="navsprite miniring"></span>Builds</a>
-</li>
-</ul>
-</li><li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/Equipment" itemprop="url"><span class="navsprite c"></span>Equipment</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Weapons" itemprop="url"><span class="navsprite miniring"></span>Weapons</a>
-<hr>
-</li><li itemprop="name">
-
-<a href="/Master+Rank+Weapons" itemprop="url"><span class="navsprite miniring"></span>Master Rank Weapons</a><hr>
-</li>
-<li itemprop="name">
-<a href="/Armor" itemprop="url"><span class="navsprite miniring"></span>Armor</a>
-<hr>
-</li><li itemprop="name">
-
-<a href="/Master+Rank+Armor" itemprop="url"><span class="navsprite miniring"></span>Master Rank Armor</a><hr>
-</li><li itemprop="name">
-
-<a href="/Layered+Armor" itemprop="url">
-<span class="navsprite miniring"></span>Layered Armor</a><hr>
-</li><li itemprop="name">
-<a href="/Decorations" itemprop="url"><span class="navsprite miniring"></span>Decorations</a><hr>
-</li>
-<li itemprop="name">
-<a href="/Charms" itemprop="url"><span class="navsprite miniring"></span>Charms</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Mantles" itemprop="url"><span class="navsprite miniring"></span>Mantles</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Palico+Equipment" itemprop="url"><span class="navsprite miniring"></span>Palico Gear</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Crafting" itemprop="url"><span class="navsprite miniring"></span>Crafting</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Items" itemprop="url"><span class="navsprite miniring"></span>Items</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Slinger" itemprop="url"><span class="navsprite miniring"></span>Slinger</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Scoutflies" itemprop="url"><span class="navsprite miniring"></span>Scoutflies</a>
-</li>
-</ul>
-</li><li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/World+Information" itemprop="url"><span class="navsprite d"></span>World Information</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Endemic+Life" itemprop="url">
-<span class="navsprite miniring"></span>Endemic Life (Pets)</a><hr>
-</li><li itemprop="name">
-<a href="/Quests" itemprop="url"><span class="navsprite miniring"></span>Quests</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Optional+Quests" itemprop="url">
-<span class="navsprite miniring"></span>Optional Quests</a><hr>
-</li><li itemprop="name">
-<a href="/Locations" itemprop="url"><span class="navsprite miniring"></span>Locations</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/NPCs" itemprop="url"><span class="navsprite miniring"></span>NPCs</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Merchants" itemprop="url"><span class="navsprite miniring"></span>Merchants</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Lore" itemprop="url"><span class="navsprite miniring"></span>Lore</a>
-</li>
-</ul>
-</li>
-<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/Guides+&amp;+Walkthroughs" itemprop="url"><span class="navsprite e"></span>Guides &amp; Walkthroughs</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Event+Quests" itemprop="url">
-<span class="navsprite miniring"></span>Event Quests</a><hr>
-</li><li itemprop="name">
-<a href="/New+Player+Help" itemprop="url"><span class="navsprite miniring"></span>New Player Help</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Walkthrough" itemprop="url"><span class="navsprite miniring"></span>Walkthrough</a>
-<hr>
-</li><li itemprop="name">
-<a href="/Canteen" itemprop="url">
-<span class="navsprite miniring"></span>Canteen</a><hr>
-</li>
-<li itemprop="name">
-<a href="/Monsters" itemprop="url"><span class="navsprite miniring"></span>Monsters</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Trophy+&amp;+Achievement+Guide" itemprop="url"><span class="navsprite miniring"></span>Trophy &amp; Achievement Guide</a>
-</li>
-</ul>
-</li>
-<li itemprop="name" class="collapsible"><span aria-hidden="true" class="glyphicon collapseicon glyphicon-menu-down"></span>
-<a href="/Media+&amp;+Community" itemprop="url"><span class="navsprite f"></span>Media &amp; Community</a>
-<ul class="navSubMenu">
-<li itemprop="name">
-<a href="/Gallery" itemprop="url"><span class="navsprite miniring"></span>Gallery</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Videos" itemprop="url"><span class="navsprite miniring"></span>Videos</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="https://fextralife.com/forums/" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Forums</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Chatroom" itemprop="url"><span class="navsprite miniring"></span>Monster Hunter World Chatroom</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Player+IDs" itemprop="url"><span class="navsprite miniring"></span>Player IDs</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/Community+Events" itemprop="url"><span class="navsprite miniring"></span>Community Events</a>
-<hr>
-</li>
-<li itemprop="name">
-<a href="/YouTube+Partners" itemprop="url"><span class="navsprite miniring"></span>YouTube Partners</a>
-</li>
-</ul>
-</li>
-
-		</ul>
-	</nav>
-</div>
-
-<div class="clearfix"></div>
-
-<div class="fixme hidden-sm" style="width:400px !important;">
-	<div class="ad-sidebar section-heading section-heading-light simulation-hero-heading" style="margin-top:-7px;padding:0px!important; width:400px;max-width:400px!important;max-height:498px!important">
-		<div id="video-stream-container" data-vid="gEphXVnRsFw" data-vplid="" class="yt-container lg-desktop-only" style="max-width:340px;">
-                        <div id= "fextravideo" class="yt-player" data-video="gEphXVnRsFw" data-playlist="" style="display:none;height:191.25px;max-width:340px;"><div><picture><source srcset="//img.youtube.com/vi/gEphXVnRsFw/mqdefault.jpg" media="(min-width: 1100px)"><img class="yt-thumb" srcset="" alt="fallout-wiki-videos" style="max-width:340px;"></picture><div class="play-button lazyload"></div></div></div>
-<script type="text/javascript">var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');if (ppp && window.innerWidth >= 1100) {document.write('<script type="text/javascript" src="https://player.twitch.tv/js/embed/v1.js"><\/script><div id="fextrastream" class="skinstream"></div>');} else {var fv = document.getElementById('fextravideo');fv.setAttribute('style', 'height:191.25px;max-width:340px;');}</script><script type="text/javascript">var ppp = ua == null || (ua != null && ua != '211' && ua != '111' && ua != '210' && ua != '110' && ua != '100');if (ppp && window.matchMedia("(min-width: 1100px)").matches) {if (ppp && window.matchMedia("(min-width: 1920px)").matches) {var options = {width:340,height:398,channel:"fextralife",muted:true,theme:"dark",layout:"video-with-chat"};var player = new Twitch.Embed("fextrastream", options);} else {var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};var player = new Twitch.Embed("fextrastream", options);}}</script>
-                </div>
-	</div>
-	<div id="menu-add-a" class="ad-sidebar">
-		<div id="div-gpt-ad-1551140609289-1" style="height:250px; width:300px;">
-		</div>
-	</div>
-	<div id="wcomp-articles" class="sidebar-top-border" style="height:406.8px;"></div>
-</div>
-
-<div class="clearfix"></div>
-<div class="space10"></div>
-
-							</div>
-						</div>
-						<div id="page-content-wrapper">
-							<div class="page-content">
-								<div class="container-fluid">
-									<div class="page-chunk">
-										<div id="search-content" style="display: none;">
-<style>
-.gsc-tabHeader.gsc-tabhActive {color:inherit;}
-.cse .gsc-control-cse, .gsc-control-cse {background-color: inherit; border: inherit;}
-.gsc-refinementsArea {display:none;}
-.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {color: inherit;}
-.gs-result a.gs-visibleUrl, .gs-result .gs-visibleUrl {color:inherit;}
-.gs-result .gs-title, .gs-result .gs-title * {color: #FFF;}
-.gs-result .gs-title, .gs-result .gs-title * {color: #FFF;}
-.gsc-preview-reviews, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em, .gsc-control-cse .gs-snippet, .gsc-control-cse .gs-promotion em {color: inherit;}
-.gsc-table-result {border:none;}
-.gsc-table-result th,td{border:none;}
-.gsc-resultsHeader {display:none;}
-.gsc-adBlock {display:none;}
-.gs-richsnippet-box {display:none !important;}
-.gsc-results .gsc-cursor-box .gsc-cursor-page {color: inherit;}
-
-.gsc-webResult .gsc-result{background-color:inherit;}
-.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {color: inherit;}
-.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {color: inherit;}
-.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {color: inherit;}
-.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {background-color: inherit !important;}
-.gsc-results .gsc-cursor-box .gsc-cursor-current-page {border-color: inherit;background-color: inherit;color: inherit;}
-.gsc-results .gsc-cursor-box .gsc-cursor-page {border-color: inherit;background-color: inherit;color: inherit;}
-
-.gsc-webResult.gsc-result{padding:.25em;border:none!important;margin-bottom:0}.gsc-above-wrapper-area{border-bottom:none!important;padding:5px 0}.cse .gsc-webResult.gsc-result:hover,.gsc-webResult.gsc-result:hover,.gsc-webResult.gsc-result.gsc-promotion:hover,.gsc-results .gsc-imageResult-classic:hover,.gsc-results .gsc-imageResult-column:hover{border:none!important}.gsc-tabsArea{margin-top:12px;margin-bottom:0;height:29px;border-bottom:none!important}.gsc-result-info-container{text-align:left;display:none!important}
-</style>
-											<h4 class="search-title">Search Results</h4>
-											<ul id="search-result" class="list-unstyled list-results"></ul>
-											<div id="search-result-paging"></div>
-											<gcse:searchresults></gcse:searchresults>
-										</div>
-										<div id="main-content" data-wid="e5440d3e-c5f4-4708-981a-7ab3f22a37ea" data-pid="9990d7f3-f6c0-4b94-a8a3-f16f7389f301" data="010|010|010" data-ga="u|a|a|o|o|o|o|u">
-											<div itemscope itemtype="https://schema.org/Article">
-											
-												
-
-
-
-
-
-<div id="page-content-header-container" >
-	<div class="clearfix">
-		<div class="page-segment">
-			<h1 itemprop="headline">
-
-
-	<a id="page-title" href="//monsterhunterworld.wiki.fextralife.com/Bazelgeuse">Bazelgeuse | Monster Hunter World Wiki</a>
-
-
-			</h1>
-
-			<div class="page-segment-btns">
-			
-				<div class="btn-group btn-group-sm" role="group">
-					<button id="btnPE" style="display: none;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><span class="hidden-xs"> Edit</span></button>
-					<button id="btnComments" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="view discussions"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span><span id="amcom"> 362</span></button>
-					<button id="btnPageHistory" class="btn btn-default hidden-xs hidden-sm" data-toggle="tooltip" data-placement="bottom" title="view 129 revisions"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 129</button>
-					<button type="button" class="btn btn-default" data-toggle="dropdown" aria-expanded="false" title="more options">&hellip;</button>
-					<ul class="dropdown-menu dropdown-menu-right" role="menu">
-						<li><a id="btnTrddmA" href="" style="display: none;"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> Create new page</a></li>
-						<li><a id="btnTrddmB" href="" style="display: none;"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit</a></li>
-						<li><a id="btnTrddmHistory" href=""><span class="glyphicon glyphicon-time" aria-hidden="true"></span> History</a></li>
-						<li><a id="btnTrddmChanges" href=""><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Recent Changes</a></li>
-						<li><a id="btnTrddmE" href="" style="display: none;"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> Rename</a></li>
-						<li><a id="btnTrddmF" href="" style="display: none;"><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Redirect</a></li>
-						<li><a id="btnTrddmG" href="" style="display: none;"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Lock</a></li>
-						<li><a id="btnTrddmH" href="" style="display: none;"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> Unlock</a></li>
-
-						<li><a id="btnTrddmI" href="" style="display: none;"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span> Flag this page</a></li>
-
-						<li id="divider-trddm-a" class="divider" style="display: none;"></li>
-						<li><a id="btnTrddmJ" href="" style="display: none;"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span> Permissions</a></li>
-						<li><a id="btnTrddmK" href="" style="display: none;"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Javascript</a></li>
-						<li><a id="btnTrddmL" href="" style="display: none;"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span> Tags</a></li>						
-						<li><a id="btnTrddmM" href="" style="display: none;"><span class="glyphicon glyphicon-link" aria-hidden="true"></span> Edit Open Graph</a></li>
-						<li id="divider-trddm-b" class="divider" style="display: none;"></li>
-						<li><a id="btnTrddmN" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear page cache</a></li>
-						<li><a id="btnTrddmO" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Clear comments cache</a></li>
-						<li id="divider-trddm-c" class="divider" style="display: none;"></li>
-						<li><a id="btnTrddmP" href="" style="display: none;"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> File Manager</a></li>
-						<li><a id="btnTrddmQ" href="" style="display: none;"><span class="glyphicon glyphicon-duplicate" aria-hidden="true"></span> Page Manager</a></li>
-						<li><a id="btnTrddmR" href="" style="display: none;"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Wiki Templates</a></li>
-						<li><a id="btnTrddmS" href="" style="display: none;"><span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> Comments Approval</a></li>
-						<li><a id="btnTrddmT" href="" style="display: none;"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Wiki Settings</a></li>
-						<li><a id="btnTrddmU" href="" style="display: none;"><span class="glyphicon glyphicon-king" aria-hidden="true"></span> Wiki Manager</a></li>
-						<li id="divider-trddm-d" class="divider" style="display: none;"></li>
-						<li><a id="btnTrddmV" href="" style="display: none;"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete</a></li>
-					</ul>
-				</div>
-			
-			</div>
-		</div>
-	</div>
-	<div class="breadcrumb-wrapper">
-	
-		
-			
-		<div class="breadcrumbs pull-left" ><div id="breadcrumbs-container">
-<a href="https://monsterhunterworld.wiki.fextralife.com/World+Information">World Information</a>&nbsp;/&nbsp;<a href="https://monsterhunterworld.wiki.fextralife.com/Monsters">Monsters</a>&nbsp;/&nbsp;<a href="https://monsterhunterworld.wiki.fextralife.com/Large+Monsters">Large Monsters</a>
-<div id="breadcrumbs-bcontainer" style="display:none;">&nbsp;&nbsp;<a id="btnCreateBreadcrumb" title="Add Breadcrumb" href="#">+</a></div></div></div>
-			
-		<div class="revisiondate pull-right"><time itemprop="dateModified" id= "dateModified" datetime=""></time></div>
-		
-	
-	</div>
-</div>
-<div id="palerts" class="clearfix"></div>
-
-
-<br>
-
-<div id="edition" style="display:none; margin-top: 0px;"></div>
-
-<div id="sub-main" >
-	<div id="wiki-content-block">
-
-	
-		
-
-
-<div id="infobox" class="infobox"> 
- <div class="table-responsive"> 
-  <table class="wiki_table"> 
-   <tbody> 
-    <tr> 
-     <th colspan="2"> <h2 style="text-align: center; padding-left: 30px;">Bazelgeuse</h2> </th> 
-    </tr> 
-    <tr> 
-     <td colspan="2"> <p><img class="lazyload" style="display: block; margin-left: auto; margin-right: auto; width: 250px; height: 140px;" title="Bazelgeuse-large-monster-hunter-world-mhw" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="Bazelgeuse-large-monster-hunter-world-mhw" width="250" height="140" data-src="/file/Monster-Hunter-World/Bazelgeuse-large-monster-hunter-world-mhw.jpg"></p> </td> 
-    </tr> 
-    <tr> 
-     <td>Enemy Type</td> 
-     <td><a class="wiki_link" title="" href="/Large+Monsters" target="">Large Monsters</a></td> 
-    </tr> 
-    <tr> 
-     <td>Species</td> 
-     <td><a class="wiki_link" title="Flying Wyverns" href="/Flying+Wyverns">Flying Wyverns</a></td> 
-    </tr> 
-    <tr> 
-     <td>Elements</td> 
-     <td><img class="lazyload" style="width: nullpx; height: nullpx;" title="mhw-fire-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-fire-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-fire-damage_s.png"><a class="wiki_link" title="" href="/Fire+Element" target="">Fire</a></td> 
-    </tr> 
-    <tr> 
-     <td>Ailments</td> 
-     <td> <p><a class="wiki_link" title="" href="/Fireblight" target=""><img title="fireblight-status-effect-mhw_s" src="/file/Monster-Hunter-World/fireblight-status-effect-mhw_s.png" alt="fireblight-status-effect-mhw_s" width="19" height="19">Fireblight</a></p> </td> 
-    </tr> 
-    <tr> 
-     <td>Weakness</td> 
-     <td> <p><img class="lazyload" style="width: nullpx; height: nullpx;" title="mhw-thunder-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-thunder-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-thunder-damage_s.png"><a class="wiki_link" href="/Thunder+Element">Thunder</a>&nbsp;⭐⭐⭐<br><a class="wiki_link" title="" href="/Dragon+Element" target=""><img class="lazyload" style="width: 18px; height: 18px;" title="mhw-dragon-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-dragon-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-dragon-damage_s.png">Dragon</a>&nbsp;⭐⭐<br><img class="lazyload" style="width: 18px; height: 18px;" title="mhw-ice-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-ice-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-ice-damage_s.png"><a class="wiki_link" title="" href="/Ice+Element" target="">Ice</a>&nbsp;⭐⭐<br><img style="width: 18px; height: 18px;" title="mhw-water-elemental-damage" src="/file/Monster-Hunter-World/mhw-water-elemental-damage_s.png" alt="mhw-water-elemental-damage" width="18" height="18"><a class="wiki_link" title="Water" href="/Water">Water</a>&nbsp;⭐</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Resistances</td> 
-     <td><img class="lazyload" style="width: nullpx; height: nullpx;" title="mhw-fire-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-fire-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-fire-damage_s.png"><a class="wiki_link" title="" href="/Fire+Element" target="">Fire</a></td> 
-    </tr> 
-    <tr> 
-     <td>Locations</td> 
-     <td> <p><a class="wiki_link" href="/Ancient+Forest">Ancient Forest</a>,&nbsp;<a class="wiki_link" href="/Coral+Highlands">Coral Highlands</a>, <a class="wiki_link" href="/Rotten+Vale">Rotten Vale</a>,&nbsp;<a class="wiki_link" href="/Wildspire+Waste">Wildspire Waste</a>, <a class="wiki_link" title="" href="/Elder's+Recess" target="">Elder's Recess</a></p> </td> 
-    </tr> 
-   </tbody> 
-  </table> 
- </div> 
-</div> 
-<p><strong>Bazelgeuse </strong>[beɪːz(ə)lˌdʒəːz]&nbsp;is a&nbsp;<a class="wiki_link" title="" href="/Large+Monsters" target="">Large Monster</a> in <strong>Monster Hunter World (MHW)</strong>.&nbsp;バゼルギウス (爆鱗竜) in Japanese. See <a class="wiki_link" title="here for MHRise Bazel page" href="https://monsterhunterrise.wiki.fextralife.com/Bazelgeuse">here for MHRise Bazel page</a>.</p> 
-<p>&nbsp;</p> 
-<blockquote> 
- <p>&nbsp;A nefarious&nbsp;flying wyvern that travels the New World in search of prey. It scatters explosive scales over a wide area to prey on whatever gets caught in the blast</p> 
-</blockquote> 
-<h3 class="bonfire">Bazelgeuse Details &amp; Locations</h3> 
-<ul> 
- <li>Found in:&nbsp;All Biomes</li> 
- <li>Target of Quests: <a class="wiki_link" href="/Beyond+the+Blasting+Scales">Beyond the Blasting Scales</a>, <a class="wiki_link" title="" href="/Bazelgeuse+in+the+Field+of+Fire" target="">Bazelgeuse in the Field of Fire</a></li> 
- <li>Is immediately hostile at long range.</li> 
- <li>Attacks other monsters: Yes. Has a cool turf war with <a class="wiki_link" title="Deviljho" href="/Deviljho">Deviljho</a>.</li> 
- <li>Often arrives to your fights with other large monsters and engages in turf wars with them. If you are having trouble tracking or finding it, attack the nearest large monster you can find and it is likely to deal with the hard part of tracking for you.</li> 
- <li>In the Wildspire Waste, when Bazelgeuse&nbsp;charges at you, it can kill Kelbies that in turn will drop their horns.</li> 
- <li>Sizes:&nbsp;<span style="color: #ffcc00;" data-darkreader-inline-color="">♛ </span>1696.97&nbsp;~&nbsp;<span style="color: #ffcc00;" data-darkreader-inline-color="">♛ </span>2410.48</li> 
- <li>Species: Flying Wyverns</li> 
-</ul> 
-<p>&nbsp;</p> 
-<h3 class="bonfire">Bazelgeuse Combat Info</h3> 
-<ul> 
- <li>Elemental damages: N/A (Blast)</li> 
- <li>Weak to <img class="lazyload" style="width: nullpx; height: nullpx;" title="mhw-thunder-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-thunder-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-thunder-damage_s.png"><a class="wiki_link" href="/Thunder+Element">Thunder</a> element, and to <a class="wiki_link" title="" href="/Dragon+Element" target=""><img class="lazyload" style="width: 18px; height: 18px;" title="mhw-dragon-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-dragon-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-dragon-damage_s.png">Dragon</a> and<img class="lazyload" style="width: 18px; height: 18px;" title="mhw-ice-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-ice-damage" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-ice-damage_s.png"><a class="wiki_link" title="" href="/Ice+Element" target="">Ice</a> to a lesser degree</li> 
- <li>Can inflict <img title="fireblight-status-effect-mhw_s" src="/file/Monster-Hunter-World/fireblight-status-effect-mhw_s.png" alt="fireblight-status-effect-mhw_s" width="19" height="19"><a class="wiki_link" title="" href="/Fireblight" target="">Fireblight</a> on hunters.</li> 
- <li>Only moderately susceptible to <a class="wiki_link" title="mhw-poison-status-effect" href="/Poison"><img class="lazyload" style="width: nullpx; height: nullpx;" title="poison" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-poison-status-effect" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-poison-status-effect-s.png"></a><a class="wiki_link" title="Poison" href="/Poison">Poison</a>, <a class="wiki_link" title="sleep-mhw-status-effect" href="/Sleep"><img class="lazyload" style="width: nullpx; height: nullpx;" title="sleep-mhw-status-effect" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="sleep-mhw-status-effect" width="18" height="18" data-src="/file/Monster-Hunter-World/sleep-mhw-status-effect-wiki.png"></a><a class="wiki_link" title="Sleep " href="/Sleep">Sleep</a>&nbsp;and <a class="wiki_link" title="paralysis" href="/Paralysis"><img class="lazyload" style="width: 18px; height: 18px;" title="paralysis" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="paralysis" width="18" height="18" data-src="/file/Monster-Hunter-World/paralysis-icon.png"></a><a class="wiki_link" title="Paralysis" href="/Paralysis">Paralysis</a></li> 
- <li>The head is the weakest spot, followed by the tail that hunters can cut</li> 
- <li>Hunters can also target the wings, but they are more resistant than the head and tail</li> 
- <li>The chest portion can be broken</li> 
- <li>Friction and heat cause the pods it drops to explode. When it's red, they explode immediately. When it's black, it needs to hit them (including its dive bomb) to make them explode. You can also detonate the pods manually by firing slinger ammos or any projectile to the pods.</li> 
- <li>When in the air, will have 2-3 flying passes to drop pods on the ground, and will dive bomb you on the last run and make them explode</li> 
- <li>Has a rarely-used front fire blast.</li> 
- <li>Likes to dig&nbsp;its head in the ground and charge you, leaving&nbsp;it wide open for attacks when&nbsp;it completes the move.</li> 
- <li>The scales that Bazelgeuse scatters explode with tremendous force, making them extremely deadly. Focus on its legs to knock it down, and then knock out its scale-generating organs under its chin and tail. (Severing the tail reduces the amount of bombs released at once, but the tail stump still keeps a few after the tail is severed.)</li> 
- <li>If Bazelgeuse shows up at an inopportune time, <a class="wiki_link" title="Dung Pods" href="/dung+pod">Dung Pods</a> can be used to scare&nbsp;it away. Carrying dung pods is recommended once Bazelgeuse begins showing up, if you wish to avoid fighting it. However, this is only a temporary solution and the full mechanics regarding Bazelgeuse, dung pods, and possible exploits can be found <a class="wiki_link" href="/Bazelgeuse+Combat+Mechanics">here</a>.</li> 
- <li>Kinsect Extracts: 
-  <ul> 
-   <li><span style="color: #ff0000;" data-darkreader-inline-color="">Red:&nbsp;<span style="color: #999999;" data-darkreader-inline-color="">Head, Tail<br></span></span></li> 
-   <li><span style="color: #ff6600;" data-darkreader-inline-color="">Orange: <span style="color: #999999;" data-darkreader-inline-color="">Back, Belly<br></span></span></li> 
-   <li><span style="color: #ffffff;" data-darkreader-inline-color="">White:<span style="color: #999999;" data-darkreader-inline-color=""> Wings, Legs</span></span></li> 
-  </ul> </li> 
- <li><span style="color: #ffffff;" data-darkreader-inline-color=""><span style="color: #999999;" data-darkreader-inline-color="">Master Rank Changes:</span></span> 
-  <ul> 
-   <li><span style="color: #ffffff;" data-darkreader-inline-color=""><span style="color: #999999;" data-darkreader-inline-color="">None, since it's replaced by <a class="wiki_link" title="Seething Bazelgeuse" href="/Seething+Bazelgeuse">Seething Bazelgeuse</a></span></span></li> 
-  </ul> </li> 
-</ul> 
-<h3 class="bonfire"><span style="color: #808080;" data-darkreader-inline-color="">Bazelgeuse Weaknesses</span></h3> 
-<div class="row"> 
- <div class="col-sm-6"> 
-  <p><strong>Each ⭐star shown below represents more weakness to each ailment</strong></p> 
-  <div id="sub-main"> 
-   <div class="table-responsive"> 
-    <table class="wiki_table"> 
-     <thead> 
-      <tr style="text-align: center;"> 
-       <th>Ailment</th> 
-       <td><a class="wiki_link" title="mhw-poison-status-effect" href="/Poison"><img class="lazyload" style="width: nullpx; height: nullpx;" title="poison" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="mhw-poison-status-effect" width="18" height="18" data-src="/file/Monster-Hunter-World/mhw-poison-status-effect-s.png"></a></td> 
-       <td><a class="wiki_link" title="sleep-mhw-status-effect" href="/Sleep"><img class="lazyload" style="width: nullpx; height: nullpx;" title="sleep-mhw-status-effect" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="sleep-mhw-status-effect" width="18" height="18" data-src="/file/Monster-Hunter-World/sleep-mhw-status-effect-wiki.png"></a></td> 
-       <td><a class="wiki_link" title="paralysis" href="/Paralysis"><img class="lazyload" style="width: 18px; height: 18px;" title="paralysis" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="paralysis" width="18" height="18" data-src="/file/Monster-Hunter-World/paralysis-icon.png"></a></td> 
-       <td><a class="wiki_link" title="blast-damage" href="/Blastblight"><img class="lazyload" style="width: 18px; height: nullpx;" title="blast" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="blast" width="18" height="18" data-src="/file/Monster-Hunter-World/Blastblight.png"></a></td> 
-       <td><a class="wiki_link" href="/Stun+Resistance"><img class="lazyload" style="width: 18px; height: nullpx;" title="stun" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="stun" width="18" height="18" data-src="/file/Monster-Hunter-World/stun-icon.png"></a></td> 
-      </tr> 
-     </thead> 
-     <tbody> 
-      <tr style="text-align: center;"> 
-       <th>Weakness Level</th> 
-       <td>⭐⭐</td> 
-       <td>⭐⭐</td> 
-       <td>⭐⭐</td> 
-       <td>⭐</td> 
-       <td>⭐</td> 
-      </tr> 
-     </tbody> 
-    </table> 
-   </div> 
-   <p>&nbsp;</p> 
-   <p><strong>Each ⭐star shown below represents more weakness to each damage type</strong></p> 
-   <div class="table-responsive"> 
-    <table class="wiki_table"> 
-     <thead> 
-      <tr style="text-align: center;"> 
-       <th>Weak Point</th> 
-       <td><a class="wiki_link" title="cut-damage-mhw" href="/Cut+Damage"><img class="lazyload" style="width: 18px; height: 18px;" title="cut-damage" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="cut-damage-mhw" width="18" height="18" data-src="/file/Monster-Hunter-World/great-sword-mhw_smalls.png"></a></td> 
-       <td><a class="wiki_link" title="blunt-damage-mhw" href="/Blunt+Damage"><img class="lazyload" style="width: 18px; height: 18px;" title="blunt-damage-mhw" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="blunt-damage-mhw" width="18" height="18" data-src="/file/Monster-Hunter-World/hammer-mhw_smalls.png"></a></td> 
-       <td><a class="wiki_link" title="ammo-damage-mhw" href="/Ammo+Damage"><img class="lazyload" style="width: 18px; height: 18px;" title="ammo-damage-mhw" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="ammo-damage-mhw" width="18" height="18" data-src="/file/Monster-Hunter-World/normal_ammo_mhw_wiki.png"></a></td> 
-      </tr> 
-     </thead> 
-     <tbody> 
-      <tr style="text-align: center;"> 
-       <th>Head (Breakable)</th> 
-       <td>⭐⭐⭐</td> 
-       <td>⭐⭐⭐</td> 
-       <td>⭐⭐⭐</td> 
-      </tr> 
-      <tr style="text-align: center;"> 
-       <th>Wings (Breakable)</th> 
-       <td>⭐</td> 
-       <td>⭐</td> 
-       <td>⭐⭐⭐</td> 
-      </tr> 
-      <tr style="text-align: center;"> 
-       <th>Tail (Severable)</th> 
-       <td>⭐⭐</td> 
-       <td>⭐⭐</td> 
-       <td>⭐⭐</td> 
-      </tr> 
-     </tbody> 
-    </table> 
-   </div> 
-   <p>&nbsp;</p> 
-  </div> 
- </div> 
- <div class="col-sm-6"> 
-  <p><strong>Detailed weakness information(Legend Explanation:&nbsp;<a class="wiki_link" title="here" href="/Hit+Zone+Values+Legend+Explanation">here</a>)</strong></p> 
-  <p>&nbsp;</p> 
-  <p><img title="bazelgeuse_hzv" src="/file/Monster-Hunter-World/bazelgeuse_hzv.png" alt="bazelgeuse_hzv" width="560" height="289"></p> 
-  <p>Credits to&nbsp;AsteriskAmpersand, Deathcream and MoonBunnie.</p> 
- </div> 
-</div> 
-<p>&nbsp;</p> 
-<p>&nbsp;</p> 
-<h3 class="bonfire">Bazelgeuse High Rank Carves</h3> 
-<p>Defeating this monster allows the player to carve the following items:</p> 
-<div class="row"> 
- <div class="col-sm-6"> 
-  <p><strong>Bazelgeuse Carves (ALL HIGH RANK)<br></strong></p> 
-  <div class="table-responsive"> 
-   <table class="wiki_table" style="width: 986px;"> 
-    <thead> 
-     <tr style="text-align: center; height: 44px;"> 
-      <td style="width: 506px; height: 44px;">Carves</td> 
-      <td style="text-align: left; width: 224.222px; height: 44px;">Frequency</td> 
-      <td style="width: 252.778px; height: 44px; text-align: center;">%</td> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr style="height: 56px;"> 
-      <td style="width: 506px; height: 56px;"><a class="wiki_link" title="" href="/Bazelgeuse+Scale++" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_scale_plus" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_scale_plus" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_scale_plus_small-mhw-wiki-guide.png">Bazelgeuse Scale +</a></td> 
-      <td style="text-align: left; width: 224.222px; height: 56px;">⭐⭐⭐⭐⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 56px;">&nbsp;</td> 
-     </tr> 
-     <tr style="height: 56px;"> 
-      <td style="width: 506px; height: 56px;"><a class="wiki_link" title="" href="/Bazelgeuse+Carapace" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_carapace" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_carapace" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_carapace_small-mhw-wiki-guide.png">Bazelgeuse Carapace (break back)</a></td> 
-      <td style="text-align: left; width: 224.222px; height: 56px;">⭐⭐⭐⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 56px;">&nbsp;</td> 
-     </tr> 
-     <tr style="height: 64.5557px;"> 
-      <td style="width: 506px; height: 64.5557px;"><a class="wiki_link" title="" href="/Bazelgeuse+Talon" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_talon" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_talon" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_talon_small-mhw-wiki-guide.png">Bazelgeuse Talon (dropped)</a></td> 
-      <td style="text-align: left; width: 224.222px; height: 64.5557px;">⭐⭐⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 64.5557px;">&nbsp;</td> 
-     </tr> 
-     <tr style="height: 56px;"> 
-      <td style="width: 506px; height: 56px;"><a class="wiki_link" title="" href="/Bazelgeuse+Fuse" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_fuse" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_fuse" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_fuse_small-mhw-wiki-guide.png">Bazelgeuse Fuse (break head)</a></td> 
-      <td style="text-align: left; width: 224.222px; height: 56px;">⭐⭐⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 56px;">&nbsp;</td> 
-     </tr> 
-     <tr style="height: 56px;"> 
-      <td style="width: 506px; height: 56px;"><a class="wiki_link" title="" href="/Bazelgeuse+Wing" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_wing" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_wing" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_wing_small-mhw-wiki-guide.png">Bazelgeuse Wing (break wings)</a></td> 
-      <td style="text-align: left; width: 224.222px; height: 56px;">⭐⭐⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 56px;">&nbsp;</td> 
-     </tr> 
-     <tr style="height: 47px;"> 
-      <td style="width: 506px; height: 47px;"><a class="wiki_link" title="" href="/Bazelgeuse+Gem" target=""><img style="width: 24px; height: 24px;" title="Bazelgeuse-gem-mhw" src="/file/Monster-Hunter-World/monster-bone-s-mhw.png" alt="Bazelgeuse-gem-mhw">Bazelgeuse Gem</a> (break head, tail or legs)</td> 
-      <td style="text-align: left; width: 224.222px; height: 47px;">⭐</td> 
-      <td style="text-align: left; width: 252.778px; height: 47px;">&nbsp;2% Carve,&nbsp;3% Tail Carve and&nbsp;1% Back Break<br><br></td> 
-     </tr> 
-     <tr style="height: 56px;"> 
-      <td style="width: 506px; height: 56px;"><a class="wiki_link" title="" href="/Bazelgeuse+Tail" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_tail" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_tail" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_tail_small-mhw-wiki-guide.png">Bazelgeuse Tail</a> (Cut tail)</td> 
-      <td style="text-align: left; width: 224.222px; height: 56px;">&nbsp;</td> 
-      <td style="text-align: left; width: 252.778px; height: 56px;">&nbsp;</td> 
-     </tr> 
-    </tbody> 
-   </table> 
-  </div> 
-  <p>&nbsp;</p> 
- </div> 
- <div class="col-sm-6"> 
-  <p><strong>Bazelgeuse Rewards (ALL HIGH RANK)</strong></p> 
-  <div class="table-responsive"> 
-   <table class="wiki_table" style="width: 986px;"> 
-    <thead> 
-     <tr style="text-align: center;"> 
-      <td style="width: 565.556px;">Rewards</td> 
-      <td style="width: 622.444px;">Frequency</td> 
-      <td style="width: 622.444px;">%</td> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Carapace" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_carapace" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_carapace" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_carapace_small-mhw-wiki-guide.png">Bazelgeuse Carapace</a></td> 
-      <td style="width: 622.444px;">⭐⭐⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Scale++" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_scale_plus" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_scale_plus" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_scale_plus_small-mhw-wiki-guide.png">Bazelgeuse Scale +</a></td> 
-      <td style="width: 622.444px;">⭐⭐⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Fuse" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_fuse" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_fuse" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_fuse_small-mhw-wiki-guide.png">Bazelgeuse Fuse </a></td> 
-      <td style="width: 622.444px;">⭐⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Talon" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_talon" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_talon" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_talon_small-mhw-wiki-guide.png">Bazelgeuse Talon</a></td> 
-      <td style="width: 622.444px;">⭐⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Wing" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_wing" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_wing" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_wing_small-mhw-wiki-guide.png">Bazelgeuse Wing</a></td> 
-      <td style="width: 622.444px;">⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Tail" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="bazelgeuse_tail" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazelgeuse_tail" width="24" height="24" data-src="/file/Monster-Hunter-World/bazelgeuse_tail_small-mhw-wiki-guide.png">Bazelgeuse Tail</a></td> 
-      <td style="width: 622.444px;">⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Monster+Hardbone" target=""><img class="lazyload" style="width: 24px; height: 24px;" title="monster_hardbone" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="monster_hardbone" width="24" height="24" data-src="/file/Monster-Hunter-World/monster_hardbone_small-mhw-wiki-guide.png">Monster Hardbone</a></td> 
-      <td style="width: 622.444px;">⭐⭐⭐</td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td style="width: 565.556px;"><a class="wiki_link" title="" href="/Bazelgeuse+Gem" target=""><img style="width: 24px; height: 24px;" title="Bazelgeuse-gem-mhw" src="/file/Monster-Hunter-World/monster-bone-s-mhw.png" alt="Bazelgeuse-gem-mhw"></a><a class="wiki_link" title="" href="/Bazelgeuse+Gem" target="">Bazelgeuse Gem</a></td> 
-      <td style="width: 622.444px;">&nbsp;</td> 
-      <td style="width: 622.444px;"> <p>&nbsp;6% Silver Reward, 13% Gold Reward and 2% Capture</p> </td> 
-     </tr> 
-    </tbody> 
-   </table> 
-  </div> 
- </div> 
-</div> 
-<p>&nbsp;</p> 
-<h3 class="bonfire">Bazelgeuse Weapons &amp; Armor</h3> 
-<p>Armor and Weapons related to the Bazelgeuse Monster.</p> 
-<h2 class="special"><span style="font-size: 18pt;">Weapons</span></h2> 
-<div class="row"> 
- <div class="col-sm-4"> 
-  <ul> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rookslayer+Long+Sword" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="long-sword-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="long-sword-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-longsword-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-longsword-mhw_tree.png">Rookslayer Long Sword</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Varga+Rookslayer" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="long-sword-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="long-sword-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-8-longsword-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-8-longsword-mhw_tree.png">Bazel Varga Rookslayer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rooksearer+Long+Sword" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-longsword-wiki.png">Rooksearer Long Sword</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Prozio+Rooksearer" target=""><img src="/file/Monster-Hunter-World/rare-12-mhw-longsword-wiki.png">Bazel Prozio Rooksearer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rookslayer+Handaxes" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="dual-blades-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="dual-blades-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-dual-blades-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-dual-blades-mhw_tree.png">Rookslayer Handaxes</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazelhawk+Rookslayer" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" src="/file/Monster-Hunter-World/thumbnails/mhws.png" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-8-dual-blades-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-8-dual-blades-mhw_tree.png">Bazelhawk Rookslayer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Blazing+Warhawks" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-dualblades-wiki.png">Blazing Warhawks</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Bombers" target=""><img src="/file/Monster-Hunter-World/rare-12-mhw-dualblades-wiki.png">Bazel Bombers</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rookslayer+Drum" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="hunting-horn-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="hunting-horn-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-hunting-horn-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-hunting-horn-mhw_tree.png">Rookslayer Drum</a></li> 
-  </ul> 
- </div> 
- <div class="col-sm-4"> 
-  <ul> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazelreid+Rookslayer" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="hunting-horn-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="hunting-horn-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-8-hunting-horn-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-8-hunting-horn-mhw_tree.png">Bazelreid Rookslayer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rooksearer+Drum" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-hunting-horn-wiki.png">Rooksearer Drum</a>&nbsp;</li> 
-   <li><a class="wiki_link wiki_tooltip" href="/Bazel+Valdi+Rooksearer"><img src="/file/Monster-Hunter-World/rare-12-mhw-hunting-horn-wiki.png">Bazel Valdi Rooksearer</a>&nbsp;</li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Rookslayer+Lance" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="lance-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="lance-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-lance-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-lance-mhw_tree.png">Rookslayer Lance</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Myniad+Rookslayer" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="lance-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="lance-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-8-lance-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-8-lance-mhw_tree.png">Bazel Myniad Rookslayer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Blasting+Siegespear" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-lance-wiki.png">Blasting Siegespear</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Rocket+Rooksearer" target=""><img src="/file/Monster-Hunter-World/rare-12-mhw-lance-wiki.png">Bazel Rocket Rooksearer</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Buster+I" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="gunlance-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="gunlance-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-gunlance-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-gunlance-mhw_tree.png">Bazel Buster I</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Buster+II" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="gunlance-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="gunlance-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-gunlance-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-gunlance-mhw_tree.png">Bazel Buster II</a></li> 
-  </ul> 
- </div> 
- <div class="col-sm-4"> 
-  <ul> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazelpride" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-gunlance-wiki.png">Bazelpride</a>&nbsp;</li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Raider+I" target=""><span style="vertical-align: inherit;"><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="switch-ax-monster-hunter-monde" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="switch-ax-monster-hunter-monde" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-switch-axe-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-switch-axe-mhw_tree.png">Bazel Raider I</span></a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Raider+II" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="switch-ax-monster-hunter-monde" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="switch-ax-monster-hunter-monde" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-7-switch-axe-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-7-switch-axe-mhw_tree.png"><span style="vertical-align: inherit;">Bazel Raider II</span></a></li> 
-   <li><span style="vertical-align: inherit;"><a class="wiki_link wiki_tooltip" title="" href="/Bazelheart" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-switch-axe-wiki.png">Bazelheart</a></span></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Typhoon+I" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="light-bowgun-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="light-bowgun-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-6-light-bowgun-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-6-light-bowgun-mhw_tree.png">Bazel Typhoon I</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazel+Typhoon+II" target=""><img class="lazyload" style="width: 32px; height: 32px; display: inline;" title="light-bowgun-monster-hunter-world" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="light-bowgun-monster-hunter-world" width="32" height="32" data-original="/file/Monster-Hunter-World/rare-7-light-bowgun-mhw_tree.png" data-src="/file/Monster-Hunter-World/rare-7-light-bowgun-mhw_tree.png">Bazel Typhoon II</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Bazelcore" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-light-bowgun-wiki.png">Bazelcore</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/God's+Isle" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-light-bowgun-wiki.png">God's Isle</a></li> 
-   <li><a class="wiki_link wiki_tooltip" title="" href="/Legendary+Bang" target=""><img src="/file/Monster-Hunter-World/rare-11-mhw-sword-shield-wiki.png">Legendary Bang</a></li> 
-  </ul> 
- </div> 
-</div> 
-<p>&nbsp;</p> 
-<p>&nbsp;</p> 
-<h2 class="special"><span style="font-size: 18pt;">Armor</span></h2> 
-<div class="row" style="text-align: center;"> 
- <div class="col-sm-4"> 
-  <h5 style="text-align: center;"><img class="lazyload" style="width: 14px; height: 14px; display: inline;" src="/file/Monster-Hunter-World/thumbnails/mhws.png" width="14" height="14" data-original="/file/Monster-Hunter-World/rare-7-mhw-helm-headgear-wiki.png" data-src="/file/Monster-Hunter-World/rare-7-mhw-helm-headgear-wiki.png"></h5> 
-  <a class="wiki_link wiki_tooltip" href="/Bazel+Alpha+Armor+Set">Bazel Alpha Armor Set (α)</a> 
-  <p><span style="font-size: 8pt;">Set Bonus: <a class="wiki_link wiki_tooltip" title="" href="/Bazelgeuse+Protection" target="">Bazelgeuse Protection</a></span><br><img class="lazyload" style="width: 300px; display: inline;" title="bazel_alpha-armor-set-mhw-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazel_alpha-armor-set-mhw-wiki" width="300" data-original="/file/Monster-Hunter-World/bazel_alpha_armor_set_mhw_small.png" data-src="/file/Monster-Hunter-World/bazel_alpha_armor_set_mhw_small.png"></p> 
- </div> 
- <div class="col-sm-4"> 
-  <h5 style="text-align: center;"><img class="lazyload" style="width: 14px; height: 14px; display: inline;" src="/file/Monster-Hunter-World/thumbnails/mhws.png" width="14" height="14" data-original="/file/Monster-Hunter-World/rare-7-mhw-helm-headgear-wiki.png" data-src="/file/Monster-Hunter-World/rare-7-mhw-helm-headgear-wiki.png"></h5> 
-  <a class="wiki_link wiki_tooltip" href="/Bazel+Beta+Armor+Set">Bazel Beta Armor Set (β)</a> 
-  <p><span style="font-size: 8pt;">Set Bonus: <a class="wiki_link wiki_tooltip" title="" href="/Bazelgeuse+Protection" target="">Bazelgeuse Protection</a></span><br><img class="lazyload" style="width: 300px; display: inline;" title="bazel_beta-armor-set-mhw-wiki" src="/file/Monster-Hunter-World/thumbnails/mhws.png" alt="bazel_beta-armor-set-mhw-wiki" width="300" data-original="/file/Monster-Hunter-World/bazel_beta_armor_set_mhw_small.png" data-src="/file/Monster-Hunter-World/bazel_beta_armor_set_mhw_small.png"></p> 
- </div> 
-</div> 
-<p>&nbsp;</p> 
-<h3 class="bonfire">Notes &amp; Trivia</h3> 
-<ul> 
- <li>Can drop the <a class="wiki_link" title="" href="/Large+Wyvern+Tear" target="">Large Wyvern Tear</a> account item during fights, granting 500RP.</li> 
- <li>Bazelgeuse has been given various nicknames by the community, such as the "B-52 Bomber", and the "Flying *******."</li> 
- <li>Word is, if you say his name three times in a row, he will show up above you and carpet bomb the entire area.</li> 
- <li>Bazelgeuse is known as the "Explosive Scale Wyvern."</li> 
- <li>Bazelgeuse's name is derived from <a class="wiki_link" title="Betelgeuse" href="https://en.wikipedia.org/wiki/Betelgeuse">Betelgeuse</a>&nbsp;(pronounced "beetle-juice"), the brightest star in the Orion constellation. 
-  <ul> 
-   <li>This&nbsp;star is currently in its last stage of life (red supergiant), and is expected to go supernova (explode) in the near future.</li> 
-   <li>"Betelgeuse" also refers to a&nbsp;French nuclear weapons test from 1966.</li> 
-  </ul> </li> 
- <li>Runner-Up for the "Most earpiecing Roar in Monster Hunter World" Award</li> 
- <li>BRING. DUNG. PODS.</li> 
-</ul> 
-<p>&nbsp;</p> 
-<div class="wiki_gallery gallery galleryid-19620 gallery-columns-4 gallery-size-thumbnail" style="width: 100%; display: table-cell;"> 
- <dl class="gallery-item"> 
-  <dt class="gallery-icon landscape" style="width: 100%; height: 100%; cursor: pointer; background: initial;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""> 
-   <div class="gallery-image-inner-container"> 
-    <div class="gallery-top-caption-container"> 
-     <div class="gallery-top-caption">
-       &nbsp; 
-     </div> 
-    </div> 
-    <div class="gallery-image-container"> 
-     <a href="/file/Monster-Hunter-World/mhw-bazelgeuse_render_001.png" target="_blank" rel="noopener noreferrer"><img id="99bedc94-1147-071c-7e97-f5b2434b2cdd" class="gallery-item-image attachment-thumbnail size-thumbnail" src="/file/Monster-Hunter-World/gthumbnails/mhw-bazelgeuse_render_001.png" alt=""></a> 
-    </div> 
-    <div class="gallery-bottom-caption-container"> 
-     <div class="gallery-bottom-caption">
-       Bazelgeuse render.&nbsp; 
-     </div> 
-    </div> 
-   </div> 
-  </dt> 
- </dl> 
- <dl class="gallery-item"> 
-  <dt class="gallery-icon landscape" style="width: 100%; height: 100%; cursor: pointer; background: initial;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""> 
-   <div class="gallery-image-inner-container"> 
-    <div class="gallery-top-caption-container"> 
-     <div class="gallery-top-caption">
-       &nbsp; 
-     </div> 
-    </div> 
-    <div class="gallery-image-container"> 
-     <a href="/file/Monster-Hunter-World/mhw-bazelgeuse_icon.png" target="_blank" rel="noopener noreferrer"><img id="c4c5f2dc-f500-21df-97c9-7f2892cdc0cb" class="gallery-item-image attachment-thumbnail size-thumbnail" src="/file/Monster-Hunter-World/gthumbnails/mhw-bazelgeuse_icon.png" alt=""></a> 
-    </div> 
-    <div class="gallery-bottom-caption-container"> 
-     <div class="gallery-bottom-caption">
-       Bazelgeuse icon.&nbsp; 
-     </div> 
-    </div> 
-   </div> 
-  </dt> 
- </dl> 
-</div> 
-<p>&nbsp;</p> 
-<p>&nbsp;&nbsp;</p> 
-<div class="table-responsive"> 
- <table class="wiki_table"> 
-  <tbody> 
-   <tr> 
-    <td style="text-align: center;"><a class="wiki_link" title="" href="/Large+Monsters" target="">Large Monsters</a></td> 
-   </tr> 
-   <tr> 
-    <td style="text-align: center;"><div id="tagged-pages-container" style="overflow-y:auto; max-height: 300px; display: block; overflow-wrap:anywhere; word-break: break-word;"><a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Acidic+Glavenus">Acidic Glavenus</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Alatreon">Alatreon</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Ancient+Leshen">Ancient Leshen</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Anjanath">Anjanath</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Azure+Rathalos">Azure Rathalos</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Banbaro">Banbaro</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Barioth">Barioth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Barroth">Barroth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Behemoth">Behemoth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Beotodus">Beotodus</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Black+Diablos">Black Diablos</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Blackveil+Vaal+Hazak">Blackveil Vaal Hazak</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Brachydios">Brachydios</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Brute+Tigrex">Brute Tigrex</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Coral+Pukei-Pukei">Coral Pukei-Pukei</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Deviljho">Deviljho</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Diablos">Diablos</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Dodogama">Dodogama</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Ebony+Odogaron">Ebony Odogaron</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Fatalis">Fatalis</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Frostfang+Barioth">Frostfang Barioth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Fulgur+Anjanath">Fulgur Anjanath</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Furious+Rajang">Furious Rajang</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Glavenus">Glavenus</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Gold+Rathian">Gold Rathian</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Great+Girros">Great Girros</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Great+Jagras">Great Jagras</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Jyuratodus">Jyuratodus</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Kirin">Kirin</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Kulu-Ya-Ku">Kulu-Ya-Ku</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Kulve+Taroth">Kulve Taroth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Kushala+Daora">Kushala Daora</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Lavasioth">Lavasioth</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Legiana">Legiana</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Leshen">Leshen</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Lunastra">Lunastra</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Namielle">Namielle</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Nargacuga">Nargacuga</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Nergigante">Nergigante</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Nightshade+Paolumu">Nightshade Paolumu</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Odogaron">Odogaron</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Paolumu">Paolumu</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Pink+Rathian">Pink Rathian</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Pukei-Pukei">Pukei-Pukei</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Radobaan">Radobaan</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Raging+Brachydios">Raging Brachydios</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Rajang">Rajang</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Rathalos">Rathalos</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Rathian">Rathian</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Ruiner+Nergigante">Ruiner Nergigante</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Safi'jiiva">Safi'jiiva</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Savage+Deviljho">Savage Deviljho</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Scarred+Yian+Garuga">Scarred Yian Garuga</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Seething+Bazelgeuse">Seething Bazelgeuse</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Shara+Ishvalda">Shara Ishvalda</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Shrieking+Legiana">Shrieking Legiana</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Silver+Rathalos">Silver Rathalos</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Stygian+Zinogre">Stygian Zinogre</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Teostra">Teostra</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Tigrex">Tigrex</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Tobi-Kadachi">Tobi-Kadachi</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Tzitzi-Ya-Ku">Tzitzi-Ya-Ku</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Uragaan">Uragaan</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Vaal+Hazak">Vaal Hazak</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Velkhana">Velkhana</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Viper+Tobi-Kadachi">Viper Tobi-Kadachi</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Xeno'jiiva">Xeno'jiiva</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Yian+Garuga">Yian Garuga</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Zinogre">Zinogre</a>&nbsp;&nbsp;♦&nbsp;&nbsp;<a class= "wiki_link" href="//monsterhunterworld.wiki.fextralife.com/Zorah+Magdaros">Zorah Magdaros</a></div></td> 
-   </tr> 
-  </tbody> 
- </table> 
-</div>
-		
-	
-
-	</div>
-	<br><br><br>
-
-	<div class="clearfix"></div>
-	<div class="discussion-wrapper" id="discussions-section">
-		<div class="wrap">
-			<h3 class="section-heading section-heading-light simulation-hero-heading">
-				<a>Join the page discussion</a>
-				<small style="font-size: 86%;float:right;"><a class="textClass" href="https://fextralife.com/forums/ucp.php?mode=register">Tired of anon posting? Register!</a></small>
-			</h3>
-<script type="text/javascript">
-        if (ppp) {
-                document.write('<div id="content-add-a" style="height:300px;"><div id="div-gpt-ad-1551140609289-4"></div></div>');
+[
+    {
+        "id": 1,
+        "name": "Blastblight",
+        "description": "Blastblight will cause a damaging explosion after a certain amount of time has passed, or upon sustaining a heavy impact.",
+        "recovery": {
+            "actions": [
+                "dodge"
+            ],
+            "items": []
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 6,
+                    "name": "Blast Resistance",
+                    "description": "Grants protection against blastblight."
+                }
+            ]
         }
-        if (ppp && window.innerWidth < 1000) {
-                document.write('\x3Cscript type="text/javascript" src="https://player.twitch.tv/js/embed/v1.js">\x3C/script>');
-                document.write('<div id="fextrastream" style="width:100%;height:198px;text-align:center;"></div>');
+    },
+    {
+        "id": 2,
+        "name": "Bleeding",
+        "description": "Bleeding causes damage when performing certain actions, such as running, dodging, or attacking.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [
+                {
+                    "id": 11,
+                    "rarity": 2,
+                    "value": 48,
+                    "carryLimit": 10,
+                    "name": "Well-done Steak",
+                    "description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!"
+                },
+                {
+                    "id": 17,
+                    "rarity": 2,
+                    "value": 10,
+                    "carryLimit": 5,
+                    "name": "Astera Jerky",
+                    "description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding."
+                },
+                {
+                    "id": 107,
+                    "rarity": 2,
+                    "value": 45,
+                    "carryLimit": 10,
+                    "name": "Sushifish Scale",
+                    "description": "A scale from a Sushifish. Eat to restore a small amount of health. Also works to treat bleeding."
+                }
+            ],
+            "skills": [
+                {
+                    "id": 7,
+                    "name": "Bleeding Resistance",
+                    "description": "Grants protection against bleeding."
+                }
+            ]
         }
-</script>
-
-			<div class="collapse-com transparent">
-				<div class="col-trigger collapse in" id="discussions-new">
-					<div class="ng-scope">
-						<textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea>
-						<button id="btnPostComment" class="btn btn-default"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
-						<img id="newCommentAvatar" src="/images/avatar.png"/>
-					</div>
-				</div>
-			</div>
-			<div id="myModal" class="modal fade" role="dialog" style="top:25%;">
-				<div class="modal-dialog">
-					<div class="modal-content" style="background-color: rgba(89, 89, 89, 0.4);">
-						<div class="modal-body ng-scope" style="margin-top: 0; padding: 20px 20px 20px;">
-							<div class="g-recaptcha" data-sitekey=""></div>
-						</div>
-						<div class="modal-footer" style="background: rgba(89, 89, 89, 0.4); text-align: center">
-							<button id="btnPostComment" class="btn btn-default" data-dismiss="modal" style="display: none;"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
-							<button id="btnPostReplyRecaptcha" class="btn btn-default" data-dismiss="modal" style="display: none;"><i class="glyphicon glyphicon-pencil"></i> Submit</button>
-							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-comments">
-			<ul id="discussions" class="comments" data="1">
-			
-				<li id="16360598" class="cmnt-root" data="0" data-d="1627696752000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">31 Jul 2021 03:59</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16360598" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">i beat him with dualblades but holy **** with a bow its sooo easy and fast also my health bar never even went to low</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16360598" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16360598" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16360598"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16360598" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16360598"></ul></li></ul></li>
-			
-				<li id="16346207" class="cmnt-root" data="0" data-d="1622800202000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">04 Jun 2021 11:50</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16346207" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Where is the earliest spot I can find this guy? Ignore post it over a day.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16346207" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16346207" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16346207"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16346207" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16346207"></ul></li></ul></li>
-			
-				<li id="16341039" class="cmnt-root" data="0" data-d="1621080587000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">15 May 2021 14:09</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16341039" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Busta straight busta</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16341039" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16341039" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>0</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16341039"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16341039" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16341039"></ul></li></ul></li>
-			
-				<li id="16331824" class="cmnt-root" data="3" data-d="1618690404000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">17 Apr 2021 22:13</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16331824" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">TBH I like to go after it when it appears</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16331824" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16331824" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16331824"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16331824" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16331824"></ul></li></ul></li>
-			
-				<li id="16319768" class="cmnt-root" data="1" data-d="1615994164000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">17 Mar 2021 16:16</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16319768" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I hate that thing it keeps camping the corpses of the monsters I killed</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16319768" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16319768" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16319768"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16319768" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16319768"></ul></li></ul></li>
-			
-				<li id="16319758" class="cmnt-root" data="0" data-d="1615991918000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">17 Mar 2021 15:38</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16319758" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">I run from this thing like it is the devil</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16319758" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16319758" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16319758"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16319758" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16319758"></ul></li></ul></li>
-			
-				<li id="16312914" class="cmnt-root" data="1" data-d="1614335785000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">26 Feb 2021 11:36</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16312914" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">i fear no man,but that....thing..,it scares me<br/><br/>and it still does to this day even though i have safi shatercrusher <br/></p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16312914" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16312914" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16312914"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16312914" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16312914"></ul></li></ul></li>
-			
-				<li id="16302532" class="cmnt-root" data="1" data-d="1611605966000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">25 Jan 2021 21:19</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16302532" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">dun dun duuun now intaducing the b-52 bomber</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16302532" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16302532" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16302532"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16302532" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16302532"></ul></li></ul></li>
-			
-				<li id="16301133" class="cmnt-root" data="3" data-d="1611246449000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">21 Jan 2021 17:27</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16301133" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">They say it has an amazing turf war with Deviljho<br/><br/>Deviljho: YE I KICK ITS--<br/>Bazelgeuse: NOW YOU DON&apos;T START A FIGHT AGAIN!!!!<br/>Deviljho: Oh so you are gonna play like that, huh? <br/><br/>*during the fight*<br/>Swinging each other like a tango but 3 trillion times stranger<br/>*Hunter gets caught in crossfire*<br/>oof. </p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16301133" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16301133" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>5</p><i class="add">+1</i></section><section class="t-down"><span></span><p>2</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16301133"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16301133" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16301133"></ul></li></ul></li>
-			
-				<li id="16296719" class="cmnt-root" data="3" data-d="1610126058000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">08 Jan 2021 18:14</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16296719" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Man, Im trying to fight Diablos, heres Bazelgeuse, trying to fight Tobi Kadachi, heres Bazelgeuse...<br/><br/>He just always comes out of nowhere.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16296719" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16296719" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16296719"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16296719" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16296719"></ul></li></ul></li>
-			
-				<li id="16295407" class="cmnt-root" data="2" data-d="1609864132000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">05 Jan 2021 17:28</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16295407" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">whenever i get bazel down to 1% heath he leaves the area... what a pain in the neck</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16295407" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16295407" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16295407"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16295407" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16295407"></ul></li></ul></li>
-			
-				<li id="16282566" class="cmnt-root" data="16" data-d="1606988353000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">03 Dec 2020 10:39</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16282566" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">The Carapace has a 5 Star ranking for rewards<br/>&quot;yes&quot;<br/>so if a capture a bazel i should get multiple carapace<br/>&quot;yep&quot;<br/>so if thats the case i should have enough for armor in about 3-4 captures<br/>&quot;that makes sense to me&quot;<br/>*captures bazel*<br/>&quot;heres 6 talons and 3 tails&quot;</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16282566" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16282566" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>16</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16282566"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16282566" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16282566"></ul></li></ul></li>
-			
-				<li id="16276103" class="cmnt-root" data="2" data-d="1605295791000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">13 Nov 2020 20:29</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16276103" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Hey, does anyone here have some easy ways of killing this thing? I use switch blade, glaive, bow, and sword and shield, but you can also put some tips for others as well (other people probably want advice as well).</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16276103" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16276103" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16276103"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16276103" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16276103"></ul></li></ul></li>
-			
-				<li id="16274974" class="cmnt-root" data="4" data-d="1604974860000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">10 Nov 2020 03:21</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16274974" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">does anyone see a diffrence between a bazelquese and a B-52 bomber</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16274974" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16274974" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>4</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16274974"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16274974" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16274974"></ul></li></ul></li>
-			
-				<li id="16273943" class="cmnt-root" data="2" data-d="1604657306000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">06 Nov 2020 11:08</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16273943" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment"><br/><br/>Chose Your Fighter<br/>Bazel Geese<br/>Bazel Juice<br/>Bazel Goose<br/>B-52</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16273943" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16273943" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16273943"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16273943" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16273943"></ul></li></ul></li>
-			
-				<li id="16266997" class="cmnt-root" data="2" data-d="1602858483000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">16 Oct 2020 16:28</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16266997" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Seriously, he is good for one thing. You can buff your defense by doing this: go to the stockpile manager. Buy one armor and one power charm and send it to your pouch. Go back to the guy and buy another one of each and send it to item box. Get two bazel talons, then craft them into armor and power talons. They make you stronger. Good luck fellow hunters!</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16266997" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16266997" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16266997"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16266997" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16266997"></ul></li></ul></li>
-			
-				<li id="16266237" class="cmnt-root" data="4" data-d="1602666355000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">14 Oct 2020 11:05</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16266237" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">how much health does this thing have</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16266237" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16266237" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>4</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16266237"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16266237" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16266237"></ul></li></ul></li>
-			
-				<li id="16240985" class="cmnt-root" data="5" data-d="1596316746000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">01 Aug 2020 23:19</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16240985" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Bazel juice</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16240985" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16240985" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">2</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>5</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16240985"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16240985" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16240985"></ul></li></ul></li>
-			
-				<li id="16239576" class="cmnt-root" data="7" data-d="1596018363000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">29 Jul 2020 12:26</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16239576" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">he&apos;s kinda annoying bUT one of my faves, really love everything about him his roars are really cool, and his battle music is dope asf even the way he flies is like a plane, good ****</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16239576" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16239576" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>7</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16239576"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16239576" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16239576"></ul></li></ul></li>
-			
-				<li id="16229970" class="cmnt-root" data="33" data-d="1593701972000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">02 Jul 2020 16:59</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16229970" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">That one annoying &quot;friend&quot; that you don&apos;t invite, but still comes anyway and ruins it for everyone.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16229970" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16229970" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>33</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16229970"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16229970" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16229970"></ul></li></ul></li>
-			
-				<li id="16227311" class="cmnt-root" data="3" data-d="1592967574000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">24 Jun 2020 04:59</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16227311" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">This is the only monster that forces me to use kinsect glaive to not ***** die. Love the battle theme and roar though, it sounds just like an airstrike siren</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16227311" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16227311" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>3</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16227311"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16227311" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16227311"></ul></li></ul></li>
-			
-				<li id="16224823" class="cmnt-root" data="1" data-d="1592298883000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">16 Jun 2020 11:14</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16224823" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">A flying asshole? Too true</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16224823" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16224823" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>1</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16224823"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16224823" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16224823"></ul></li></ul></li>
-			
-				<li id="16224327" class="cmnt-root" data="2" data-d="1592159469000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">14 Jun 2020 20:31</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16224327" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Damn boozledouche, the stealth bomber of the new world.</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16224327" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16224327" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16224327"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16224327" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16224327"></ul></li></ul></li>
-			
-				<li id="16217269" class="cmnt-root" data="2" data-d="1590329433000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">24 May 2020 16:10</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16217269" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">Remember that time we didn&apos;t appreciate Bazel enough and he got really mad and decided he&apos;d stick to the Recess so that no one ever fought him?</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16217269" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16217269" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">1</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>2</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16217269"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16217269" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16217269"></ul></li></ul></li>
-			
-				<li id="16216924" class="cmnt-root" data="1" data-d="1590250161000"><ul class="comments"><li class="comment-box"><div class="avatar"><img src="/images/avatar.png" alt="" /><div class="comment-username">Anonymous</div></div><div class="comment"><h4 class="title"><span class="txt-subject"></span><input style="display: none;" class="txt-subject-ed"><span class="right cmt-ui"><a href="https://fextralife.com/forums/t547329/Bazelgeuse" target="_blank">23 May 2020 18:09</a>&nbsp;&nbsp;<a class="report-post" href="https://fextralife.com/forums/report.php?f=183&p=16216924" target="_blank" title="report this post"><span class="glyphicon glyphicon-flag" aria-hidden="true"></span></a></span></h4><p class="txt-comment">DonutDuck inbound</p><textarea style="display: none;" class="txt-comment-ed"></textarea><div class="clearfix"><a role="button" data-toggle="collapse" href="#zz-16216924" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Reply</a><a id="btnExpandComment" role="button" data-toggle="collapse" href="#replies-16216924" class="cmt-reply pull-right" href=""><span class="glyphicon glyphicon-share-alt"></span>Replies (<span class="replies">0</span>)</a><div class="vote pull-right"><section class="t-up"><span></span><p>1</p><i class="add">+1</i></section><section class="t-down"><span></span><p>0</p><i class="sub">-1</i></section></div></div><div class="collapse-com transparent"><div class="col-trigger collapse" id="zz-16216924"><div class="ng-scope"><textarea id="dcomment" class="ng-pristine ng-untouched ng-invalid ng-invalid-required" placeholder="Input your comments:"></textarea><button id="btn-16216924" class="btn btn-default btnPostReply"><i class="glyphicon glyphicon-pencil"></i> Submit</button><img id="newCommentAvatar" src="/images/avatar.png"/></div></div></div></div><div class="clearfix"></div><ul class="children collapse" id="replies-16216924"></ul></li></ul></li>
-			
-			</ul>
-			<div id="btnMoreComents" style="width: 130px; letter-spacing: 1px; text-transform: uppercase; border: 2px solid; font-size: 10px;" class="btn btn-default">Load more</div>
-			<div id="footer-add-a" style="padding-top:20px;" class="ad-flex"></div>
-		</div>
-	</div>
-
-</div>
-
-<div id="sub-content-a" style="display: none;"></div>
-
-<div id="sub-content-b" style="display: none;"></div>
-<div id="preview-container" style="display:none;">
-	<div style="text-align: right;">
-		<button type="button" class="teb-save btn btn-default"><i class="mce-ico mce-i-xsave" style="background: #BDBDBD;"></i> Accept Terms and Save</button>
-		<button id="btnPreviewClose" type="button" class="btn btn-default"><i class="mce-ico mce-i-xclosepreview" style="background: #BDBDBD;"></i> Close Preview</button>
-		<button type="button" class="teb-close btn btn-default"><i class="mce-ico mce-i-xclose" style="background: #BDBDBD;"></i> Close Editor</button>
-	</div>
-	<div id="preview"></div>
-</div>
-<form id="form-buttons" method="post"></form>
-
-
-											
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="vault-loder top-right-vault"></div>
-					<div class="glow-corners top-corners"></div>
-					<div class="glow-corners bottom-corners"></div>
-				</div>
-				
-<footer>
-	<div class="wiki-footer-nav">
-		<br />
-		<div class="light-wrapper">
-			<div class="text-center">Contributions to Fextralife Wikis are licensed under a <a class="wiki_link" href="https://fextralife.com/wiki-license/" target="_blank">Custom License</a>.</div>
-			<ul class="list-inline text-center footer-links">
-				<li><a class="wiki_link" href="/Monster+Hunter+World+Wiki"><span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Wiki</span></span> Home</a></li>
-				<li><a class="wiki_link" href="https://www.wiki.fextralife.com/" target="_blank">Gaming Wikis</a></li>
-				<li><a class="wiki_link" href="/Chatroom" target="_blank">Chatrooms</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/forums/index.php" target="_blank">Gaming Forum</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/" target="_blank">Gaming News</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/privacy-policy/" rel="nofollow" target="_blank">Privacy Policy</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/terms-of-use/" rel="nofollow" target="_blank"> Terms of Use</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/copyright-policy/" rel="nofollow" target="_blank"> Copyright Policy</a></li>
-				<li><a class="wiki_link" href="https://fextralife.com/contact-us/"> Advertise on <span itemprop="publisher" itemscope itemtype="https://schema.org/Organization"><span itemprop="name">Fextralife</span></span></a></li>
-			</ul>
-		</div>
-		<br>
-		<div id="adsense" style="visibility:hidden;height:0px;overflow:hidden">advertisement</div>
-	</div>
-</footer>
-
-			</div>
-			<div class="hidden-xs" height="30px" style="background-color: #03BCDB;z-index: 2147483647; position: fixed; bottom: 0px; left: 0px; right: auto; top: auto;font-color:#ffffff !important;/*! margin-top: 0.5em; *//*! margin-left: 0.5em; */" width="75px" height="70px"><a target="_blank" href="https://discord.gg/J39HrPn" style="margin: 0.5em;"><span style="color: rgb(255, 255, 255); line-height: 16px; display: inline-block;vertical-align: middle; margin-top: 0.5em;margin-left:0.5em;margin-right:0.5em;margin-bottom: 0.5em;">Chat <span class="glyphicon glyphicon-comment" style="margin-left: 0.36em;"></span></span></a></div>
-			<div class="visible-xs" height="70px" style="background-color: #03BCDB;z-index: 2147483647; position: fixed; bottom: 0px; left: 0px; right: auto; top: auto;font-color:#ffffff !important;/*! margin-top: 0.5em; *//*! margin-left: 0.5em; */" width="75px" height="70px"><a target="_blank" href="https://discord.gg/J39HrPn" style="margin: 0.5em;"><span style="color: rgb(255, 255, 255); line-height: 55px; display: inline-block;vertical-align: middle; margin-top: 0.5em;margin-left:0.5em;margin-right:0.5em;margin-bottom: 0.5em;"><span class="glyphicon glyphicon-comment"></span></span></a></div>
-			<div class="visible-xs" style="right:10px; max-width: 50px;position: fixed;bottom: 75px;"><a href="#" class="scroll-top">&#8648; &#8648;</a></div>
-			<div class="footer-sticky">
-				<div id="mobile-ad" style="width: 320px;height: 50px;padding-left:45px" class="mobile-ad visible-xs" style="padding-left:51px;"><div id="div-gpt-ad-1551140609289-5" style="height:50px; width:320px;"></div></div>
-				<div class="container-fluid hidden-xs">
-					<ul class="WikiActions WikiElement WikiControls list-inline pull-left hidden-xs hidden-sm position-wiki-actions">
-						<li style="display: none;"><span class="glyphicon glyphicon-user" style="margin-right: 0.36em;"></span><strong><span class="onlineusers"></span></strong> Hunters Online</li>
-						<li id="wwc" style="cursor: pointer; display: none;">Recent Changes +</li>
-						<li id="wpc" style="cursor: pointer; display: none;">New page +</li>
-						<li id="wfm" style="cursor: pointer; display: none;">File Manager +</li>
-						<li style="cursor: pointer; display: none;">Members +</li>
-						<li id="wbpm" style="cursor: pointer; display: none;">Page Manager +</li>
-						<li id="wbs" style="cursor: pointer; display: none;">Settings +</li>
-						<li id="wbcw" style="cursor: pointer; display: none;">Create Wiki +</li>
-					</ul>
-					<ul class="WikiActions list-inline pull-right hidden-xs">
-						<li>
-							<ul class="btn-group" id="btn-switch" style="padding-right: 10px;">
-								<li class="btn btn-default btn-xs"><a href="#" rel="/xcss/inverse.css"><i class="glyphicon glyphicon-adjust" style="padding: 0px 10px;"></i></a></li>
-								<li class="btn btn-default btn-xs"><a href="#" rel="/xcss/theme-light.css"><i class="glyphicon glyphicon-certificate" style="padding: 0px 10px;"></i></a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="scroll-top pull-right">&#8648; <span class="hidden-xs">Back to top</span> &#8648;</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<script data-cfasync="false" type="text/javascript">
-			if (ua == '211' || ua == '111' || ua == '210' || ua == '110' || ua == '100') {
-				var articlesContainer = document.getElementById('wcomp-articles');
-				if (articlesContainer != null) {
-					articlesContainer.setAttribute('class', 'wcomp-articles');
-				}
-			}
-function loadStream() {
-        if (ppp && window.innerWidth < 1000) {
-                var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};
-                var player = new Twitch.Embed("fextrastream", options);
-//        } else if (ppp && window.matchMedia("(min-width: 1100px)").matches) {
-//                if (ppp && window.matchMedia("(min-width: 1920px)").matches) {
-//                        var options = {width:340,height:398,channel:"fextralife",muted:true,theme:"dark",layout:"video-with-chat"};
-//                        var player = new Twitch.Embed("fextrastream", options);
-//                } else {
-//                        var options = {width:340,height:198,channel:"fextralife",muted:true,theme:"dark",layout:"video"};
-//                        var player = new Twitch.Embed("fextrastream", options);
-//                }
+    },
+    {
+        "id": 3,
+        "name": "Dragonblight",
+        "description": "Dragonblight causes your weapon's elemental properties are nullified.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
         }
-	return false;
-}
-function loadAds() {
-    if (ua!='100'&&ua!='110'&&ua!='210'&&ua!='111'&&ua!='211') {
-        if (window.innerWidth >= 860) {
-            var element = document.createElement("script");
-            element.src = "https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5382e7e20b0e47b1";
-            document.body.appendChild(element);
-        } else {
-            var menuAddA = document.getElementById('menu-add-a');
-            if (menuAddA != null) {
-                menuAddA.remove();
-            }
-            var menuAddB = document.getElementById('menu-add-b');
-            if (menuAddB != null) {
-                menuAddB.remove();
-            }
-	}
-	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KW2R3PT');
-    }
-    return false;
-}
-function youtube() {
-    var oiframes = document.getElementsByClassName('youtube-item');
-    for (var i=0, n=oiframes.length|0; i < n; i=i+1|0) {
-        var div = oiframes[i];
-        if (div.tagName == 'DIV') {
-            var div = oiframes[i];
-            var iframe = document.createElement("iframe");
-            iframe.setAttribute('class', div.getAttribute('class'));
-            iframe.setAttribute('src', div.getAttribute('id'));
-            div.parentNode.replaceChild(iframe, div);
+    },
+    {
+        "id": 4,
+        "name": "Effluvial Buildup",
+        "description": "Effluvial buildup causes damage over time, and eventually cuts your maximum health in half if ignored for too long.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 13,
+                    "name": "Effluvial Expert",
+                    "description": "Nullifies or reduces environmental damage in the Rotten Vale."
+                },
+                {
+                    "id": 101,
+                    "name": "Effluvia Resistance",
+                    "description": "Gain a resistance to effluvial buildup."
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Fireblight",
+        "description": "Fireblight causes damage over time, and negates regular health recovery.",
+        "recovery": {
+            "actions": [
+                "dodge"
+            ],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
+        }
+    },
+    {
+        "id": 6,
+        "name": "Iceblight",
+        "description": "Iceblight causes stamina usage to increase when performing actions.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
+        }
+    },
+    {
+        "id": 7,
+        "name": "Paralysis",
+        "description": "Paralysis renders the hunter or monster immobilized and susceptible to increased damage for the duration. Hunters can unparalyzed if they are hit.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 2,
+                    "name": "Paralysis Resistance",
+                    "description": "Reduces the duration of paralysis."
+                }
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "name": "Poison",
+        "description": "Poison slowly drains the target's health.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 5,
+                    "rarity": 1,
+                    "value": 6,
+                    "carryLimit": 10,
+                    "name": "Antidote",
+                    "description": "A cure for poison."
+                },
+                {
+                    "id": 6,
+                    "rarity": 2,
+                    "value": 25,
+                    "carryLimit": 5,
+                    "name": "Herbal Medicine",
+                    "description": "Removes all traces of poison and restores a slight amount of health."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 1,
+                    "name": "Poison Resistance",
+                    "description": "Reduces damage while poisoned."
+                }
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "name": "Sleep",
+        "description": "Sleep renders the hunter or monster inactive and susceptible to increased damage, but only for the first hit, as it will then wake them up.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [
+                {
+                    "id": 8,
+                    "rarity": 2,
+                    "value": 6,
+                    "carryLimit": 10,
+                    "name": "Energy Drink",
+                    "description": "A Guild-approved beverage that boosts your stamina. Helps shake off sleep, too!"
+                }
+            ],
+            "skills": [
+                {
+                    "id": 3,
+                    "name": "Sleep Resistance",
+                    "description": "Reduces the duration of sleep."
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "name": "Stun",
+        "description": "Stun renders the target inactive, and sometimes causes them to fall over.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 4,
+                    "name": "Stun Resistance",
+                    "description": "Reduces stun duration."
+                }
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "name": "Thunderblight",
+        "description": "Thunderblight increases the chance of being stunned.",
+        "recovery": {
+            "actions": [
+                "dodge"
+            ],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
+        }
+    },
+    {
+        "id": 12,
+        "name": "Waterblight",
+        "description": "Waterblight slows down stamina recovery rate.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 7,
+                    "rarity": 2,
+                    "value": 120,
+                    "carryLimit": 10,
+                    "name": "Nulberry",
+                    "description": "A mysterious berry that cures various blights."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
+        }
+    },
+    {
+        "id": 13,
+        "name": "Wind Pressure",
+        "description": "Wind pressure causes the hunter to brace against powerful winds, causing temporarily imobility.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [],
+            "skills": [
+                {
+                    "id": 10,
+                    "name": "Windproof",
+                    "description": "Grants protection against wind pressure."
+                },
+                {
+                    "id": 122,
+                    "name": "Nullify Wind Pressure",
+                    "description": "Negates all wind pressure."
+                }
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "name": "Defense Down",
+        "description": "Some monsters may inflict a status that lowers a hunter's defense. Lasts for a certain period of time but can also be cured with defense-increasing items.",
+        "recovery": {
+            "actions": [],
+            "items": [
+                {
+                    "id": 25,
+                    "rarity": 4,
+                    "value": 58,
+                    "carryLimit": 5,
+                    "name": "Armorskin",
+                    "description": "Boosts your defense by turning your skin as hard as rock."
+                },
+                {
+                    "id": 26,
+                    "rarity": 5,
+                    "value": 269,
+                    "carryLimit": 5,
+                    "name": "Mega Armorskin",
+                    "description": "Boosts your defense even more than a regular armorskin."
+                }
+            ]
+        },
+        "protection": {
+            "items": [],
+            "skills": []
+        }
+    },
+    {
+        "id": 15,
+        "name": "Muddy",
+        "description": "A status effect inflicted when mud thrown by a monster covers the Hunter and makes movement more difficult. Slows all actions until the hunter leaves the mud.",
+        "recovery": {
+            "actions": [],
+            "items": []
+        },
+        "protection": {
+            "items": [],
+            "skills": []
         }
     }
-    return false;
-}
-function timerex() {
-    try {
-	youtube();
-    } catch(err) {
-    }
-
-    try {
-	loadStream();
-    } catch(err) {
-    }
-
-    try {
-	loadAds();
-    } catch(err) {
-    }
-
-    return false;
-}
-document.addEventListener('DOMContentLoaded', (event) => {
-    setTimeout(timerex, 3000);
-    try {
-        if (window.innerWidth >= 680) {
-            $('.sliderload').load('//swcdn.fextralife.com/file/slider.html?v='+new Date().getTime(), function() {
-                $('img.lazyload').lazyload({failure_limit : 999999});
-            });
-        }
-    } catch(err) {
-    }
-});
-		</script>
-		<script data-cfasync="false" type="text/javascript">
-			function loadJSON(callback) { var xobj = new XMLHttpRequest();xobj.overrideMimeType("application/json");xobj.open('GET', '/ws/user/unread-msgs', true);xobj.onreadystatechange = function () {if (xobj.readyState == 4 && xobj.status == "200") {callback(xobj.responseText);}};xobj.send(null);  }if (c != null) {loadJSON(function(response) {if (parseInt(response) > 0) {var nmsgs = response;var finbox = $('.finbox');finbox.text('Inbox (' + nmsgs + ')');var fuavtr = $('#user-avatar');fuavtr.replaceWith('<span id="priv-msgs" style="display: inline-block;width: 24px;height: 24px;line-height: 24px;background-color: #a00;color: #fff;font-weight: 700;text-align: center;vertical-align: middle;border-radius: 50%;margin-right: 3px;">' + nmsgs + '</span><img id="avatar" src="' + fuavtr.attr('src') + '" alt="" style="border-left-width:0px;width:30px;height:30px;"/>');}});}
-		</script>
-	<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"681e7b47df8bd157","token":"cc09ed1686d84f6bac4e02a118808d45","version":"2021.8.1","si":10}'></script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6841abb8b8d041ca","token":"cc09ed1686d84f6bac4e02a118808d45","version":"2021.8.1","si":10}'></script>
-</body>
-	<link href="https://swcdn.fextralife.com/css/gallery-image.css?v=aa0" rel="stylesheet">
-	<link href="" rel="stylesheet" class="stylechanger">
-</html>
+]
