@@ -18,14 +18,16 @@ function check_ailments(weak)
 	return (false);
 }
 
-function	treat_data(data, name, msg)
+function	treat_data(data, name, msg, iceborne)
 {
 	var found = 0;
+	console.log("data length :" + data.length);
 	for (var i = 0; i < data.length; i++)
 	{
 		console.log("i is ; " + i);
 		if (data[i].name.toLowerCase() == name.join(' '))
 		{
+			console.log("TROUVED");
 			found++;
 			weakness = new Discord.MessageEmbed()
 			.setColor("#ff0080")
@@ -53,57 +55,76 @@ function	treat_data(data, name, msg)
 				break;
 			}
 		}
-		fs.writeFile("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
-			if (ferr)
-			return (console.log("oopsi : " + err));
-		});
-		if (!found)
-			return (-1);
-	}
-	
-	module.exports = function	mhw_search(msg, name)
-	{
-		name.shift();
-		for (var i = 0; i < name.length; i++)
-		name[i].toLowerCase();
-		console.log("called search");
-		if (!fs.existsSync("./monster_db.json"))
+		if (!iceborne)
 		{
-			console.log("FILE DOESN'T EXIST");
-			fetch("https://mhw-db.com/monsters")
-			.then(function (response) {
-				console.log("Fetch done");
-				return (response.json());
-			}).then(function (data) {
-				if (!treat_data(data, name, msg))
-					fs.readFile("./iceborne_db.json", function (err, data) {
-						try
-						{
-							data = JSON.parse(data);
-							treat_data(data, name, msg);
-						}
-						catch (e)
-						{
-							console.log("Error during iceborne parsing/searching :" + err);
-						}
-					})
-			}).catch(function (err) {
-				console.warn("Something went wrong : ", err);
+			fs.writeFile("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
+				if (ferr)
+					return (console.log("oopsi : " + err));
 			});
 		}
-		else
+		if (!found)
 		{
-			console.log("FILE EXISTS");
-			fs.readFile("./monster_db.json", function (err, data) {
-				try
-				{
-					data = JSON.parse(data);
-					treat_data(data, name, msg);
-				}
-				catch (e)
-				{
-					console.log(err);
-				}
-			})
+			console.log("return -1");
+			return (1);
 		}
+		return (0);
+}
+
+function	iceborne_search(name, data, msg)
+{
+	console.log("Couldn't find any occurence in mhw db, searching through Iceborne...");
+	fs.readFile("./iceborne_db.json", function (err, data) {
+		try
+		{
+			data = JSON.parse(data);
+			console.log(JSON.stringify(data, null, 4));
+			treat_data(data, name, msg, 1);
+		}
+		catch (e)
+		{
+			console.log("Error during iceborne parsing/searching :" + err);
+		}
+	})
+}
+
+module.exports = function	mhw_search(msg, name)
+{
+	name.shift();
+	for (var i = 0; i < name.length; i++)
+	name[i].toLowerCase();
+	console.log("called search");
+	if (!fs.existsSync("./monster_db.json"))
+	{
+		console.log("FILE DOESN'T EXIST");
+		fetch("https://mhw-db.com/monsters")
+		.then(function (response) {
+			console.log("Fetch done");
+			return (response.json());
+		}).then(function (data) {
+			if (treat_data(data, name, msg, 0) == 1)
+				iceborne_search(name, data, msg);
+		}).catch(function (err) {
+			console.warn("Something went wrong : ", err);
+		});
 	}
+	else
+	{
+		console.log("FILE EXISTS");
+		fs.readFile("./monster_db.json", function (err, data) {
+			try
+			{
+				data = JSON.parse(data);
+				console.log("Treat existing data");
+				if (treat_data(data, name, msg, 0) == 1)
+				{
+					console.log("Iceborne go");
+					iceborne_search(name, data, msg);
+				}
+			}
+			catch (e)
+			{
+				console.log(err);
+			}
+		})
+	}
+}
