@@ -1,4 +1,3 @@
 .env
 node_modules/
 monster_db.json
-iceborne_db.json
