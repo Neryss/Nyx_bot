@@ -32,7 +32,7 @@ module.exports = function	mhw_search(msg, name)
 		for (var i = 0; i < data.length; i++)
 		{
 			console.log("i is ; " + i);
-			if (data[i].name.toLowerCase() == name)
+			if (data[i].name.toLowerCase() == name.join(' '))
 			{
 				weakness = new Discord.MessageEmbed()
 					.setColor("#ff0080")
