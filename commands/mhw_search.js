@@ -19,18 +19,17 @@ module.exports = function	mhw_search(msg, name)
 			{
 				weakness = new Discord.MessageEmbed()
 					.setColor("#ff0080")
-					.setTitle(JSON.stringify(data[i].name));
+					.setTitle(data[i].name);
 				console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
 				e_weak = data[i].weaknesses;
 				for (var j = 0; j < e_weak.length; j++)
 				{
-					weakness.addField(JSON.stringify(e_weak[j].element) + " : " + JSON.stringify(e_weak[j].stars));
+					weakness.addField(e_weak[j].element + " : ", e_weak[j].stars);
 					console.log(j);
 				}
 				// test = JSON.stringify(data[i].weaknesses, null, 4);
 				console.log("JE SUIS LA");
 				msg.channel.send(weakness);
-				console.log("HERE IT IS : " + test);
 				break;
 			}
 		}
@@ -38,7 +37,6 @@ module.exports = function	mhw_search(msg, name)
 			if (ferr)
 				return (console.log("oopsi : " + err));
 		});
-		console.log(test);
 	}).catch(function (err) {
 		console.warn("Something went wrong : ", err);
 	});
