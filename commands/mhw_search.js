@@ -9,6 +9,15 @@ function	put_star(nb)
 	return (Array(nb + 1).join("<:star:880281496315899955>"));
 }
 
+function check_ailments(weak)
+{
+	if (weak.element == "poison" || weak.element == "sleep"
+		|| weak.element == "paralysis" || weak.element == "blast"
+		|| weak.element == "stun")
+		return (true);
+	return (false);
+}
+
 module.exports = function	mhw_search(msg, name)
 {
 	console.log("called search");
@@ -30,9 +39,15 @@ module.exports = function	mhw_search(msg, name)
 				e_weak = data[i].weaknesses;
 				for (var j = 0; j < e_weak.length; j++)
 				{
-					if (e_weak[j].stars > 1)
-						weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), false);
-					console.log(j);
+					if (e_weak[j].stars > 1 && !check_ailments(e_weak[j]))
+						weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
+				}
+				weakness.addField('\u200b', '\u200b')
+					.addField("Ailments :", "\u200b");
+				for (j = 0; j < e_weak.length; j++)
+				{
+						if (e_weak[j].stars > 1 && check_ailments(e_weak[j]))
+							weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
 				}
 				weakness.setFooter(
 					"Nyx",
