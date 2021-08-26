@@ -20,6 +20,9 @@ function check_ailments(weak)
 
 module.exports = function	mhw_search(msg, name)
 {
+	name.shift();
+	for (var i = 0; i < name.length; i++)
+		name[i].toLowerCase();
 	console.log("called search");
 	fetch("https://mhw-db.com/monsters")
 	.then(function (response) {
@@ -29,7 +32,7 @@ module.exports = function	mhw_search(msg, name)
 		for (var i = 0; i < data.length; i++)
 		{
 			console.log("i is ; " + i);
-			if (data[i].name.toLowerCase() == name[1].toLowerCase())
+			if (data[i].name.toLowerCase() == name)
 			{
 				weakness = new Discord.MessageEmbed()
 					.setColor("#ff0080")
@@ -57,7 +60,7 @@ module.exports = function	mhw_search(msg, name)
 				break;
 			}
 		}
-		fs.writeFile("./test.txt", JSON.stringify(e_weak, null, 4), function(ferr) {
+		fs.writeFile("./test.txt", JSON.stringify(data, null, 4), function(ferr) {
 			if (ferr)
 				return (console.log("oopsi : " + err));
 		});
