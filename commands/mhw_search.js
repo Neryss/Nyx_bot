@@ -20,11 +20,13 @@ function check_ailments(weak)
 
 function	treat_data(data, name, msg)
 {
+	var found = 0;
 	for (var i = 0; i < data.length; i++)
 	{
 		console.log("i is ; " + i);
 		if (data[i].name.toLowerCase() == name.join(' '))
 		{
+			found++;
 			weakness = new Discord.MessageEmbed()
 			.setColor("#ff0080")
 			.setTitle(data[i].name)
@@ -34,14 +36,14 @@ function	treat_data(data, name, msg)
 			for (var j = 0; j < e_weak.length; j++)
 			{
 				if (e_weak[j].stars > 1 && !check_ailments(e_weak[j]))
-				weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
+					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
 			}
 			weakness.addField('\u200b', '\u200b')
 			.addField("Ailments :", "\u200b");
 			for (j = 0; j < e_weak.length; j++)
 			{
 				if (e_weak[j].stars > 1 && check_ailments(e_weak[j]))
-				weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
+					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
 			}
 			weakness.setFooter(
 				"Nyx",
@@ -51,10 +53,12 @@ function	treat_data(data, name, msg)
 				break;
 			}
 		}
-		fs.writeFile("./monster_db.txt", JSON.stringify(data, null, 4), function(ferr) {
+		fs.writeFile("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
 			if (ferr)
 			return (console.log("oopsi : " + err));
 		});
+		if (!found)
+			return (-1);
 	}
 	
 	module.exports = function	mhw_search(msg, name)
@@ -63,7 +67,7 @@ function	treat_data(data, name, msg)
 		for (var i = 0; i < name.length; i++)
 		name[i].toLowerCase();
 		console.log("called search");
-		if (!fs.existsSync("./monster_db.txt"))
+		if (!fs.existsSync("./monster_db.json"))
 		{
 			console.log("FILE DOESN'T EXIST");
 			fetch("https://mhw-db.com/monsters")
@@ -71,7 +75,18 @@ function	treat_data(data, name, msg)
 				console.log("Fetch done");
 				return (response.json());
 			}).then(function (data) {
-				treat_data(data, name, msg);
+				if (!treat_data(data, name, msg))
+					fs.readFile("./iceborne_db.json", function (err, data) {
+						try
+						{
+							data = JSON.parse(data);
+							treat_data(data, name, msg);
+						}
+						catch (e)
+						{
+							console.log("Error during iceborne parsing/searching :" + err);
+						}
+					})
 			}).catch(function (err) {
 				console.warn("Something went wrong : ", err);
 			});
@@ -79,7 +94,7 @@ function	treat_data(data, name, msg)
 		else
 		{
 			console.log("FILE EXISTS");
-			fs.readFile("./monster_db.txt", function (err, data) {
+			fs.readFile("./monster_db.json", function (err, data) {
 				try
 				{
 					data = JSON.parse(data);
