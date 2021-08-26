@@ -21,7 +21,6 @@ function check_ailments(weak)
 function	treat_data(data, name, msg, iceborne)
 {
 	var found = 0;
-	console.log("data length :" + data.length);
 	for (var i = 0; i < data.length; i++)
 	{
 		console.log("i is ; " + i);
@@ -127,4 +126,15 @@ module.exports = function	mhw_search(msg, name)
 			}
 		})
 	}
+	fetch("https://mhw-db.com/ailments")
+	.then(function (response) {
+		return (response.json());
+	}).then (function (data) {
+		fs.writeFile("./ailments_db.json", JSON.stringify(data, null, 4), function (ferr) {
+			if (ferr)
+				return (console.log("Error : " + ferr));
+		})
+	}).catch(function (err) {
+		console.warn("Something went wrong : " + err);
+	})
 }
