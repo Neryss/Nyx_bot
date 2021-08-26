@@ -1,120 +1,47 @@
-{
-    "id": 39,
-    "type": "large",
-    "species": "fanged wyvern",
-    "elements": [],
-    "name": "Odogaron",
-    "description": "A terrifying monster that scours the Rotten Vale for carrion. Its highly aggressive nature means that anything, be it monster or man, is a potential meal.",
-    "ailments": [
-        {
-            "id": 2,
-            "name": "Bleeding",
-            "description": "Bleeding causes damage when performing certain actions, such as running, dodging, or attacking.",
-            "recovery": {
-                "actions": [],
-                "items": []
-            },
-            "protection": {
-                "skills": [
-                    {
-                        "id": 7,
-                        "name": "Bleeding Resistance",
-                        "description": "Grants protection against bleeding."
-                    }
-                ],
-                "items": [
-                    {
-                        "id": 11,
-                        "rarity": 2,
-                        "value": 48,
-                        "carryLimit": 10,
-                        "name": "Well-done Steak",
-                        "description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!"
-                    },
-                    {
-                        "id": 17,
-                        "rarity": 2,
-                        "value": 10,
-                        "carryLimit": 5,
-                        "name": "Astera Jerky",
-                        "description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding."
-                    },
-                    {
-                        "id": 107,
-                        "rarity": 2,
-                        "value": 45,
-                        "carryLimit": 10,
-                        "name": "Sushifish Scale",
-                        "description": "A scale from a Sushifish. Eat to restore a small amount of health. Also works to treat bleeding."
-                    }
-                ]
-            }
-        }
-    ],
-    "locations": [
-        {
-            "id": 2,
-            "zoneCount": 15,
-            "name": "Coral Highlands"
-        },
-        {
-            "id": 4,
-            "zoneCount": 16,
-            "name": "Rotten Vale"
-        }
-    ],
-    "resistances": [
-        {
-            "element": "dragon",
-            "condition": null
-        }
-    ],
-    "weaknesses": [
-        {
-            "element": "fire",
-            "stars": 1,
-            "condition": null
-        },
-        {
-            "element": "water",
-            "stars": 1,
-            "condition": null
-        },
-        {
-            "element": "thunder",
-            "stars": 2,
-            "condition": null
-        },
-        {
-            "element": "ice",
-            "stars": 3,
-            "condition": null
-        },
-        {
-            "element": "poison",
-            "stars": 1,
-            "condition": null
-        },
-        {
-            "element": "sleep",
-            "stars": 2,
-            "condition": null
-        },
-        {
-            "element": "paralysis",
-            "stars": 3,
-            "condition": null
-        },
-        {
-            "element": "blast",
-            "stars": 2,
-            "condition": null
-        },
-        {
-            "element": "stun",
-            "stars": 2,
-            "condition": null
-        }
-    ],
-    "rewards": []
-}
+[
+    {
+        "element": "fire",
+        "stars": 1,
+        "condition": null
+    },
+    {
+        "element": "water",
+        "stars": 1,
+        "condition": null
+    },
+    {
+        "element": "thunder",
+        "stars": 2,
+        "condition": null
+    },
+    {
+        "element": "ice",
+        "stars": 3,
+        "condition": null
+    },
+    {
+        "element": "poison",
+        "stars": 1,
+        "condition": null
+    },
+    {
+        "element": "sleep",
+        "stars": 2,
+        "condition": null
+    },
+    {
+        "element": "paralysis",
+        "stars": 3,
+        "condition": null
+    },
+    {
+        "element": "blast",
+        "stars": 2,
+        "condition": null
+    },
+    {
+        "element": "stun",
+        "stars": 2,
+        "condition": null
+    }
+]

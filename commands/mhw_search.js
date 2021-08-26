@@ -10,9 +10,11 @@ module.exports = function	mhw_search(msg, name)
 	}).then(function (data) {
 		for (var i = 0; i < data.length; i++)
 		{
-			if (data[i].name == "Odogaron")
+			console.log("name : " + name[1].toLowerCase());
+			if (data[i].name.toLowerCase() == name[1].toLowerCase())
 			{
-				test = JSON.stringify(data[i], null, 4);
+				console.log(data[i].weaknesses);
+				test = JSON.stringify(data[i].weaknesses, null, 4);
 				console.log("HERE IT IS : " + test);
 				break;
 			}
