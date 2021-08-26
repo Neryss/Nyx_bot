@@ -6,7 +6,7 @@ const Discord = require("discord.js");
 
 function	put_star(nb)
 {
-	return (Array(nb).join("<:star:880281496315899955>"));
+	return (Array(nb + 1).join("<:star:880281496315899955>"));
 }
 
 module.exports = function	mhw_search(msg, name)
