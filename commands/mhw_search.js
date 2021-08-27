@@ -3,6 +3,7 @@ const fs = require("fs");
 const { formatWithOptions } = require("util");
 const { DiscordAPIError } = require("discord.js");
 const Discord = require("discord.js");
+generate = false;
 
 function	put_star(nb)
 {
@@ -26,7 +27,6 @@ function	treat_data(data, name, msg, iceborne)
 		console.log("i is ; " + i);
 		if (data[i].name.toLowerCase() == name.join(' '))
 		{
-			console.log("TROUVED");
 			found++;
 			weakness = new Discord.MessageEmbed()
 			.setColor("#ff0080")
@@ -35,17 +35,13 @@ function	treat_data(data, name, msg, iceborne)
 			console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
 			e_weak = data[i].weaknesses;
 			for (var j = 0; j < e_weak.length; j++)
-			{
 				if (e_weak[j].stars > 1 && !check_ailments(e_weak[j]))
 					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
-			}
 			weakness.addField('\u200b', '\u200b')
 			.addField("Ailments :", "\u200b");
 			for (j = 0; j < e_weak.length; j++)
-			{
 				if (e_weak[j].stars > 1 && check_ailments(e_weak[j]))
 					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
-			}
 			weakness.setFooter(
 				"Nyx",
 				"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
@@ -62,10 +58,7 @@ function	treat_data(data, name, msg, iceborne)
 			});
 		}
 		if (!found)
-		{
-			console.log("return -1");
 			return (1);
-		}
 		return (0);
 }
 
@@ -86,46 +79,8 @@ function	iceborne_search(name, data, msg)
 	})
 }
 
-module.exports = function	mhw_search(msg, name)
+function	generate_ailments_db()
 {
-	name.shift();
-	for (var i = 0; i < name.length; i++)
-	name[i].toLowerCase();
-	console.log("called search");
-	if (!fs.existsSync("./monster_db.json"))
-	{
-		console.log("FILE DOESN'T EXIST");
-		fetch("https://mhw-db.com/monsters")
-		.then(function (response) {
-			console.log("Fetch done");
-			return (response.json());
-		}).then(function (data) {
-			if (treat_data(data, name, msg, 0) == 1)
-				iceborne_search(name, data, msg);
-		}).catch(function (err) {
-			console.warn("Something went wrong : ", err);
-		});
-	}
-	else
-	{
-		console.log("FILE EXISTS");
-		fs.readFile("./monster_db.json", function (err, data) {
-			try
-			{
-				data = JSON.parse(data);
-				console.log("Treat existing data");
-				if (treat_data(data, name, msg, 0) == 1)
-				{
-					console.log("Iceborne go");
-					iceborne_search(name, data, msg);
-				}
-			}
-			catch (e)
-			{
-				console.log(err);
-			}
-		})
-	}
 	fetch("https://mhw-db.com/ailments")
 	.then(function (response) {
 		return (response.json());
@@ -137,4 +92,50 @@ module.exports = function	mhw_search(msg, name)
 	}).catch(function (err) {
 		console.warn("Something went wrong : " + err);
 	})
+}
+
+function	generate_and_search(name, msg)
+{
+	console.log("FILE DOESN'T EXIST");
+	fetch("https://mhw-db.com/monsters")
+	.then(function (response) {
+		return (response.json());
+	}).then(function (data) {
+		if (treat_data(data, name, msg, 0) == 1)
+			iceborne_search(name, data, msg);
+	}).catch(function (err) {
+		console.warn("Something went wrong : ", err);
+	});
+}
+
+function search_all(name, msg)
+{
+	console.log("FILE EXISTS");
+	fs.readFile("./monster_db.json", function (err, data) {
+		try
+		{
+			data = JSON.parse(data);
+			console.log("Treat existing data");
+			if (treat_data(data, name, msg, 0) == 1)
+				iceborne_search(name, data, msg);
+		}
+		catch (e)
+		{
+			console.log(err);
+		}
+	})
+}
+
+module.exports = function	mhw_search(msg, name)
+{
+	name.shift();
+	for (var i = 0; i < name.length; i++)
+	name[i].toLowerCase();
+	console.log("called search");
+	if (!fs.existsSync("./monster_db.json"))
+		generate_and_search(name, msg);
+	else
+		search_all(name, msg);
+	if (generate)
+		generate_ailments_db();
 }
