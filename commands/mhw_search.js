@@ -31,14 +31,19 @@ function	treat_data(data, name, msg, iceborne)
 			weakness = new Discord.MessageEmbed()
 			.setColor("#ff0080")
 			.setTitle(data[i].name)
-			.addField("Weaknesses :", "\u200b");
+			.addField("Inflicts : ", "(ailments inflicted by the monster)");
 			console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
+			e_inflicts = data[i].ailments;
+			for (var j = 0; j < e_inflicts.length; j++)
+				weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
+			weakness.addField("\u200b", "----------------------------------------------------------");
 			e_weak = data[i].weaknesses;
+			weakness.addField("Weaknesses :", "(absent elements = resist/no effects)");
 			for (var j = 0; j < e_weak.length; j++)
 				if (e_weak[j].stars > 1 && !check_ailments(e_weak[j]))
 					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
-			weakness.addField('\u200b', '\u200b')
-			.addField("Ailments :", "\u200b");
+			weakness.addField('\u200b', '----------------------------------------------------------')
+			.addField("Ailments :", "(absent elements = resist/no effects)");
 			for (j = 0; j < e_weak.length; j++)
 				if (e_weak[j].stars > 1 && check_ailments(e_weak[j]))
 					weakness.addField(e_weak[j].element + " : ", put_star(e_weak[j].stars), true);
