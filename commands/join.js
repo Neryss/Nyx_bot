@@ -12,7 +12,12 @@ module.exports = {
 				.addChoice('on', 'on')
 				.addChoice('off', 'off')),
 	async execute(interaction) {
-		await interaction.reply({content: `turned ${interaction.options.getString('switch')}`, ephemeral: true});
+		const choice = interaction.options.getString('switch');
+		if (choice == 'on')
+			global.toggle = true;
+		else
+			global.toggle = false;
+		await interaction.reply({content: `turned ${choice}\nToggle: ${global.toggle}`, ephemeral: true});
 	},
 };
 
