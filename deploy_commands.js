@@ -8,7 +8,7 @@ const client_id = process.env.CLIENT_ID;
 
 const commands = [
 	new SlashCommandBuilder().setName("ping").setDescription("You guessed it"),
-	new SlashCommandBuilder().setName("test").setDescription("echoes test"),
+	new SlashCommandBuilder().setName("server").setDescription("get server infos"),
 	new SlashCommandBuilder().setName("user").setDescription("send user infos"),
 ]
 	.map(command => command.toJSON());

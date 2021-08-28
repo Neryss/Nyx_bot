@@ -36,26 +36,39 @@ client.on("ready", () => {
 	setInterval(connect, 10000);
 })
 
-client.on("message", (msg) => {
-	console.log("received message :" + msg);
-	args = msg.content.toLowerCase().trim().split(/ +/);
-	if (args.includes("tg") && (msg.author.id == "227429963882692608" || msg.author.id == "237230995651166209" || msg.author.id == "356080354030911489"))
-	{
-		console.log("ui");
-		msg.author.send(":)");
-		msg.reply("toi tg");
-	}
-	else if (msg.content[0] == '!')
-	{
-		args = msg.content.slice(prefix.length).trim().split(/ +/);
-		console.log("args : " + args);
-		if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
-			if (msg.content.startsWith(prefix)) command_handler(msg, args);
-		}
-	}
-	else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
-		msg.delete();
+client.on("interactionCreate", async interaction => {
+	if (!interaction.isCommand())
+		return ;
+	const { commandName } = interaction;
+
+	if (commandName == "ping")
+		await interaction.reply("pong");
+	else if (commandName == "server")
+		await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
+	else if (commandName == "user")
+		await interaction.reply(`Tag: ${interaction.user.tag}\nId: ${interaction.user.id}`);
 });
+
+// client.on("message", (msg) => {
+// 	console.log("received message :" + msg);
+// 	args = msg.content.toLowerCase().trim().split(/ +/);
+// 	if (args.includes("tg") && (msg.author.id == "227429963882692608" || msg.author.id == "237230995651166209" || msg.author.id == "356080354030911489"))
+// 	{
+// 		console.log("ui");
+// 		msg.author.send(":)");
+// 		msg.reply("toi tg");
+// 	}
+// 	else if (msg.content[0] == '!')
+// 	{
+// 		args = msg.content.slice(prefix.length).trim().split(/ +/);
+// 		console.log("args : " + args);
+// 		if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
+// 			if (msg.content.startsWith(prefix)) command_handler(msg, args);
+// 		}
+// 	}
+// 	else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
+// 		msg.delete();
+// });
 
 function changeStatus(status, force) {
 	var name;
