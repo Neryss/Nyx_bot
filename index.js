@@ -39,8 +39,8 @@ module.export = e_status = new MessageEmbed()
 client.login(process.env.DISCORD_TOKEN);
 client.on("ready", () => {
 	console.log("Logged in");
-	// pingServer(true);
-	// setInterval(pingServer, 10000);
+	pingServer(true);
+	setInterval(pingServer, 10000);
 	// setInterval(connect, 10000);
 })
 
@@ -79,38 +79,36 @@ client.on("interactionCreate", async interaction => {
 // 		msg.delete();
 // });
 
-// function changeStatus(status, force) {
-// 	var name;
+function changeStatus(status, force) {
+	var name;
 
-// 	if (force || client.presence.status != status) {
-// 		switch (status) {
-// 			case "online":
-// 				name = "server is up owo!";
-// 				break;
-// 			case "dnd":
-// 				name = "server is actually down iwi";
-// 				break;
-// 			default:
-// 				name = "IDK";
-// 				break;
-// 		}
-// 		client.user.setPresence({
-// 			status: status,
-// 			activity: { name: name },
-// 		});
-// 	}
-// }
+	if (force || client.presence.status != status) {
+		switch (status) {
+			case "online":
+				name = "server is up owo!";
+				break;
+			case "dnd":
+				name = "server is actually down iwi";
+				break;
+			default:
+				name = "IDK";
+				break;
+		}
+		client.user.setActivity(name);
+		client.user.setStatus(status);
+	}
+}
 
-// function pingServer(force = false) {
-// 	mcping
-// 		.java({ host: "localhost", port: mc_server.port, timeout: 5000 })
-// 		.then((res) => {
-// 			global.is_online = true;
-// 			changeStatus("online", force);
-// 		})
-// 		.catch((err) => {
-// 			global.is_online = false;
-// 			console.error(err);
-// 			changeStatus("dnd", force);
-// 		});
-// }
+function pingServer(force = false) {
+	mcping
+		.java({ host: "localhost", port: mc_server.port, timeout: 5000 })
+		.then((res) => {
+			global.is_online = true;
+			changeStatus("online", force);
+		})
+		.catch((err) => {
+			global.is_online = false;
+			console.error(err);
+			changeStatus("dnd", force);
+		});
+}
