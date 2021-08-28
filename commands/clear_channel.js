@@ -14,6 +14,10 @@ module.exports = {
 			await interaction.reply("Sorry you don't have the permission to execute this command!");
 			return ;
 		}
+		else if (limit > 100 || limit <= 0) {
+			await interaction.reply("limits[1-100]");
+			return ;
+		}
 		const fetched = await interaction.channel.messages.fetch({limit: limit});
 		interaction.channel.bulkDelete(fetched);
 		await interaction.reply("Done!");
