@@ -1,6 +1,7 @@
 require("dotenv").config();
 const	mcping = require("mcpinger");
-const	Discord = require("discord.js");
+const { Client, Intents } = require('discord.js');
+const { MessageEmbed } = require('discord.js');
 const	connect = require("./commands/voice");
 const	tc_channel = "838912531245826148";
 const	beta_channel = "839616736328286299";
@@ -13,10 +14,9 @@ const	mc_server = {
 global.toggle = false;
 global.togglejoin = true;
 global.is_online = false;
-module.exports = client = new Discord.Client();
-module.exports = client;
+module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS]});
 module.exports = ip = process.env.MY_IP;
-module.export = e_status = new Discord.MessageEmbed()
+module.export = e_status = new MessageEmbed()
 	.setColor("#ff0080")
 	.setTitle("Modpack link")
 	.setURL(process.env.MODPACK_URL)
@@ -53,6 +53,8 @@ client.on("message", (msg) => {
 			if (msg.content.startsWith(prefix)) command_handler(msg, args);
 		}
 	}
+	else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
+		msg.delete();
 });
 
 function changeStatus(status, force) {

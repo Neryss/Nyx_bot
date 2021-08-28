@@ -1,9 +1,34 @@
 {
   "dependencies": {
+    "@discordjs/builders": "^0.6.0",
     "@discordjs/opus": "^0.5.3",
-    "discord.js": "^12.5.3",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "core-util-is": "^1.0.2",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
     "dotenv": "^8.2.0",
     "mcpinger": "^0.1.8",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.4"
+  },
+  "name": "Nyx_bot",
+  "description": "## General things Hey! This is basicaly a discord bot I made for a private server. It pings a minecraft server and update its status depending on the current server status. Can tell user to shut it down if the user tells someone the beautiful french \"tg\". Also it joins at random intervals a voice channel and yell a bit. That's fun and customizable. Some other Minecraft utils and that's all really.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neryss/Nyx_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neryss/Nyx_bot/issues"
+  },
+  "homepage": "https://github.com/Neryss/Nyx_bot#readme"
 }
