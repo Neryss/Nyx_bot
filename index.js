@@ -4,9 +4,9 @@ const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 // const	connect = require("./commands/voice");
-// const	tc_channel = "838912531245826148";
-// const	beta_channel = "839616736328286299";
-// const	prefix = "!";
+const	tc_channel = "838912531245826148";
+const	beta_channel = "839616736328286299";
+const	prefix = "!";
 // const	command_handler = require("./commands");
 // const { execute } = require("./commands/ping");
 const	mc_server = {
@@ -16,7 +16,7 @@ const	mc_server = {
 global.toggle = false;
 global.togglejoin = true;
 global.is_online = false;
-module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS]});
+module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS, "GUILD_MESSAGES"]});
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 for (const file of commandFiles) {
@@ -45,6 +45,7 @@ client.on("ready", () => {
 })
 
 client.on("interactionCreate", async interaction => {
+	console.log("interact");
 	if (!interaction.isCommand())
 		return ;
 	const command = client.commands.get(interaction.commandName);
@@ -58,26 +59,26 @@ client.on("interactionCreate", async interaction => {
 	}
 });
 
-// client.on("message", (msg) => {
-// 	console.log("received message :" + msg);
-// 	args = msg.content.toLowerCase().trim().split(/ +/);
-// 	if (args.includes("tg") && (msg.author.id == "227429963882692608" || msg.author.id == "237230995651166209" || msg.author.id == "356080354030911489"))
-// 	{
-// 		console.log("ui");
-// 		msg.author.send(":)");
-// 		msg.reply("toi tg");
-// 	}
-// 	else if (msg.content[0] == '!')
-// 	{
-// 		args = msg.content.slice(prefix.length).trim().split(/ +/);
-// 		console.log("args : " + args);
-// 		if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
-// 			if (msg.content.startsWith(prefix)) command_handler(msg, args);
-// 		}
-// 	}
-// 	else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
-// 		msg.delete();
-// });
+client.on("messageCreate", (msg) => {
+	console.log("received message :" + msg);
+	args = msg.content.toLowerCase().trim().split(/ +/);
+	if (args.includes("tg") && (msg.author.id == "227429963882692608" || msg.author.id == "237230995651166209" || msg.author.id == "356080354030911489" || msg.author.id == "227429963882692608"))
+	{
+		console.log("ui");
+		msg.author.send(":)");
+		msg.reply("toi tg");
+	}
+	// else if (msg.content[0] == '!')
+	// {
+	// 	args = msg.content.slice(prefix.length).trim().split(/ +/);
+	// 	console.log("args : " + args);
+	// 	if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
+	// 		if (msg.content.startsWith(prefix)) command_handler(msg, args);
+	// 	}
+	// }
+	// else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
+	// 	msg.delete();
+});
 
 function changeStatus(status, force) {
 	var name;
