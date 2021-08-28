@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require("discord-api-types/v9");
@@ -12,7 +13,8 @@ const commands = [
 ]
 	.map(command => command.toJSON());
 
-const rest = new REST({version: "9"}).setToken(token);
+const rest = new REST({ version: '9' }).setToken(process.env.DISCORD_TOKEN);
+console.log("token " + process.env.DISCORD_TOKEN);
 
 (async () => {
 	try {
