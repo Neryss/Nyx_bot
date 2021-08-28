@@ -1,6 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
 const { Permissions } = require('discord.js');
-const { client } = require("../index.js")
 
 module.exports = {
 	data: new SlashCommandBuilder()
@@ -19,7 +18,7 @@ module.exports = {
 			return ;
 		}
 		const fetched = await interaction.channel.messages.fetch({limit: limit});
-		interaction.channel.bulkDelete(fetched);
-		await interaction.reply("Done!");
+		interaction.channel.bulkDelete(fetched, true);
+		await interaction.reply({content: "Done!", ephemeral: true});
 	}
 }
