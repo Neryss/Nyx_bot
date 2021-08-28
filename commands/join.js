@@ -12,7 +12,7 @@ module.exports = {
 				.addChoice('on', 'on')
 				.addChoice('off', 'off')),
 	async execute(interaction) {
-		await interaction.reply('oof');
+		await interaction.reply({content: `turned ${interaction.options.getString('switch')}`, ephemeral: true});
 	},
 };
 
