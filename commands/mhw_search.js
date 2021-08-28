@@ -3,6 +3,8 @@ const fs = require("fs");
 const { formatWithOptions } = require("util");
 const { DiscordAPIError } = require("discord.js");
 const Discord = require("discord.js");
+const { MessageEmbed } = require("discord.js");
+const { SlashCommandBuilder } = require("@discordjs/builders");
 generate = false;
 
 function	put_star(nb)
@@ -19,16 +21,16 @@ function check_ailments(weak)
 	return (false);
 }
 
-function	treat_data(data, name, msg, iceborne)
+function	treat_data(data, name, interaction, iceborne)
 {
 	var found = 0;
 	for (var i = 0; i < data.length; i++)
 	{
 		console.log("i is ; " + i);
-		if (data[i].name.toLowerCase() == name.join(' '))
+		if (data[i].name.toLowerCase() == name)
 		{
 			found++;
-			weakness = new Discord.MessageEmbed()
+			weakness = new MessageEmbed()
 			.setColor("#ff0080")
 			.setTitle(data[i].name)
 			.addField("Inflicts : ", "(ailments inflicted by the monster)");
@@ -51,7 +53,8 @@ function	treat_data(data, name, msg, iceborne)
 				"Nyx",
 				"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
 				);
-				msg.channel.send(weakness);
+				console.log("PAIN");
+				interaction.channel.send({ embeds: [weakness]});
 				break;
 			}
 		}
@@ -67,7 +70,7 @@ function	treat_data(data, name, msg, iceborne)
 		return (0);
 }
 
-function	iceborne_search(name, data, msg)
+function	iceborne_search(name, data, interaction)
 {
 	console.log("Couldn't find any occurence in mhw db, searching through Iceborne...");
 	fs.readFile("./iceborne_db.json", function (err, data) {
@@ -75,7 +78,7 @@ function	iceborne_search(name, data, msg)
 		{
 			data = JSON.parse(data);
 			console.log(JSON.stringify(data, null, 4));
-			treat_data(data, name, msg, 1);
+			treat_data(data, name, interaction, 1);
 		}
 		catch (e)
 		{
@@ -99,21 +102,21 @@ function	generate_ailments_db()
 	})
 }
 
-function	generate_and_search(name, msg)
+function	generate_and_search(name, interaction)
 {
 	console.log("FILE DOESN'T EXIST");
 	fetch("https://mhw-db.com/monsters")
 	.then(function (response) {
 		return (response.json());
 	}).then(function (data) {
-		if (treat_data(data, name, msg, 0) == 1)
-			iceborne_search(name, data, msg);
+		if (treat_data(data, name, interaction, 0) == 1)
+			iceborne_search(name, data, interaction);
 	}).catch(function (err) {
 		console.warn("Something went wrong : ", err);
 	});
 }
 
-function search_all(name, msg)
+function search_all(name, interaction)
 {
 	console.log("FILE EXISTS");
 	fs.readFile("./monster_db.json", function (err, data) {
@@ -121,8 +124,8 @@ function search_all(name, msg)
 		{
 			data = JSON.parse(data);
 			console.log("Treat existing data");
-			if (treat_data(data, name, msg, 0) == 1)
-				iceborne_search(name, data, msg);
+			if (treat_data(data, name, interaction, 0) == 1)
+				iceborne_search(name, data, interaction);
 		}
 		catch (e)
 		{
@@ -131,16 +134,24 @@ function search_all(name, msg)
 	})
 }
 
-module.exports = function	mhw_search(msg, name)
-{
-	name.shift();
-	for (var i = 0; i < name.length; i++)
-	name[i].toLowerCase();
-	console.log("called search");
-	if (!fs.existsSync("./monster_db.json"))
-		generate_and_search(name, msg);
-	else
-		search_all(name, msg);
-	if (generate)
-		generate_ailments_db();
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName("search")
+		.setDescription("Search for a MHW monster stats")
+		.addStringOption(option => option.setName('name').setDescription('monster to search for')),
+	async execute(interaction) {
+		const name = interaction.options.getString('name');
+		console.log(name);
+		for (var i = 0; i < name.length; i++)
+			name[i].toLowerCase();
+		console.log("called search");
+		if (!fs.existsSync("./monster_db.json"))
+			generate_and_search(name, interaction);
+		else
+			search_all(name, interaction);
+		if (generate)
+			generate_ailments_db()
+		await interaction.reply("Done!");
+		await interaction.deleteReply();
+	}
 }
