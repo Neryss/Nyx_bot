@@ -13,6 +13,8 @@ const	mc_server = {
 global.toggle = false;
 global.togglejoin = true;
 global.is_online = false;
+global.vc_id = null;
+global.guild_id = null;
 module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS, 'GUILD_MESSAGES']});
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -65,16 +67,6 @@ client.on('messageCreate', (msg) => {
 		msg.author.send(':)');
 		msg.reply('toi tg');
 	}
-	// else if (msg.content[0] == '!')
-	// {
-	// 	args = msg.content.slice(prefix.length).trim().split(/ +/);
-	// 	console.log("args : " + args);
-	// 	if (msg.channel.id == tc_channel || msg.channel.id == beta_channel || msg.channel.id == "866431049118908416") {
-	// 		if (msg.content.startsWith(prefix)) command_handler(msg, args);
-	// 	}
-	// }
-	// else if (msg.channel.id == beta_channel && msg.content[0] != '!' && msg.author.id != "268380213010890752")
-	// 	msg.delete();
 });
 
 function changeStatus(status, force) {
