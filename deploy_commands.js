@@ -1,4 +1,5 @@
 require("dotenv").config();
+const fs = require('fs');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require("discord-api-types/v9");
@@ -6,12 +7,12 @@ const guildID = process.env.TS_GUILD_ID;
 const token = process.env.DISCORD_TOKEN;
 const client_id = process.env.CLIENT_ID;
 
-const commands = [
-	new SlashCommandBuilder().setName("ping").setDescription("You guessed it"),
-	new SlashCommandBuilder().setName("server").setDescription("get server infos"),
-	new SlashCommandBuilder().setName("user").setDescription("send user infos"),
-]
-	.map(command => command.toJSON());
+const commands = [];
+const commandFiles = fs.readdirSync(`./commands`).filter(file => file.endsWith(".js"));
+for (const file of commandFiles) {
+	const command = require(`./commands/${file}`);
+	commands.push(command.data.toJson());
+}
 
 const rest = new REST({ version: '9' }).setToken(process.env.DISCORD_TOKEN);
 console.log("token " + process.env.DISCORD_TOKEN);
