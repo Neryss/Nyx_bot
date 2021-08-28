@@ -1,22 +1,19 @@
-require("dotenv").config();
-const	mcping = require("mcpinger");
+require('dotenv').config();
+const	mcping = require('mcpinger');
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
-// const	connect = require("./commands/voice");
-const	tc_channel = "838912531245826148";
-const	beta_channel = "839616736328286299";
-const	prefix = "!";
-// const	command_handler = require("./commands");
-// const { execute } = require("./commands/ping");
+// const	connect = require('./commands/voice');
+// const	command_handler = require('./commands');
+// const { execute } = require('./commands/ping');
 const	mc_server = {
 	port: 25565,
-	version: "Forge: 1.16.5",
+	version: 'Forge: 1.16.5',
 };
 global.toggle = false;
 global.togglejoin = true;
 global.is_online = false;
-module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS, "GUILD_MESSAGES"]});
+module.exports = client = new Client({intents: [Intents.FLAGS.GUILDS, 'GUILD_MESSAGES']});
 client.commands = new Collection();
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 for (const file of commandFiles) {
@@ -25,27 +22,27 @@ for (const file of commandFiles) {
 }
 module.exports = ip = process.env.MY_IP;
 module.export = e_status = new MessageEmbed()
-	.setColor("#ff0080")
-	.setTitle("Modpack link")
+	.setColor('#ff0080')
+	.setTitle('Modpack link')
 	.setURL(process.env.MODPACK_URL)
-	.addField("Minecraft version", mc_server.version)
-	.addField("Infos:", "If the modpack is out of date or seems to not be accurate, tell <@227429963882692608>!")
+	.addField('Minecraft version', mc_server.version)
+	.addField('Infos:', 'If the modpack is out of date or seems to not be accurate, tell <@227429963882692608>!')
 	.setTimestamp()
 	.setFooter(
-		"Nyx",
-		"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
+		'Nyx',
+		'https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg',
 	);
 
 client.login(process.env.DISCORD_TOKEN);
-client.on("ready", () => {
-	console.log("Logged in");
+client.on('ready', () => {
+	console.log('Logged in');
 	pingServer(true);
 	setInterval(pingServer, 10000);
 	// setInterval(connect, 10000);
 })
 
-client.on("interactionCreate", async interaction => {
-	console.log("interact");
+client.on('interactionCreate', async interaction => {
+	console.log('interact');
 	if (!interaction.isCommand())
 		return ;
 	const command = client.commands.get(interaction.commandName);
@@ -55,18 +52,18 @@ client.on("interactionCreate", async interaction => {
 		await command.execute(interaction);
 	} catch (error) {
 		console.log(`An error has occured : ${error}`);
-		await interaction.reply({content: "There was an error executing that command!", ephemeral: true});
+		await interaction.reply({content: 'There was an error executing that command!', ephemeral: true});
 	}
 });
 
-client.on("messageCreate", (msg) => {
-	console.log("received message :" + msg);
+client.on('messageCreate', (msg) => {
+	console.log('received message :' + msg);
 	args = msg.content.toLowerCase().trim().split(/ +/);
-	if (args.includes("tg") && (msg.author.id == "227429963882692608" || msg.author.id == "237230995651166209" || msg.author.id == "356080354030911489" || msg.author.id == "227429963882692608"))
+	if (args.includes('tg') && (msg.author.id == '227429963882692608' || msg.author.id == '237230995651166209' || msg.author.id == '356080354030911489' || msg.author.id == '227429963882692608'))
 	{
-		console.log("ui");
-		msg.author.send(":)");
-		msg.reply("toi tg");
+		console.log('ui');
+		msg.author.send(':)');
+		msg.reply('toi tg');
 	}
 	// else if (msg.content[0] == '!')
 	// {
