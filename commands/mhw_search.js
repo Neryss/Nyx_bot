@@ -6,6 +6,7 @@ const Discord = require("discord.js");
 const { MessageEmbed } = require("discord.js");
 const { SlashCommandBuilder } = require("@discordjs/builders");
 generate = false;
+let tmp;
 
 function	put_star(nb)
 {
@@ -21,7 +22,7 @@ function check_ailments(weak)
 	return (false);
 }
 
-function	treat_data(data, name, interaction, iceborne)
+async function	treat_data(data, name, interaction, iceborne)
 {
 	var found = 0;
 	for (var i = 0; i < data.length; i++)
@@ -54,6 +55,7 @@ function	treat_data(data, name, interaction, iceborne)
 				"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
 				);
 				console.log("PAIN");
+				tmp = weakness;
 				interaction.channel.send({ embeds: [weakness]});
 				break;
 			}
@@ -67,10 +69,11 @@ function	treat_data(data, name, interaction, iceborne)
 		}
 		if (!found)
 			return (1);
+		console.log("Search all returns 1");
 		return (0);
 }
 
-function	iceborne_search(name, data, interaction)
+async function	iceborne_search(name, data, interaction)
 {
 	console.log("Couldn't find any occurence in mhw db, searching through Iceborne...");
 	fs.readFile("./iceborne_db.json", function (err, data) {
@@ -78,7 +81,7 @@ function	iceborne_search(name, data, interaction)
 		{
 			data = JSON.parse(data);
 			console.log(JSON.stringify(data, null, 4));
-			treat_data(data, name, interaction, 1);
+			await treat_data(data, name, interaction, 1);
 		}
 		catch (e)
 		{
@@ -102,21 +105,21 @@ function	generate_ailments_db()
 	})
 }
 
-function	generate_and_search(name, interaction)
+async function	generate_and_search(name, interaction)
 {
 	console.log("FILE DOESN'T EXIST");
 	fetch("https://mhw-db.com/monsters")
 	.then(function (response) {
 		return (response.json());
 	}).then(function (data) {
-		if (treat_data(data, name, interaction, 0) == 1)
-			iceborne_search(name, data, interaction);
+		if (await treat_data(data, name, interaction, 0) == 1)
+			await iceborne_search(name, data, interaction);
 	}).catch(function (err) {
 		console.warn("Something went wrong : ", err);
 	});
 }
 
-function search_all(name, interaction)
+async function search_all(name, interaction)
 {
 	console.log("FILE EXISTS");
 	fs.readFile("./monster_db.json", function (err, data) {
@@ -124,8 +127,8 @@ function search_all(name, interaction)
 		{
 			data = JSON.parse(data);
 			console.log("Treat existing data");
-			if (treat_data(data, name, interaction, 0) == 1)
-				iceborne_search(name, data, interaction);
+			if (await treat_data(data, name, interaction, 0) == 1)
+				await iceborne_search(name, data, interaction);
 		}
 		catch (e)
 		{
@@ -151,6 +154,7 @@ module.exports = {
 			search_all(name, interaction);
 		if (generate)
 			generate_ailments_db()
+		console.log(`----------\n${JSON.stringify(tmp, null, 4)}\n----------`);
 		await interaction.reply("Done!");
 		await interaction.deleteReply();
 	}
