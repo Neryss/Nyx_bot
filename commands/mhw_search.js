@@ -150,9 +150,12 @@ async function search_all(name, interaction)
 
 module.exports = {
 	data: new SlashCommandBuilder()
-	.setName("search")
-	.setDescription("Search for a MHW monster stats")
-	.addStringOption(option => option.setName('name').setDescription('monster to search for')),
+		.setName("search")
+		.setDescription("Search for a MHW monster stats")
+		.addStringOption(option =>
+			option.setName('name')
+				.setDescription('monster to search for')
+				.setRequired(true)),
 	/**
 	 *  @param  {Discord.CommandInteraction} interaction
 	 */
@@ -173,7 +176,9 @@ module.exports = {
 		if (generate)
 			await generate_ailments_db()
 		console.log(`----------\n${JSON.stringify(embed, null, 4)}\n----------`);
-		await interaction.editReply({embeds: [embed]});
-		// await interaction.deleteReply(); non faut pas faire ca c'est pas cool, pauvre reply elle a rien demande
+		if (embed)
+			await interaction.editReply({embeds: [embed]});
+		else
+			await interaction.editReply("Monster not found in the db..");
 	}
 }
