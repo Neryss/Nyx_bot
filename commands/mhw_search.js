@@ -54,18 +54,17 @@ async function	treat_data(data, name, interaction, iceborne)
 					"Nyx",
 					"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
 					);
-					console.log("PAIN");
 					embed = weakness;
-					// interaction.channel.send({ embeds: [weakness]});
 					break;
 				}
 			}
 			if (!iceborne)
 			{
-				fs.writeFile("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
-					if (ferr)
-						resolve(console.log("oopsi : " + err));
-				});
+					console.log(JSON.stringify(data, null, 4));
+					fs.writeFileSync("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
+						if (ferr)
+							resolve(console.log("oopsi : " + err));
+					});
 			}
 			if (!found)
 				resolve(1);
@@ -97,11 +96,10 @@ function	generate_ailments_db()
 {
 	return new Promise(resolve => {
 		fetch("https://mhw-db.com/ailments")
-		// .then(function (response) {
-		// 	return (response.json());
-		// })
-		.then (function (data) {
-			fs.writeFile("./ailments_db.json", JSON.stringify(data.json(), null, 4), function (ferr) {
+		.then(function (response) {
+			return (response.json());
+		}).then (function (data) {
+			fs.writeFileSync("./ailments_db.json", JSON.stringify(data, null, 4), function (ferr) {
 				if (ferr)
 					resolve(console.log("Error : " + ferr));
 			})
@@ -116,12 +114,11 @@ async function	generate_and_search(name, interaction)
 	return new Promise(resolve => {
 		console.log("FILE DOESN'T EXIST");
 		fetch("https://mhw-db.com/monsters")
-		// .then(async function (response) {
-		// 	return (await response.json());
-		// })
-		.then(async function (data) {
-			if (await treat_data(data.json(), name, interaction, 0) == 1)
-				await iceborne_search(name, data.json(), interaction);
+		.then(async function (response) {
+			return (await response.json());
+		}).then(async function (data) {
+			if (await treat_data(data, name, interaction, 0) == 1)
+				await iceborne_search(name, data, interaction);
 			resolve()
 		}).catch(function (err) {
 			console.warn("Something went wrong : ", err);
