@@ -3,14 +3,14 @@ const	mcping = require('mcpinger');
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
-// const	connect = require('./commands/voice');
+const	connect = require('./old_commands/connect');
 // const	command_handler = require('./commands');
 // const { execute } = require('./commands/ping');
 const	mc_server = {
 	port: 25565,
 	version: 'Forge: 1.16.5',
 };
-global.toggle = false;
+global.toggle = true;
 global.togglejoin = true;
 global.is_online = false;
 global.vc_id = null;
@@ -41,6 +41,7 @@ client.on('ready', () => {
 	pingServer(true);
 	setInterval(pingServer, 10000);
 	// setInterval(connect, 10000);
+	connect();
 })
 
 client.on('interactionCreate', async interaction => {

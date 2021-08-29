@@ -2,6 +2,7 @@ const { joinVoiceChannel } = require('@discordjs/voice');
 const { channel } = require('diagnostics_channel');
 
 module.exports = async function connect() {
+	console.log(global.toggle);
 	if (global.toggle)
 	{
 		const connection = joinVoiceChannel({
