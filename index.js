@@ -41,7 +41,7 @@ client.on('ready', () => {
 	pingServer(true);
 	setInterval(pingServer, 10000);
 	// setInterval(connect, 10000);
-	connect();
+	// connect();
 })
 
 client.on('interactionCreate', async interaction => {
