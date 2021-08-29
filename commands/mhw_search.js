@@ -27,7 +27,6 @@ async function	treat_data(data, name, interaction, iceborne)
 	var found = 0;
 	for (var i = 0; i < data.length; i++)
 	{
-		console.log("i is ; " + i);
 		if (data[i].name.toLowerCase() == name)
 		{
 			found++;
@@ -35,7 +34,7 @@ async function	treat_data(data, name, interaction, iceborne)
 			.setColor("#ff0080")
 			.setTitle(data[i].name)
 			.addField("Inflicts : ", "(ailments inflicted by the monster)");
-			console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
+			// console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
 			e_inflicts = data[i].ailments;
 			for (var j = 0; j < e_inflicts.length; j++)
 				weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
@@ -76,7 +75,7 @@ async function	treat_data(data, name, interaction, iceborne)
 async function	iceborne_search(name, data, interaction)
 {
 	console.log("Couldn't find any occurence in mhw db, searching through Iceborne...");
-	fs.readFile("./iceborne_db.json", function (err, data) {
+	fs.readFile("./iceborne_db.json", async function (err, data) {
 		try
 		{
 			data = JSON.parse(data);
@@ -109,9 +108,9 @@ async function	generate_and_search(name, interaction)
 {
 	console.log("FILE DOESN'T EXIST");
 	fetch("https://mhw-db.com/monsters")
-	.then(function (response) {
-		return (response.json());
-	}).then(function (data) {
+	.then(async function (response) {
+		return (await response.json());
+	}).then(async function (data) {
 		if (await treat_data(data, name, interaction, 0) == 1)
 			await iceborne_search(name, data, interaction);
 	}).catch(function (err) {
@@ -122,7 +121,7 @@ async function	generate_and_search(name, interaction)
 async function search_all(name, interaction)
 {
 	console.log("FILE EXISTS");
-	fs.readFile("./monster_db.json", function (err, data) {
+	fs.readFile("./monster_db.json", async function (err, data) {
 		try
 		{
 			data = JSON.parse(data);
@@ -151,11 +150,14 @@ module.exports = {
 		if (!fs.existsSync("./monster_db.json"))
 			generate_and_search(name, interaction);
 		else
-			search_all(name, interaction);
+		{
+			console.log("je suis dans le else");
+			await search_all(name, interaction);
+		}
 		if (generate)
 			generate_ailments_db()
 		console.log(`----------\n${JSON.stringify(tmp, null, 4)}\n----------`);
-		await interaction.reply("Done!");
-		await interaction.deleteReply();
+		// await interaction.channel.send({embeds: [tmp]});
+		// await interaction.deleteReply();
 	}
 }
