@@ -4,6 +4,9 @@ module.exports = {
 	data: new SlashCommandBuilder()
 		.setName("ping")
 		.setDescription("You guessed it..."),
+	/**
+	 *  @param  {Discord.CommandInteraction} interaction
+	 */
 	async execute(interaction) {
 		await interaction.reply("pong!");
 	},

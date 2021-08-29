@@ -21,10 +21,10 @@ console.log("token " + process.env.DISCORD_TOKEN);
 (async () => {
 	try {
 		await rest.put(
-			Routes.applicationGuildCommands(client_id, guildID),
-			{body: commands},
-			// Routes.applicationGuildCommands(client_id, liveGuildID),
+			// Routes.applicationGuildCommands(client_id, guildID),
 			// {body: commands},
+			Routes.applicationGuildCommands(client_id, liveGuildID),
+			{body: commands},
 		);
 		console.log("Commands registered");
 	} catch (err) {
