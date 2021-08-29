@@ -1,14 +1,16 @@
 const { joinVoiceChannel } = require('@discordjs/voice');
 const { channel } = require('diagnostics_channel');
+// const { client } = require('../index.js')
 
 module.exports = async function connect() {
-	console.log(global.toggle);
+	const guild = client.guilds.cache.get('838851865432686604');
+	console.log(guild.id);
 	if (global.toggle)
 	{
 		const connection = joinVoiceChannel({
-			channelId: channel.id,
-			guildId: channel.guild.id,
-			adapterCreator: channel.guild.voiceAdapterCreator,
+			channelId: '838851865432686604',
+			guildId: '838851863969005619',
+			// adapterCreator: client.guild.
 		});
 	}
 }
