@@ -5,7 +5,6 @@ const { DiscordAPIError } = require("discord.js");
 const Discord = require("discord.js");
 const { MessageEmbed } = require("discord.js");
 const { SlashCommandBuilder } = require("@discordjs/builders");
-ret = new MessageEmbed();
 generate = false;
 
 function	put_star(nb)
@@ -55,8 +54,7 @@ function	treat_data(data, name, interaction, iceborne)
 				"https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg",
 				);
 				console.log("PAIN");
-				// interaction.channel.send({ embeds: [weakness]});
-				return ({embeds: [weakness]});
+				interaction.channel.send({ embeds: [weakness]});
 				break;
 			}
 		}
@@ -68,7 +66,7 @@ function	treat_data(data, name, interaction, iceborne)
 			});
 		}
 		if (!found)
-			return (2);
+			return (1);
 		return (0);
 }
 
@@ -80,7 +78,7 @@ function	iceborne_search(name, data, interaction)
 		{
 			data = JSON.parse(data);
 			console.log(JSON.stringify(data, null, 4));
-			return (treat_data(data, name, interaction, 1));
+			treat_data(data, name, interaction, 1);
 		}
 		catch (e)
 		{
@@ -111,11 +109,8 @@ function	generate_and_search(name, interaction)
 	.then(function (response) {
 		return (response.json());
 	}).then(function (data) {
-		embed = treat_data(data, name, interaction, 0);
-		if (embed == 2)
-			return (iceborne_search(name, data, interaction));
-		else
-			return ({embeds: [embed]});
+		if (treat_data(data, name, interaction, 0) == 1)
+			iceborne_search(name, data, interaction);
 	}).catch(function (err) {
 		console.warn("Something went wrong : ", err);
 	});
@@ -129,12 +124,8 @@ function search_all(name, interaction)
 		{
 			data = JSON.parse(data);
 			console.log("Treat existing data");
-			embed = treat_data(data, name, interaction, 0);
-			console.log(embed);
-			if (embed == 2)
-				return (iceborne_search(name, data, interaction));
-			else
-				return (embed);
+			if (treat_data(data, name, interaction, 0) == 1)
+				iceborne_search(name, data, interaction);
 		}
 		catch (e)
 		{
@@ -149,21 +140,18 @@ module.exports = {
 		.setDescription("Search for a MHW monster stats")
 		.addStringOption(option => option.setName('name').setDescription('monster to search for')),
 	async execute(interaction) {
-		embed = new MessageEmbed();
 		const name = interaction.options.getString('name');
 		console.log(name);
 		for (var i = 0; i < name.length; i++)
 			name[i].toLowerCase();
 		console.log("called search");
+		if (!fs.existsSync("./monster_db.json"))
+			generate_and_search(name, interaction);
+		else
+			search_all(name, interaction);
 		if (generate)
 			generate_ailments_db()
-		if (!fs.existsSync("./monster_db.json"))
-			embed = generate_and_search(name, interaction);
-		else
-			embed = search_all(name, interaction);
-		console.log("RIGHT HERE" + embed);
-		await interaction.channel.send({embeds: [embed]});
-		// await interaction.reply(ret);
-		// await interaction.deleteReply();
+		await interaction.reply("Done!");
+		await interaction.deleteReply();
 	}
 }
