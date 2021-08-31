@@ -1,22 +1,64 @@
 [
 	{
-		"id": 60,
+		"id": 61,
 		"type": "large",
 		"species": "fanged wyvern",
 		"elements": [
-			"thunder"
+			"dragon"
 		],
 		"name": "Ebony Odogaron",
 		"description": "This Odogaron subspecies is forever on the prowl for its next meal, and is often seen carrying fresh kills in its mouth. Reports indicate it goes into a frenzy upon eating.",
 		"ailments": [
 			{
-				"id": 11,
-				"name": "Thunderblight",
-				"description": "Thunderblight increases the chance of being stunned.",
+				"id": 2,
+				"name": "Bleeding",
+				"description": "Bleeding causes damage when performing certain actions, such as running, dodging, or attacking.",
 				"recovery": {
-					"actions": [
-						"dodge"
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [
+						{
+							"id": 11,
+							"rarity": 2,
+							"value": 48,
+							"carryLimit": 10,
+							"name": "Well-done Steak",
+							"description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!"
+						},
+						{
+							"id": 17,
+							"rarity": 2,
+							"value": 10,
+							"carryLimit": 5,
+							"name": "Astera Jerky",
+							"description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding."
+						},
+						{
+							"id": 107,
+							"rarity": 2,
+							"value": 45,
+							"carryLimit": 10,
+							"name": "Sushifish Scale",
+							"description": "A scale from a Sushifish. Eat to restore a small amount of health. Also works to treat bleeding."
+						}
 					],
+					"skills": [
+						{
+							"id": 7,
+							"name": "Bleeding Resistance",
+							"description": "Grants protection against bleeding."
+						}
+					]
+				}
+			},
+			{
+				"id": 3,
+				"name": "Dragonblight",
+				"description": "Dragonblight causes your weapon's elemental properties are nullified.",
+				"recovery": {
+					"actions": [],
 					"items": [
 						{
 							"id": 7,
@@ -29,8 +71,8 @@
 					]
 				},
 				"protection": {
-					"skills": [],
-					"items": []
+					"items": [],
+					"skills": []
 				}
 			}
 		],
@@ -105,5 +147,297 @@
 			}
 		],
 		"rewards": []
+	},
+	{
+		"id": 62,
+		"type": "large",
+		"species": "brute wyverns",
+		"elements": [
+			"ice"
+		],
+		"name": "Banbaro",
+		"description" : "A monster with two giant horns, like a running brick wall. It charges at threats while digging its massive horns in the ground, sometimes picking up entire trees along the way.",
+		"ailments": [
+			{
+				"id": 6,
+				"name": "Iceblight",
+				"description": "Iceblight causes stamina usage to increase when performing actions.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 5,
+				"name": "Fireblight",
+				"description": "Fireblight causes damage over time, and negates regular health recovery.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 12,
+				"name": "Waterblight",
+				"description": "Waterblight slows down stamina recovery rate.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "dragon",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 3,
+				"condition": null
+			}
+		],
+		"rewards": []
+	},
+	{
+		"id": 63,
+		"type": "large",
+		"name": "Beotodus"
+	},
+	{
+		"id": 64,
+		"type": "large",
+		"name": "Nargacuga"
+	},
+	{
+		"id": 65,
+		"type": "large",
+		"name": "Velkhana"
+	},
+	{
+		"id": 66,
+		"type": "large",
+		"name": "Tigrex"
+	},
+	{
+		"id": 67,
+		"type": "large",
+		"name": "Shrieking Legiana"
+	},
+	{
+		"id": 68,
+		"type": "large",
+		"name": "Barioth"
+	},
+	{
+		"id": 69,
+		"type": "large",
+		"name": "Glavenus"
+	},
+	{
+		"id": 70,
+		"type": "large",
+		"name": "Brachydios"
+	},
+	{
+		"id": 71,
+		"type": "large",
+		"name": "Fulgur Anjanath"
+	},
+	{
+		"id": 72,
+		"type": "large",
+		"name": "Acidic Glavenus"
+	},
+	{
+		"id": 73,
+		"type": "large",
+		"name": "Ruiner Nergigante"
+	},
+	{
+		"id": 74,
+		"type": "large",
+		"name": "Viper Tobi-Kadachi"
+	},
+	{
+		"id": 75,
+		"type": "large",
+		"name": "Coral Pukei-Pukei"
+	},
+	{
+		"id": 76,
+		"type": "large",
+		"name": "Nightshade Paolomu"
+	},
+	{
+		"id": 77,
+		"type": "large",
+		"name": "Yian Garuga"
+	},
+	{
+		"id": 78,
+		"type": "large",
+		"name": "Shara Ishvalda"
+	},
+	{
+		"id": 79,
+		"type": "large",
+		"name": "Savage Deviljho"
+	},
+	{
+		"id": 80,
+		"type": "large",
+		"name": "Blackveil Vaal Hazak"
+	},
+	{
+		"id": 81,
+		"type": "large",
+		"name": "Seething Bazelgeuse"
+	},
+	{
+		"id": 82,
+		"type": "large",
+		"name": "Scarred Yian Garuga"
+	},
+	{
+		"id": 83,
+		"type": "large",
+		"name": "Gold Rathian"
+	},
+	{
+		"id": 84,
+		"type": "large",
+		"name": "Silver Rathian"
+	},
+	{
+		"id": 85,
+		"type": "large",
+		"name": "Brute Tigrex"
+	},
+	{
+		"id": 86,
+		"type": "large",
+		"name": "Zinogre"
+	},
+	{
+		"id": 87,
+		"type": "large",
+		"name": "Rajang"
+	},
+	{
+		"id": 88,
+		"type": "large",
+		"name": "Stygian Zinogre"
+	},
+	{
+		"id": 89,
+		"type": "large",
+		"name": "Safi'jiiva"
+	},
+	{
+		"id": 90,
+		"type": "large",
+		"name": "Raging Brachydios"
+	},
+	{
+		"id": 91,
+		"type": "large",
+		"name": "Furious Rajang"
+	},
+	{
+		"id": 92,
+		"type": "large",
+		"name": "Alatreon"
+	},
+	{
+		"id": 93,
+		"type": "large",
+		"name": "Frostfang Barioth"
+	},
+	{
+		"id": 94,
+		"type": "large",
+		"name": "Fatalis"
 	}
 ]
