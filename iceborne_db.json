@@ -283,7 +283,37 @@
 	{
 		"id": 63,
 		"type": "large",
-		"name": "Beotodus"
+		"species": "piscine wyvern",
+		"elements": [
+			"ice"
+		],
+		"name": "Beotodus",
+		"description": "A piscine wyvern that uses the sharp fin on its head to cut through the frozen soil, swimming freely through the snow. Can often be seen hurling snow at its prey using its leg fins.",
+		"ailments": [
+			{
+				"id": 6,
+				"name": "Iceblight",
+				"description": "Iceblight causes stamina usage to increase when performing actions.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		]
+
 	},
 	{
 		"id": 64,
