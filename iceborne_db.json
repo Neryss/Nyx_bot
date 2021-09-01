@@ -475,13 +475,88 @@
 	{
 		"id": 65,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "elder dragon",
+		"elements": [
+			"ice"
+		],
 		"name": "Velkhana",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "An elder dragon with the power to freeze all in its path. According to legend, it can control the cold, and use its freezing breath to conjure massive spires of ice out of nowhere.",
+		"ailments": [
+			{
+				"id": 6,
+				"name": "Iceblight",
+				"description": "Iceblight causes stamina usage to increase when performing actions.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "water",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 1,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
