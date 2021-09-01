@@ -369,7 +369,108 @@
 	{
 		"id": 64,
 		"type": "large",
-		"name": "Nargacuga"
+		"species": "flying wyvern",
+		"elements": [],
+		"description": "A flying wyvern covered in pitch black fur. It is extremely agile, especially on the ground, moving with explosive bursts of speed.",
+		"name": "Nargacuga",
+		"ailments": [
+			{
+				"id": 2,
+				"name": "Bleeding",
+				"description": "Bleeding causes damage when performing certain actions, such as running, dodging, or attacking.",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [
+						{
+							"id": 11,
+							"rarity": 2,
+							"value": 48,
+							"carryLimit": 10,
+							"name": "Well-done Steak",
+							"description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!"
+						},
+						{
+							"id": 17,
+							"rarity": 2,
+							"value": 10,
+							"carryLimit": 5,
+							"name": "Astera Jerky",
+							"description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding."
+						},
+						{
+							"id": 107,
+							"rarity": 2,
+							"value": 45,
+							"carryLimit": 10,
+							"name": "Sushifish Scale",
+							"description": "A scale from a Sushifish. Eat to restore a small amount of health. Also works to treat bleeding."
+						}
+					],
+					"skills": [
+						{
+							"id": 7,
+							"name": "Bleeding Resistance",
+							"description": "Grants protection against bleeding."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
+		"rewards": []
 	},
 	{
 		"id": 65,
