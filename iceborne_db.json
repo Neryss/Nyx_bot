@@ -312,8 +312,59 @@
 					"skills": []
 				}
 			}
-		]
-
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
+		"rewards": []
 	},
 	{
 		"id": 64,
