@@ -475,151 +475,361 @@
 	{
 		"id": 65,
 		"type": "large",
-		"name": "Velkhana"
+		"species": "",
+		"elements": [],
+		"name": "Velkhana",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 66,
 		"type": "large",
-		"name": "Tigrex"
+		"species": "",
+		"elements": [],
+		"name": "Tigrex",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 67,
 		"type": "large",
-		"name": "Shrieking Legiana"
+		"species": "",
+		"elements": [],
+		"name": "Shrieking Legiana",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 68,
 		"type": "large",
-		"name": "Barioth"
+		"species": "",
+		"elements": [],
+		"name": "Barioth",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 69,
 		"type": "large",
-		"name": "Glavenus"
+		"species": "",
+		"elements": [],
+		"name": "Glavenus",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 70,
 		"type": "large",
-		"name": "Brachydios"
+		"species": "",
+		"elements": [],
+		"name": "Brachydios",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 71,
 		"type": "large",
-		"name": "Fulgur Anjanath"
+		"species": "",
+		"elements": [],
+		"name": "Fulgur Anjanath",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 72,
 		"type": "large",
-		"name": "Acidic Glavenus"
+		"species": "",
+		"elements": [],
+		"name": "Acidic Glavenus",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 73,
 		"type": "large",
-		"name": "Ruiner Nergigante"
+		"species": "",
+		"elements": [],
+		"name": "Ruiner Nergigante",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 74,
 		"type": "large",
-		"name": "Viper Tobi-Kadachi"
+		"species": "",
+		"elements": [],
+		"name": "Viper Tobi-Kadachi",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 75,
 		"type": "large",
-		"name": "Coral Pukei-Pukei"
+		"species": "",
+		"elements": [],
+		"name": "Coral Pukei-Pukei",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 76,
 		"type": "large",
-		"name": "Nightshade Paolomu"
+		"species": "",
+		"elements": [],
+		"name": "Nightshade Paolomu",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 77,
 		"type": "large",
-		"name": "Yian Garuga"
+		"species": "",
+		"elements": [],
+		"name": "Yian Garuga",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 78,
 		"type": "large",
-		"name": "Shara Ishvalda"
+		"species": "",
+		"elements": [],
+		"name": "Shara Ishvalda",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 79,
 		"type": "large",
-		"name": "Savage Deviljho"
+		"species": "",
+		"elements": [],
+		"name": "Savage Deviljho",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 80,
 		"type": "large",
-		"name": "Blackveil Vaal Hazak"
+		"species": "",
+		"elements": [],
+		"name": "Blackveil Vaal Hazak",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 81,
 		"type": "large",
-		"name": "Seething Bazelgeuse"
+		"species": "",
+		"elements": [],
+		"name": "Seething Bazelgeuse",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 82,
 		"type": "large",
-		"name": "Scarred Yian Garuga"
+		"species": "",
+		"elements": [],
+		"name": "Scarred Yian Garuga",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 83,
 		"type": "large",
-		"name": "Gold Rathian"
+		"species": "",
+		"elements": [],
+		"name": "Gold Rathian",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 84,
 		"type": "large",
-		"name": "Silver Rathian"
+		"species": "",
+		"elements": [],
+		"name": "Silver Rathian",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 85,
 		"type": "large",
-		"name": "Brute Tigrex"
+		"species": "",
+		"elements": [],
+		"name": "Brute Tigrex",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 86,
 		"type": "large",
-		"name": "Zinogre"
+		"species": "",
+		"elements": [],
+		"name": "Zinogre",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 87,
 		"type": "large",
-		"name": "Rajang"
+		"species": "",
+		"elements": [],
+		"name": "Rajang",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 88,
 		"type": "large",
-		"name": "Stygian Zinogre"
+		"species": "",
+		"elements": [],
+		"name": "Stygian Zinogre",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 89,
 		"type": "large",
-		"name": "Safi'jiiva"
+		"species": "",
+		"elements": [],
+		"name": "Safi'jiiva",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 90,
 		"type": "large",
-		"name": "Raging Brachydios"
+		"species": "",
+		"elements": [],
+		"name": "Raging Brachydios",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 91,
 		"type": "large",
-		"name": "Furious Rajang"
+		"species": "",
+		"elements": [],
+		"name": "Furious Rajang",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 92,
 		"type": "large",
-		"name": "Alatreon"
+		"species": "",
+		"elements": [],
+		"name": "Alatreon",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 93,
 		"type": "large",
-		"name": "Frostfang Barioth"
+		"species": "",
+		"elements": [],
+		"name": "Frostfang Barioth",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	},
 	{
 		"id": 94,
 		"type": "large",
-		"name": "Fatalis"
+		"species": "",
+		"elements": [],
+		"name": "Fatalis",
+		"description": "",
+		"ailments": [],
+		"resistances": [],
+		"weaknesses": [],
+		"rewards": []
 	}
 ]
