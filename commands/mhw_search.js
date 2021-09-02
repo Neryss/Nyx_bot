@@ -39,6 +39,11 @@ async function	treat_data(data, name, interaction, iceborne)
 				e_inflicts = data[i].ailments;
 				for (var j = 0; j < e_inflicts.length; j++)
 					weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
+				weakness.addField("\u200b", "----------------------------------------------------------")
+					.addField("Resist to : ", "(resistances or immunities of the monster)")
+				e_resist = data[i].resistances;
+				for (var j = 0; j < e_resist.length; j++)
+					weakness.addField(e_resist[j].element, "<:shield:883134123898732554>", true);
 				weakness.addField("\u200b", "----------------------------------------------------------");
 				e_weak = data[i].weaknesses;
 				weakness.addField("Weaknesses :", "(absent elements = resist/no effects)");
