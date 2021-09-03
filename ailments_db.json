@@ -379,5 +379,20 @@
             "items": [],
             "skills": []
         }
-    }
+    },
+	{
+		"id": 16,
+		"name": "Blastscourge",
+		"description": "goes terribly kaboom",
+		"recovery": {
+			"actions": [
+				"roll"
+			],
+			"items": []
+		},
+		"protection": {
+			"items": [],
+			"skills": []
+		}
+	}
 ]
