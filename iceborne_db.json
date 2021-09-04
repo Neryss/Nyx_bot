@@ -2085,13 +2085,96 @@
 	{
 		"id": 80,
 		"type": "large",
-		"species": "",
+		"species": "elder dragon",
 		"elements": [],
 		"name": "Blackveil Vaal Hazak",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A Vaal Hazak variant encrusted with spores that spew a torrent of toxic effluvium at any who draw close.",
+		"ailments": [
+			{
+				"id": 4,
+				"name": "Effluvial Buildup",
+				"description": "Effluvial buildup causes damage over time, and eventually cuts your maximum health in half if ignored for too long.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 13,
+							"name": "Effluvial Expert",
+							"description": "Nullifies or reduces environmental damage in the Rotten Vale."
+						},
+						{
+							"id": 101,
+							"name": "Effluvia Resistance",
+							"description": "Gain a resistance to effluvial buildup."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 1,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
