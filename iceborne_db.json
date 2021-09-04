@@ -1152,13 +1152,98 @@
 	{
 		"id": 72,
 		"type": "large",
-		"species": "",
+		"species": "brute wyvern",
 		"elements": [],
 		"name": "Acidic Glavenus",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A new subspecies to the ferocious Glavenus, the Acidic Glavenus features a sulphur covered tail. Found only in the rotting areas of the New World, a corrosive fluid has crystallized on its tail, spraying acid with each swing that can apply a debuff to those that get caught in it.",
+		"ailments": [
+			{
+				"id": 14,
+				"name": "Defense Down",
+				"description": "Some monsters may inflict a status that lowers a hunter's defense. Lasts for a certain period of time but can also be cured with defense-increasing items.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 25,
+							"rarity": 4,
+							"value": 58,
+							"carryLimit": 5,
+							"name": "Armorskin",
+							"description": "Boosts your defense by turning your skin as hard as rock."
+						},
+						{
+							"id": 26,
+							"rarity": 5,
+							"value": 269,
+							"carryLimit": 5,
+							"name": "Mega Armorskin",
+							"description": "Boosts your defense even more than a regular armorskin."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": "when crystallized"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 2,
+				"condition": "When not crystallized"
+			},
+			{
+				"element": "thunder",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 3,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
