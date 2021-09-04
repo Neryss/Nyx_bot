@@ -394,5 +394,18 @@
 			"items": [],
 			"skills": []
 		}
+	},
+	{
+		"id": 17,
+		"name": "Noxious poison",
+		"description": "Poison but ultra hardcore",
+		"recovery": {
+			"actions": [],
+			"items": []
+		},
+		"protection": {
+			"items": [],
+			"skills": []
+		}
 	}
 ]

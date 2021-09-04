@@ -1355,13 +1355,131 @@
 	{
 		"id": 74,
 		"type": "large",
-		"species": "",
+		"species": "fanged wyvern",
 		"elements": [],
 		"name": "Viper Tobi-Kadachi",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "The tail of this subspecies secretes a toxin while its fangs paralyze prey. It can also glide without climbing trees.",
+		"ailments": [
+			{
+				"id": 8,
+				"name": "Poison",
+				"description": "Poison slowly drains the target's health.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 5,
+							"rarity": 1,
+							"value": 6,
+							"carryLimit": 10,
+							"name": "Antidote",
+							"description": "A cure for poison."
+						},
+						{
+							"id": 6,
+							"rarity": 2,
+							"value": 25,
+							"carryLimit": 5,
+							"name": "Herbal Medicine",
+							"description": "Removes all traces of poison and restores a slight amount of health."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 1,
+							"name": "Poison Resistance",
+							"description": "Reduces damage while poisoned."
+						}
+					]
+				}
+			},
+			{
+				"id": 17,
+				"name": "Noxious poison",
+				"description": "Poison but ultra hardcore",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 7,
+				"name": "Paralysis",
+				"description": "Paralysis renders the hunter or monster immobilized and susceptible to increased damage for the duration. Hunters can unparalyzed if they are hit.",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 2,
+							"name": "Paralysis Resistance",
+							"description": "Reduces the duration of paralysis."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
