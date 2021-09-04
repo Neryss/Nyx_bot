@@ -1063,13 +1063,90 @@
 	{
 		"id": 71,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "brute wyvern",
+		"elements": [
+			"thunder"
+		],
 		"name": "Fulgur Anjanath",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "With every attack, this Anjanath subspecies fortifies itself with electricity that it charges within its jaws and dorsal membrane.",
+		"ailments": [
+			{
+				"id": 11,
+				"name": "Thunderblight",
+				"description": "Thunderblight increases the chance of being stunned.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3,
+				"condition": "When charged"
+			},
+			{
+				"element": "ice",
+				"stars": 3,
+				"condition": "When uncharged"
+			},
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
