@@ -1661,25 +1661,206 @@
 	{
 		"id": 77,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "bird wyvern",
+		"elements": [
+			"fire"
+		],
 		"name": "Yian Garuga",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A short-tempered bird wyvern marked by its hard, black scales and impressive mane. It strikes with its distinctive beak.",
+		"ailments": [
+			{
+				"id": 5,
+				"name": "Fireblight",
+				"description": "Fireblight causes damage over time, and negates regular health recovery.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 8,
+				"name": "Poison",
+				"description": "Poison slowly drains the target's health.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 5,
+							"rarity": 1,
+							"value": 6,
+							"carryLimit": 10,
+							"name": "Antidote",
+							"description": "A cure for poison."
+						},
+						{
+							"id": 6,
+							"rarity": 2,
+							"value": 25,
+							"carryLimit": 5,
+							"name": "Herbal Medicine",
+							"description": "Removes all traces of poison and restores a slight amount of health."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 1,
+							"name": "Poison Resistance",
+							"description": "Reduces damage while poisoned."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "water",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
 		"id": 78,
 		"type": "large",
-		"species": "",
+		"species": "elder dragon",
 		"elements": [],
 		"name": "Shara Ishvalda",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A mysterious elder dragon able to manipulate the earth itself. Vibrations from its wingtips reshape the earth, denying hunters footing.",
+		"ailments": [
+			{
+				"id": 10,
+				"name": "Stun",
+				"description": "Stun renders the target inactive, and sometimes causes them to fall over.",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 4,
+							"name": "Stun Resistance",
+							"description": "Reduces stun duration."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "water",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 0,
+				"condition": "immune"
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": "armored"
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": "non armored"
+			},
+			{
+				"element": "stun",
+				"stars": 1,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
