@@ -3160,13 +3160,74 @@
 	{
 		"id": 90,
 		"type": "large",
-		"species": "",
+		"species": "brute wyvern",
 		"elements": [],
 		"name": "Raging Brachydios",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A Brachydios variant that is much larger than the normal species. The slime on its body will activate over time and detonate.",
+		"ailments": [
+			{
+				"id": 16,
+				"name": "Blastscourge",
+				"description": "goes terribly kaboom",
+				"recovery": {
+					"actions": [
+						"roll"
+					],
+					"items": []
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "water",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
