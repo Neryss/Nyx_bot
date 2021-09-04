@@ -2815,25 +2815,171 @@
 	{
 		"id": 86,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "fanged wyvern",
+		"elements": [
+			"thunder"
+		],
 		"name": "Zinogre",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "Lightning courses through the fur and unique plating of this fanged wyvern. It is most deadly in its supercharged state.",
+		"ailments": [
+			{
+				"id": 11,
+				"name": "Thunderblight",
+				"description": "Thunderblight increases the chance of being stunned.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "water",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
 		"id": 87,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "fanged beast",
+		"elements": [
+			"thunder"
+		],
 		"name": "Rajang",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "An ultra-aggressive creature that few have a chance of surviving against. Sports powerful arms that pack a punch, and turns gold when angry.",
+		"ailments": [
+			{
+				"id": 11,
+				"name": "Thunderblight",
+				"description": "Thunderblight increases the chance of being stunned.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			},
+			{
+				"element": "water",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "poison",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 1,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
