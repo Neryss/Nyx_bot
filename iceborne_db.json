@@ -1866,13 +1866,220 @@
 	{
 		"id": 79,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "brute wyvern",
+		"elements": [
+			"dragon"
+		],
 		"name": "Savage Deviljho",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A mutated Deviljho variant, driven mad by its overpowering hunger. It will attempt to feed on all it sees.",
+		"ailments": [
+			{
+				"id": 3,
+				"name": "Dragonblight",
+				"description": "Dragonblight causes your weapon's elemental properties are nullified.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 14,
+				"name": "Defense Down",
+				"description": "Some monsters may inflict a status that lowers a hunter's defense. Lasts for a certain period of time but can also be cured with defense-increasing items.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 25,
+							"rarity": 4,
+							"value": 58,
+							"carryLimit": 5,
+							"name": "Armorskin",
+							"description": "Boosts your defense by turning your skin as hard as rock."
+						},
+						{
+							"id": 26,
+							"rarity": 5,
+							"value": 269,
+							"carryLimit": 5,
+							"name": "Mega Armorskin",
+							"description": "Boosts your defense even more than a regular armorskin."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 5,
+				"name": "Fireblight",
+				"description": "Fireblight causes damage over time, and negates regular health recovery.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 6,
+				"name": "Iceblight",
+				"description": "Iceblight causes stamina usage to increase when performing actions.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 12,
+				"name": "Waterblight",
+				"description": "Waterblight slows down stamina recovery rate.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 4,
+				"name": "Effluvial Buildup",
+				"description": "Effluvial buildup causes damage over time, and eventually cuts your maximum health in half if ignored for too long.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 13,
+							"name": "Effluvial Expert",
+							"description": "Nullifies or reduces environmental damage in the Rotten Vale."
+						},
+						{
+							"id": 101,
+							"name": "Effluvia Resistance",
+							"description": "Gain a resistance to effluvial buildup."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "water",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
