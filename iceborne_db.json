@@ -2289,13 +2289,125 @@
 	{
 		"id": 82,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "bird wyvern",
+		"elements": [
+			"fire"
+		],
 		"name": "Scarred Yian Garuga",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A tempered Yian Garuga that survived a grueling battle with just a scar on its head. Be careful of its successive attacks.",
+		"ailments": [
+			{
+				"id": 5,
+				"name": "Fireblight",
+				"description": "Fireblight causes damage over time, and negates regular health recovery.",
+				"recovery": {
+					"actions": [
+						"dodge"
+					],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			},
+			{
+				"id": 8,
+				"name": "Poison",
+				"description": "Poison slowly drains the target's health.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 5,
+							"rarity": 1,
+							"value": 6,
+							"carryLimit": 10,
+							"name": "Antidote",
+							"description": "A cure for poison."
+						},
+						{
+							"id": 6,
+							"rarity": 2,
+							"value": 25,
+							"carryLimit": 5,
+							"name": "Herbal Medicine",
+							"description": "Removes all traces of poison and restores a slight amount of health."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": [
+						{
+							"id": 1,
+							"name": "Poison Resistance",
+							"description": "Reduces damage while poisoned."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "thunder",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "water",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "dragon",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
