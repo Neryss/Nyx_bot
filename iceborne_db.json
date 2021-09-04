@@ -2955,6 +2955,11 @@
 		],
 		"weaknesses": [
 			{
+				"element": "ice",
+				"stars": 3,
+				"condition": null
+			},
+			{
 				"element": "poison",
 				"stars": 1,
 				"condition": null
@@ -2985,13 +2990,95 @@
 	{
 		"id": 88,
 		"type": "large",
-		"species": "",
-		"elements": [],
+		"species": "fanged wyvern",
+		"elements": [
+			"dragon"
+		],
 		"name": "Stygian Zinogre",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "Has a symbiotic relationship with Dracophage Bugs, which it releases like bullets. Becomes even more dangerous when covered in light.",
+		"ailments": [
+			{
+				"id": 3,
+				"name": "Dragonblight",
+				"description": "Dragonblight causes your weapon's elemental properties are nullified.",
+				"recovery": {
+					"actions": [],
+					"items": [
+						{
+							"id": 7,
+							"rarity": 2,
+							"value": 120,
+							"carryLimit": 10,
+							"name": "Nulberry",
+							"description": "A mysterious berry that cures various blights."
+						}
+					]
+				},
+				"protection": {
+					"items": [],
+					"skills": []
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "water",
+				"condition": "immune, weak when shining"
+			},
+			{
+				"element": "ice",
+				"condition": "immune, resist when shining"
+			},
+			{
+				"element": "fire",
+				"condition": "immune, resist when shining"
+			},
+			{
+				"element": "thunder",
+				"condition": "resist unless shining"
+			},
+			{
+				"element": "dragon",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3,
+				"condition": "when shining"
+			},
+			{
+				"element": "thunder",
+				"stars": 2,
+				"condition": "when shining"
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
