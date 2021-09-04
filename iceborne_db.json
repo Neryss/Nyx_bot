@@ -1249,13 +1249,107 @@
 	{
 		"id": 73,
 		"type": "large",
-		"species": "",
+		"species": "elder dragon",
 		"elements": [],
 		"name": "Ruiner Nergigante",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "Countless battles have only hardened this Nergigante variant. In addition to healing, its spikes grow tougher as it loses health.",
+		"ailments": [
+			{
+				"id": 2,
+				"name": "Bleeding",
+				"description": "Bleeding causes damage when performing certain actions, such as running, dodging, or attacking.",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [
+						{
+							"id": 11,
+							"rarity": 2,
+							"value": 48,
+							"carryLimit": 10,
+							"name": "Well-done Steak",
+							"description": "Provides a moderate boost to your stamina and keeps it at max for a longer period. Meat done right!"
+						},
+						{
+							"id": 17,
+							"rarity": 2,
+							"value": 10,
+							"carryLimit": 5,
+							"name": "Astera Jerky",
+							"description": "Juicy, dried meat made by Astera's chef. Boosts natural healing and cures bleeding."
+						},
+						{
+							"id": 107,
+							"rarity": 2,
+							"value": 45,
+							"carryLimit": 10,
+							"name": "Sushifish Scale",
+							"description": "A scale from a Sushifish. Eat to restore a small amount of health. Also works to treat bleeding."
+						}
+					],
+					"skills": [
+						{
+							"id": 7,
+							"name": "Bleeding Resistance",
+							"description": "Grants protection against bleeding."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "water",
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "dragon",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 1,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
