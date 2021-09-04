@@ -1571,13 +1571,91 @@
 	{
 		"id": 76,
 		"type": "large",
-		"species": "",
+		"species": "flying wyvern",
 		"elements": [],
 		"name": "Nightshade Paolomu",
-		"description": "",
-		"ailments": [],
-		"resistances": [],
-		"weaknesses": [],
+		"description": "A Paolumu subspecies capable of putting prey to sleep. It produces a powerful sedative gas stored within its throat sack that it can expel and scatter to knock unwary foes out.",
+		"ailments": [
+			{
+				"id": 9,
+				"name": "Sleep",
+				"description": "Sleep renders the hunter or monster inactive and susceptible to increased damage, but only for the first hit, as it will then wake them up.",
+				"recovery": {
+					"actions": [],
+					"items": []
+				},
+				"protection": {
+					"items": [
+						{
+							"id": 8,
+							"rarity": 2,
+							"value": 6,
+							"carryLimit": 10,
+							"name": "Energy Drink",
+							"description": "A Guild-approved beverage that boosts your stamina. Helps shake off sleep, too!"
+						}
+					],
+					"skills": [
+						{
+							"id": 3,
+							"name": "Sleep Resistance",
+							"description": "Reduces the duration of sleep."
+						}
+					]
+				}
+			}
+		],
+		"resistances": [
+			{
+				"element": "dragon",
+				"condition": null
+			},
+			{
+				"element": "ice",
+				"condition": null
+			},
+			{
+				"element": "thunder",
+				"condition": null
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "water",
+				"stars": 3,
+				"condition": null
+			},
+			{
+				"element": "fire",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "poison",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "sleep",
+				"stars": 1,
+				"condition": null
+			},
+			{
+				"element": "paralysis",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "blast",
+				"stars": 2,
+				"condition": null
+			},
+			{
+				"element": "stun",
+				"stars": 2,
+				"condition": null
+			}
+		],
 		"rewards": []
 	},
 	{
