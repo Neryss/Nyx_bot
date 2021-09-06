@@ -73,7 +73,7 @@ async function	treat_data(data, name, interaction, iceborne)
 			if (!iceborne)
 			{
 					console.log(JSON.stringify(data, null, 4));
-					fs.writeFileSync("./monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
+					fs.writeFileSync("./db/monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
 						if (ferr)
 							resolve(console.log("oopsi : " + err));
 					});
@@ -89,7 +89,7 @@ async function	iceborne_search(name, data, interaction)
 {
 	return new Promise(resolve => {
 		console.log("Couldn't find any occurence in mhw db, searching through Iceborne...");
-		fs.readFile("./iceborne_db.json", async function (err, data) {
+		fs.readFile("./db/iceborne_db.json", async function (err, data) {
 			try
 			{
 				data = JSON.parse(data);
@@ -111,7 +111,7 @@ function	generate_ailments_db()
 		.then(function (response) {
 			return (response.json());
 		}).then (function (data) {
-			fs.writeFileSync("./ailments_db.json", JSON.stringify(data, null, 4), function (ferr) {
+			fs.writeFileSync("./db/ailments_db.json", JSON.stringify(data, null, 4), function (ferr) {
 				if (ferr)
 					resolve(console.log("Error : " + ferr));
 			})
@@ -142,7 +142,7 @@ async function search_all(name, interaction)
 {
 	return new Promise(resolve=>{
 		console.log("FILE EXISTS");
-		fs.readFile("./monster_db.json", async function (err, data) {
+		fs.readFile("./db/monster_db.json", async function (err, data) {
 			try
 			{
 				data = JSON.parse(data);
@@ -178,7 +178,7 @@ module.exports = {
 		for (var i = 0; i < name.length; i++)
 			name[i].toLowerCase();
 		console.log("called search");
-		if (!fs.existsSync("./monster_db.json"))
+		if (!fs.existsSync("./db/monster_db.json"))
 			await generate_and_search(name, interaction);
 		else
 		{
