@@ -15,14 +15,16 @@ module.exports = async function connect() {
 		});
 		const player = createAudioPlayer({
 			behaviors: {
-				// noSubscriber: NoSubscriberBehavior.Pause,
+				noSubscriber: NoSubscriberBehavior.Pause,
 			},
 		});
-		const sub = connection.subscribe(player);
-		resource = createAudioResource('/home/ckurt/documents/Nyx_bot/sounds/test.ogg');
-		if (!resource)
-			console.log("ALED");
+		resource = createAudioResource('/home/ckurt/documents/Nyx_bot/sounds/test.ogg', {inlineVolume: true});
+		resource.volume.setVolume(0.5);
+		player.on('error', (error) => {
+			console.error("Aled : ", error);
+		})
 		player.play(resource);
+		const sub = connection.subscribe(player);
 		if (sub)
 		{
 			console.log("JE SUIS DEDANS");
