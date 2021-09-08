@@ -30,7 +30,6 @@ function	match_found(found, data, i)
 		.setColor("#ff0080")
 		.setTitle(data[i].name)
 		.addField("Inflicts : ", "(ailments inflicted by the monster)");
-		// console.log("found " + data[i].name + " weaknesses : " + JSON.stringify(data[i].weaknesses, null, 4));
 		e_inflicts = data[i].ailments;
 		for (var j = 0; j < e_inflicts.length; j++)
 			weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
@@ -69,19 +68,19 @@ async function	treat_data(data, name, interaction, iceborne)
 				match_found(found, data, i);
 				break;
 			}
-			}
-			if (!iceborne)
-			{
-					console.log(JSON.stringify(data, null, 4));
-					fs.writeFileSync("./db/monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
-						if (ferr)
-							resolve(console.log("oopsi : " + err));
-					});
-			}
-			if (!found)
-				resolve(1);
-			console.log("Search all returns 1");
-			resolve(0);
+		}
+		if (!iceborne)
+		{
+				console.log(JSON.stringify(data, null, 4));
+				fs.writeFileSync("./db/monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
+					if (ferr)
+						resolve(console.log("oopsi : " + err));
+				});
+		}
+		if (!found)
+			resolve(1);
+		console.log("Search all returns 1");
+		resolve(0);
 	})
 }
 
