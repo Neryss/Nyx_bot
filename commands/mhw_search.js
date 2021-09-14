@@ -30,6 +30,15 @@ function	match_found(found, data, i)
 		.setColor("#ff0080")
 		.setTitle(data[i].name)
 		.addField("Inflicts : ", "(ailments inflicted by the monster)");
+		if (data[i].icon)
+		{
+			try {
+				weakness.setThumbnail("http://neryss.pw/icons/mhw-" + data[i].name.toLowerCase() + "_icon.png");
+			}
+			catch (err) {
+				console.log("no thumbnail found for -" + data[i].name.toLowerCase() + "-!");
+			}
+		}
 		e_inflicts = data[i].ailments;
 		for (var j = 0; j < e_inflicts.length; j++)
 			weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
@@ -71,7 +80,7 @@ async function	treat_data(data, name, interaction, iceborne)
 		}
 		if (!iceborne)
 		{
-				console.log(JSON.stringify(data, null, 4));
+				// console.log(JSON.stringify(data, null, 4));
 				fs.writeFileSync("./db/monster_db.json", JSON.stringify(data, null, 4), function(ferr) {
 					if (ferr)
 						resolve(console.log("oopsi : " + err));
@@ -92,7 +101,7 @@ async function	iceborne_search(name, data, interaction)
 			try
 			{
 				data = JSON.parse(data);
-				console.log(JSON.stringify(data, null, 4));
+				// console.log(JSON.stringify(data, null, 4));
 				resolve(await treat_data(data, name, interaction, 1));
 			}
 			catch (e)
@@ -186,7 +195,7 @@ module.exports = {
 		}
 		if (generate)
 			await generate_ailments_db()
-		console.log(`----------\n${JSON.stringify(embed, null, 4)}\n----------`);
+		// console.log(`----------\n${JSON.stringify(embed, null, 4)}\n----------`);
 		if (embed)
 			await interaction.editReply({embeds: [embed]});
 		else
