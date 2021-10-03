@@ -8,7 +8,7 @@ const	connect = require('./old_commands/connect');
 // const { execute } = require('./commands/ping');
 const	mc_server = {
 	port: 25565,
-	version: 'Forge: 1.16.5',
+	version: '0.5.14',
 };
 global.toggle = true;
 global.togglejoin = true;
@@ -27,7 +27,7 @@ module.export = e_status = new MessageEmbed()
 	.setColor('#ff0080')
 	.setTitle('Modpack link')
 	.setURL(process.env.MODPACK_URL)
-	.addField('Minecraft version', mc_server.version)
+	.addField('Modpack version', mc_server.version)
 	.addField('Infos:', 'If the modpack is out of date or seems to not be accurate, tell <@227429963882692608>!')
 	.setTimestamp()
 	.setFooter(
