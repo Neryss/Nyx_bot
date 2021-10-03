@@ -6,7 +6,7 @@ const { MessageEmbed } = require('discord.js');
 const	connect = require('./old_commands/connect');
 // const	command_handler = require('./commands');
 // const { execute } = require('./commands/ping');
-const	mc_server = {
+global.mc_server = {
 	port: 25565,
 	version: '0.5.14',
 };
@@ -23,17 +23,6 @@ for (const file of commandFiles) {
 	client.commands.set(command.data.name, command);
 }
 module.exports = ip = process.env.MY_IP;
-module.export = e_status = new MessageEmbed()
-	.setColor('#ff0080')
-	.setTitle('Modpack link')
-	.setURL(process.env.MODPACK_URL)
-	.addField('Modpack version', mc_server.version)
-	.addField('Infos:', 'If the modpack is out of date or seems to not be accurate, tell <@227429963882692608>!')
-	.setTimestamp()
-	.setFooter(
-		'Nyx',
-		'https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg',
-	);
 
 client.login(process.env.DISCORD_TOKEN);
 client.on('ready', () => {
