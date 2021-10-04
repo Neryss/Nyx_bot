@@ -10,6 +10,18 @@ global.mc_server = {
 	port: 25565,
 	version: '0.5.14',
 };
+global.e_status = new MessageEmbed()
+	.setColor('#ff0080')
+	.setTitle('Modpack link')
+	.setDescription("bit")
+	.setURL(process.env.MODPACK_URL)
+	.addField('Modpack version', global.mc_server.version)
+	.addField('Infos:', 'If the modpack is out of date or seems to not be accurate, tell <@227429963882692608>!')
+	.setTimestamp()
+	.setFooter(
+	'Nyx',
+	'https://cdn.discordapp.com/attachments/840208014722990080/845232845912145950/takane_enomoto_10229.jpeg',
+);
 global.toggle = true;
 global.togglejoin = true;
 global.is_online = false;
@@ -44,7 +56,7 @@ client.on('interactionCreate', async interaction => {
 		await command.execute(interaction);
 	} catch (error) {
 		console.log(`An error has occured : ${error}`);
-		await interaction.reply({content: 'There was an error executing that command!', ephemeral: true});
+		await interaction.editReply({content: 'There was an error executing that command!', ephemeral: true});
 	}
 });
 
