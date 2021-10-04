@@ -4,8 +4,6 @@ const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const	connect = require('./old_commands/connect');
-// const	command_handler = require('./commands');
-// const { execute } = require('./commands/ping');
 global.mc_server = {
 	port: 25565,
 	version: '0.5.14',
@@ -65,7 +63,6 @@ client.on('messageCreate', (msg) => {
 	args = msg.content.toLowerCase().trim().split(/ +/);
 	if (args.includes('tg') && (msg.author.id == '227429963882692608' || msg.author.id == '237230995651166209' || msg.author.id == '356080354030911489' || msg.author.id == '227429963882692608'))
 	{
-		console.log('ui');
 		msg.author.send(':)');
 		msg.reply('toi tg');
 	}
