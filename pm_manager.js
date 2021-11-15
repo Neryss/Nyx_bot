@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 const cronJob = require("cron").CronJob;
-const apps = [0, 1, 2];
+const apps = [0, 1, 3, 2];
 
 console.log("Starting apps restarter");
 
