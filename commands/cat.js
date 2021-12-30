@@ -8,6 +8,6 @@ module.exports = {
 		.setDescription('Get the meow meow'),
 	async execute(interaction) {
 		let response = await axios.get("https://api.thecatapi.com/v1/images/search")
-		await interaction.reply(await response.data[0].url);
+		await interaction.reply(response.data[0].url);
 	},
 };
