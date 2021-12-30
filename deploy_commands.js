@@ -20,8 +20,7 @@ const rest = new REST({ version: '9' }).setToken(process.env.DISCORD_TOKEN);
 (async () => {
 	try {
 		await rest.put(
-			// Routes.applicationGuildCommands(client_id, guildID),
-			// {body: commands},
+			// Routes.application
 			Routes.applicationGuildCommands(client_id, liveGuildID),
 			{body: commands},
 		);
