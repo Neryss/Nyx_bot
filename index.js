@@ -90,7 +90,7 @@ function changeStatus(status, force) {
 
 function pingServer(force = false) {
 	mcping
-		.java({ host: "localhost", port: mc_server.port, timeout: 5000 })
+		.java({ host: "neryss.pw", port: mc_server.port, timeout: 5000 })
 		.then((res) => {
 			global.is_online = true;
 			changeStatus("online", force);
