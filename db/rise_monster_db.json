@@ -231,5 +231,43 @@
 				"stars": 3
 			}
 		]
+	},
+	{
+		"id": 8,
+		"name": "Khezu",
+		"elements": [
+			"thunder"
+		],
+		"ailments": [
+			"thunderblight"
+		],
+		"resistances": [
+			{
+				"element": "thunder"
+			},
+			{
+				"element": "water"
+			},
+			{
+				"element": "ice"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "poison",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
 	}
 ]
