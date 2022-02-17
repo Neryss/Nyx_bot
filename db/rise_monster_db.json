@@ -78,7 +78,58 @@
 		],
 		"weaknesses": [
 			{
+				"element": "water",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Royal Ludroth",
+		"elements": [
+			"water"
+		],
+		"ailments": [
+			"waterblight"
+		],
+		"resistances": [
+			{
 				"element": "water"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Somnacanth",
+		"elements": [],
+		"ailments": [
+			"blastblight",
+			"sleep",
+			"Stun"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "ice"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				
 			}
 		]
 	}
