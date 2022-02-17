@@ -157,5 +157,79 @@
 				"stars": 2
 			}
 		]
+	},
+	{
+		"id": 6,
+		"name": "Goss Harag",
+		"elements": [
+			"ice"
+		],
+		"ailments": [
+			"iceblight"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "ice"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Lagombi",
+		"elements": [
+			"ice"
+		],
+		"ailments": [
+			"iceblight"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "ice"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "poison",
+				"stars": 3
+			},
+			{
+				"element": "stun",
+				"stars": 2
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 3
+			}
+		]
 	}
 ]
