@@ -346,5 +346,92 @@
 				"stars": 2
 			}
 		]
+	},
+	{
+		"id": 11,
+		"name": "Mizutsune",
+		"elements": [
+			"water"
+		],
+		"ailments": [
+			"waterblight",
+			"bubble"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "fire"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "dragon",
+				"stars": 2
+			},
+			{
+				"element": "ice",
+				"stars": 1
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Rathalos",
+		"elements": [
+			"fire"
+		],
+		"ailments": [
+			"Fireblight",
+			"Poison"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "dragon",
+				"stars": 3
+			},
+			{
+				"element": "thunder",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Tigrex",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "ice"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "dragon",
+				"stars": 2
+			}
+		]
 	}
 ]
