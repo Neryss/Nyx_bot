@@ -6,6 +6,18 @@
 	"resistances": [{}],
 	"weaknesses": [
 		{
+			"element": "dragon",
+			"stars": 0
+		},
+		{
+			"element": "thunder",
+			"stars": 0
+		},
+		{
+			"element": "fire",
+			"stars": 0
+		},
+		{
 			"element": "water",
 			"stars": 0
 		},
