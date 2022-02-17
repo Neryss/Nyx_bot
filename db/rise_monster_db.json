@@ -7,7 +7,79 @@
 			"Poison",
 			"Stun"
 		],
-		"resistances": [],
-		"weaknesses": []
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "dragon"
+			},
+			{
+				"element": "thunder"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Great Wroggi",
+		"elements": [],
+		"ailments": [
+			"Poison"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "dragon"
+			},
+			{
+				"element": "thunder"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3
+			},
+			{
+				"element": "water",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Magnamalo",
+		"elements": [],
+		"ailments": [
+			"Hellfireblight"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "dragon"
+			},
+			{
+				"element": "ice"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "water"
+			}
+		]
 	}
 ]
