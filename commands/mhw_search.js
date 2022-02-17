@@ -8,12 +8,12 @@ const { SlashCommandBuilder } = require("@discordjs/builders");
 generate = false;
 let embed;
 
-function	put_star(nb)
+export function	put_star(nb)
 {
 	return (Array(nb + 1).join("<:star:880281496315899955>"));
 }
 
-function check_ailments(weak)
+export function check_ailments(weak)
 {
 	if (weak.element == "poison" || weak.element == "sleep"
 	|| weak.element == "paralysis" || weak.element == "blast"
@@ -22,7 +22,7 @@ function check_ailments(weak)
 	return (false);
 }
 
-function	match_found(found, data, i)
+export function	match_found(found, data, i)
 {
 	return new Promise (resolve => {
 		found++;
@@ -66,7 +66,7 @@ function	match_found(found, data, i)
 	});
 }
 
-async function	treat_data(data, name, interaction, iceborne)
+export async function	treat_data(data, name, interaction, iceborne)
 {
 	return new Promise (resolve => {
 		var found = 0;
@@ -112,24 +112,6 @@ async function	iceborne_search(name, data, interaction)
 	})
 }
 
-function	rise_search(data, name, interaction)
-{
-	return new Promise(resolve => {
-		console.log("Now searching through Rise...")
-		fs.readFile("./db/rise_monster_db.json", async function (err, data) {
-			try
-			{
-				data = JSON.parse(data);
-				resolve(await treat_data(data, name, interaction, 1));
-			}
-			catch(e)
-			{
-				console.log(e);
-			}
-		})
-	})
-}
-
 function	generate_ailments_db()
 {
 	return new Promise(resolve => {
@@ -157,8 +139,6 @@ async function	generate_and_search(name, interaction)
 		}).then(async function (data) {
 			if (await treat_data(data, name, interaction, 0) == 1)
 				await iceborne_search(name, data, interaction);
-			else
-				await(rise_search(data, name, interaction));
 			resolve()
 		}).catch(function (err) {
 			console.warn("Something went wrong : ", err);
