@@ -8,12 +8,12 @@ const { SlashCommandBuilder } = require("@discordjs/builders");
 generate = false;
 let embed;
 
-export function	put_star(nb)
+function	put_star(nb)
 {
 	return (Array(nb + 1).join("<:star:880281496315899955>"));
 }
 
-export function check_ailments(weak)
+function check_ailments(weak)
 {
 	if (weak.element == "poison" || weak.element == "sleep"
 	|| weak.element == "paralysis" || weak.element == "blast"
@@ -22,7 +22,7 @@ export function check_ailments(weak)
 	return (false);
 }
 
-export function	match_found(found, data, i)
+function	match_found(found, data, i)
 {
 	return new Promise (resolve => {
 		found++;
@@ -66,7 +66,7 @@ export function	match_found(found, data, i)
 	});
 }
 
-export async function	treat_data(data, name, interaction, iceborne)
+async function	treat_data(data, name, interaction, iceborne)
 {
 	return new Promise (resolve => {
 		var found = 0;
