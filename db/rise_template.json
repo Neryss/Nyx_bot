@@ -4,5 +4,54 @@
 	"elements": [],
 	"ailments": [],
 	"resistances": [{}],
-	"weaknesses": [{}]
+	"weaknesses": [
+		{
+			"element": "water",
+			"stars": 0
+		},
+		{
+			"element": "ice",
+			"stars": 0
+		},
+		{
+			"element": "poison",
+			"stars": 0
+		},
+		{
+			"element": "stun",
+			"stars": 0
+		},
+		{
+			"element": "paralysis",
+			"stars": 0
+		},
+		{
+			"element": "sleep",
+			"stars": 0
+		},
+		{
+			"element": "blast",
+			"stars": 0
+		},
+		{
+			"element": "exhaust",
+			"stars": 0
+		},
+		{
+			"element": "fireblight",
+			"stars": 0
+		},
+		{
+			"element": "waterblight",
+			"stars": 0
+		},
+		{
+			"element": "thunderblight",
+			"stars": 0
+		},
+		{
+			"element": "iceblight",
+			"stars": 0
+		}
+	]
 }
