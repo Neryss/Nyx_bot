@@ -269,5 +269,49 @@
 				"stars": 2
 			}
 		]
+	},
+	{
+		{
+			"id": 9,
+			"name": "Great Baggi",
+			"elements": [],
+			"ailments": [
+				"sleep"
+			],
+			"resistances": [
+				{
+					"element": "ice"
+				},
+				{
+					"element": "dragon"
+				}
+			],
+			"weaknesses": [
+				{
+					"element": "fire",
+					"stars": 3
+				},
+				{
+					"element": "water",
+					"stars": 2
+				},
+				{
+					"element": "thunder",
+					"stars": 2
+				},
+				{
+					"element": "paralysis",
+					"stars": 3
+				},
+				{
+					"element": "blast",
+					"stars": 3
+				},
+				{
+					"element": "exhaust",
+					"stars": 3
+				}
+			]
+		}
 	}
 ]
