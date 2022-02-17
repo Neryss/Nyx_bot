@@ -37,8 +37,10 @@ function	match_found(found, data, i)
 			}
 		}
 		e_inflicts = data[i].ailments;
+		console.log(`data : ${data[i].ailments}`);
+		console.log(`value : ${e_inflicts}`);
 		for (var j = 0; j < e_inflicts.length; j++)
-			weakness.addField(e_inflicts[j].name, "<:skull:880625774091178085>", true);
+			weakness.addField(e_inflicts[j], "<:skull:880625774091178085>", true);
 		weakness.addField("\u200b", "----------------------------------------------------------")
 			.addField("Resist to : ", "(resistances or immunities of the monster)")
 		e_resist = data[i].resistances;
