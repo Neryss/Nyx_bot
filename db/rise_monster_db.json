@@ -55,6 +55,18 @@
 			{
 				"element": "water",
 				"stars": 2
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "sleep",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
 			}
 		]
 	},
@@ -104,6 +116,10 @@
 			{
 				"element": "fire",
 				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
 			}
 		]
 	},
@@ -129,7 +145,16 @@
 		],
 		"weaknesses": [
 			{
-				
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "fire",
+				"stars": 1
+			},
+			{
+				"element": "blast",
+				"stars": 2
 			}
 		]
 	}
