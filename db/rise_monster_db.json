@@ -433,5 +433,396 @@
 				"stars": 2
 			}
 		]
+	},
+	{
+		"id": 14,
+		"name": "Great Izuchi",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "water",
+				"stars": 2
+			},
+			{
+				"element": "poison",
+				"stars": 3
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "sleep",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			},
+			{
+				"element": "exhaust",
+				"stars": 3
+			}
+		]
+	},
+	{
+		"id": 15,
+		"name": "Azuros",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "dragon"
+			},
+			{
+				"element": "water"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "thunder",
+				"stars": 1
+			},
+			{
+				"element": "poison",
+				"stars": 3
+			},
+			{
+				"element": "stun",
+				"stars": 2
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "sleep",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			},
+			{
+				"element": "exhaust",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 16,
+		"name": "Tetranadon",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "ice"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 17,
+		"name": "Aknosom",
+		"elements": [
+			"fire"
+		],
+		"ailments": [
+			"Fireblight"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "water",
+				"stars": 2
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 18,
+		"name": "Rathian",
+		"elements": [
+			"fire",
+			"poison"
+		],
+		"ailments": [
+			"Fireblight",
+			"Poison"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "dragon",
+				"stars": 3
+			},
+			{
+				"element": "thunder",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 19,
+		"name": "Rakna-Kadaki",
+		"elements": [
+			"fire"
+		],
+		"ailments": [
+			"Fireblight"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "thunder"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 20,
+		"name": "Basarios",
+		"elements": [
+			"fire"
+		],
+		"ailments": [
+			"Fireblight",
+			"Poison",
+			"Sleep"
+		],
+		"resistances": [{}],
+		"weaknesses": [
+			{
+				"element": "dragon",
+				"stars": 2
+			},
+			{
+				"element": "sleep",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 21,
+		"name": "Volvidon",
+		"elements": [],
+		"ailments": [
+			"Paralysis"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "water",
+				"stars": 3
+			},
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "stun",
+				"stars": 2
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 22,
+		"name": "Almudron",
+		"elements": [
+			"water"
+		],
+		"ailments": [
+			"waterblight"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "ice",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 23,
+		"name": "Diablos",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "fire"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3
+			},
+			{
+				"element": "water",
+				"stars": 2
+			},
+			{
+				"element": "dragon",
+				"stars": 2
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 24,
+		"name": "Rajang",
+		"elements": [
+			"thunder"
+		],
+		"ailments": [
+			"Thunderblight"
+		],
+		"resistances": [
+			{
+				"element": "fire"
+			},
+			{
+				"element": "thunder"
+			},
+			{
+				"element": "dragon"
+			},
+			{
+				"element": "water"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 25,
+		"name": "Apex Arzuros",
+		"elements": [],
+		"ailments": [],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "fire",
+				"stars": 1
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
 	}
 ]

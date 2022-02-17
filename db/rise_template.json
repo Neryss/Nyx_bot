@@ -3,6 +3,6 @@
 	"name": "",
 	"elements": [],
 	"ailments": [],
-	"resistances": [],
-	"weaknesses": []
+	"resistances": [{}],
+	"weaknesses": [{}]
 }
