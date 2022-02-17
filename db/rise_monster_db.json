@@ -824,5 +824,104 @@
 				"stars": 2
 			}
 		]
+	},
+	{
+		"id": 26,
+		"name": "Kulu-Ya-Ku",
+		"elements": [],
+		"ailments": [],
+		"resistances": [{}],
+		"weaknesses": [
+			{
+				"element": "water",
+				"stars": 2
+			},
+			{
+				"element": "stun",
+				"stars": 2
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
+	},
+	{
+		"id": 27,
+		"name": "Barroth",
+		"elements": [
+			"water"
+		],
+		"ailments": [
+			"waterblight"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "thunder"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "fire",
+				"stars": 3
+			},
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "poison",
+				"stars": 3
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 3
+			}
+		]
+	},
+	{
+		"id": 28,
+		"name": "Pukei-Pukei",
+		"elements": [],
+		"ailments": [
+			"Poison"
+		],
+		"resistances": [
+			{
+				"element": "water"
+			},
+			{
+				"element": "dragon"
+			}
+		],
+		"weaknesses": [
+			{
+				"element": "thunder",
+				"stars": 3
+			},
+			{
+				"element": "ice",
+				"stars": 2
+			},
+			{
+				"element": "paralysis",
+				"stars": 3
+			},
+			{
+				"element": "sleep",
+				"stars": 3
+			},
+			{
+				"element": "blast",
+				"stars": 2
+			}
+		]
 	}
 ]
