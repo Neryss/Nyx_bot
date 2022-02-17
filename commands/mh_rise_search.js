@@ -2,6 +2,8 @@ const { SlashCommandBuilder } = require('@discordjs/builders');
 const mh = require('./mhw_search');
 let embed;
 const discord = require('discord.js')
+const { MessageEmbed } = require("discord.js");
+const fs = require('fs');
 
 function	put_star(nb)
 {
