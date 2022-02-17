@@ -112,6 +112,24 @@ async function	iceborne_search(name, data, interaction)
 	})
 }
 
+function	rise_search(data, name, interaction)
+{
+	return new Promise(resolve => {
+		console.log("Now searching through Rise...")
+		fs.readFile("./db/rise_monster_db.json", async function (err, data) {
+			try
+			{
+				data = JSON.parse(data);
+				resolve(await treat_data(data, name, interaction, 1));
+			}
+			catch(e)
+			{
+				console.log(e);
+			}
+		})
+	})
+}
+
 function	generate_ailments_db()
 {
 	return new Promise(resolve => {
@@ -139,6 +157,8 @@ async function	generate_and_search(name, interaction)
 		}).then(async function (data) {
 			if (await treat_data(data, name, interaction, 0) == 1)
 				await iceborne_search(name, data, interaction);
+			else
+				await(rise_search(data, name, interaction));
 			resolve()
 		}).catch(function (err) {
 			console.warn("Something went wrong : ", err);
