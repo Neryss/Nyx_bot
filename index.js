@@ -4,6 +4,7 @@ const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const	connect = require('./old_commands/connect');
+const	ban_word = require('./lib/ban_word');
 global.mc_server = {
 	port: 25565,
 	version: '0.5.14',
@@ -61,6 +62,10 @@ client.on('interactionCreate', async interaction => {
 client.on('messageCreate', (msg) => {
 	console.log('received message :' + msg);
 	args = msg.content.toLowerCase().trim().split(/ +/);
+	tmp = ban_word.getValue(msg.content);
+	console.log(tmp)
+	if (msg.author.id != "268380213010890752" && tmp != -1)
+		msg.reply("```" + tmp + "```");
 	if (args.includes('tg') && (msg.author.id == '227429963882692608' || msg.author.id == '237230995651166209' || msg.author.id == '356080354030911489' || msg.author.id == '227429963882692608'))
 	{
 		msg.author.send(':)');
